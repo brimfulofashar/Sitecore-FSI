@@ -1,0 +1,16 @@
+// Google Material Symbols Outlined — ligature text in `content:` (e.g. 'chevron_right')
+@mixin material-symbols-outlined() {
+  font-family: 'Material Symbols Outlined', sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  font-feature-settings: 'liga';
+  font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+  -webkit-font-smoothing: antialiased;
+}

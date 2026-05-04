@@ -1,7 +1,9 @@
 .footer {
   background-color: var(--bg-footer);
   color: var(--text-footer);
-  font-size: 1.5rem;
+  font-family: var(--font-body);
+  font-size: 1rem;
+  line-height: 1.5;
 
   @include respond-to(mobile-large) {
     padding: 0 $size-padding;
@@ -38,7 +40,10 @@
     }
 
     .title {
-      font-weight: bold;
+      font-family: var(--font-heading);
+      font-weight: 500;
+      font-size: 1.25rem;
+      line-height: 1.75rem;
       margin-bottom: 1.2rem;
     }
   }

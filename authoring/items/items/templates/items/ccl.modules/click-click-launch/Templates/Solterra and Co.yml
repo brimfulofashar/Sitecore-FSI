@@ -43,10 +43,10 @@ SharedFields:
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail
   Value: |
-    <image mediaid="{E540B407-FDF5-4BBC-B4C1-76E8812CDD6A}" />
+    <image mediaid="{8FF47942-1B59-4224-9D46-EB9508428233}" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "a7598774-0cee-4ff7-8e77-4f6fbf5dd88d"
+  Value: "d2725c31-8e23-4e44-8f65-97a4c25dae68"
 Languages:
 - Language: da
   Fields:
@@ -113,20 +113,20 @@ Languages:
         sitecore\Admin
     - ID: "82e64b52-0b8a-4a38-8c78-530c5493814e"
       Hint: Name
-      Value: Solterra & Co.
+      Value: Product campaign site
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "bf96e6d3-257c-4125-981b-537ca0ef7fd4"
+      Value: "b6583bd1-6ad3-43d0-844d-bd8b5326659e"
     - ID: "9f437e68-a84d-48ae-8ce1-a3e26c0b5e64"
       Hint: Description
-      Value: "A polished, editorial-style template great for lifestyle brands, with a homepage, subpage, navigation, and footer."
+      Value: "A polished, product-focused template for product campaigns, with a homepage, subpage, navigation, and footer."
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\richard.seal@sitecore.com
+        sitecore\johannes.zijlstra@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20250714T142707Z
+      Value: 20260501T163357Z
     - ID: "da855368-e5f2-4932-ae55-7f8b08a5a205"
       Hint: Content
       Value: |

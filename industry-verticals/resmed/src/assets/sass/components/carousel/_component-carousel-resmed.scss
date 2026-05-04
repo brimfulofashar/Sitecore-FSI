@@ -1,0 +1,277 @@
+// ResMed carousel controls — Buttons (ghost), Indicator Group (pill + blur), Combo (solid arrows + pill)
+// Tones: light = dark outlines on light solid bg; dark = light outlines on dark solid bg; imagery uses combo defaults
+
+.carousel.carousel--resmed {
+  position: relative;
+  padding: 0;
+  margin-bottom: 0;
+  overflow: visible;
+  --carousel-nav-size: 2.75rem;
+  --carousel-pill-bg: rgb(13 10 21 / 75%);
+  --carousel-pill-blur: blur(4px);
+  --carousel-bottom-wave-color: var(--bg-body, #fff);
+
+  // ResMed-style “roundish” bottom transition — soft upward arc (concave hero edge → white body)
+  &::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 4;
+    height: clamp(2.25rem, 5.5vw, 4.25rem);
+    pointer-events: none;
+    background: var(--carousel-bottom-wave-color);
+    border-top-left-radius: 50% 100%;
+    border-top-right-radius: 50% 100%;
+  }
+
+  .swiper {
+    width: 100%;
+  }
+
+  .carousel-resmed-slide {
+    position: relative;
+    min-height: 22rem;
+
+    @include media-breakpoint-up(md) {
+      min-height: 41rem;
+    }
+  }
+
+  .carousel-resmed-slide-media {
+    position: absolute;
+    inset: 0;
+    overflow: hidden;
+
+    img,
+    video {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+
+    @include media-breakpoint-up(md) {
+      img,
+      video {
+        min-height: 25rem;
+        mask-image: linear-gradient(
+          to left,
+          rgb(255 255 255 / 20%) 10%,
+          rgb(255 255 255 / 100%) 100%
+        );
+      }
+    }
+  }
+
+  .side-content {
+    position: relative;
+    z-index: 2;
+    padding: 2rem $size-padding 6rem;
+
+    @include media-breakpoint-up(md) {
+      position: absolute;
+      inset: 0;
+      display: flex;
+      align-items: center;
+      padding: 2rem 0 7rem;
+    }
+
+    a {
+      text-decoration: none;
+    }
+  }
+
+  .carousel-resmed-wrapper {
+    width: 100%;
+  }
+
+  .carousel-resmed-grid {
+    .title h1 {
+      font-size: clamp(1.75rem, 4vw, 3rem);
+      font-weight: 500;
+      margin-bottom: 1rem;
+    }
+
+    .text {
+      margin-bottom: 1.25rem;
+    }
+
+    .btns {
+      margin-top: 1rem;
+    }
+  }
+
+  // —— Bottom control deck — sits above the curved wave (::after height)
+  .carousel-resmed-navigation-main {
+    position: absolute;
+    bottom: calc(clamp(2.25rem, 5.5vw, 4.25rem) + 0.85rem);
+    left: 0;
+    right: 0;
+    z-index: 6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.75rem;
+    pointer-events: none;
+
+    > * {
+      pointer-events: auto;
+    }
+  }
+
+  .carousel-resmed-navigation {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+
+  .carousel-resmed-arrow {
+    display: flex;
+    align-items: center;
+  }
+
+  // Secondary (outline) arrows — variant Buttons & tone
+  &.carousel--variant-buttons {
+    .carousel-resmed-arrow-btn {
+      width: var(--carousel-nav-size);
+      height: var(--carousel-nav-size);
+      border-radius: 50%;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 0;
+      cursor: pointer;
+      transition: background-color 0.2s ease, border-color 0.2s ease, color 0.2s ease;
+      background: transparent;
+
+      .material-symbols-outlined {
+        font-size: 1.35rem;
+      }
+    }
+
+    &.carousel--tone-light .carousel-resmed-arrow-btn {
+      border: 1px solid #1a1a1a;
+      color: #1a1a1a;
+
+      &:hover {
+        background: rgb(26 26 26 / 6%);
+      }
+    }
+
+    &.carousel--tone-dark .carousel-resmed-arrow-btn {
+      border: 1px solid #fff;
+      color: #fff;
+
+      &:hover {
+        background: rgb(255 255 255 / 12%);
+      }
+    }
+  }
+
+  // Primary (filled) arrows — variant Combo
+  &.carousel--variant-combo {
+    .carousel-resmed-arrow-btn {
+      width: var(--carousel-nav-size);
+      height: var(--carousel-nav-size);
+      border-radius: 50%;
+      border: none;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 0;
+      cursor: pointer;
+      transition: filter 0.2s ease;
+      background: #3d3d45;
+      color: #fff;
+
+      .material-symbols-outlined {
+        font-size: 1.35rem;
+      }
+
+      &:hover {
+        filter: brightness(1.08);
+      }
+    }
+
+    &.carousel--tone-on-color .carousel-resmed-arrow-btn {
+      background: #fff;
+      color: var(--carousel-arrow-on-color, #0077c8);
+    }
+  }
+
+  // Pagination pill (Indicator + Combo)
+  .carousel-resmed-pagination-host {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 2.25rem;
+    padding: 0.35rem 0.85rem;
+    border-radius: 100px;
+    background: var(--carousel-pill-bg);
+    backdrop-filter: var(--carousel-pill-blur);
+    -webkit-backdrop-filter: var(--carousel-pill-blur);
+
+    &.swiper-pagination-horizontal {
+      width: auto !important;
+      position: relative !important;
+      bottom: auto !important;
+      left: auto !important;
+      transform: none !important;
+    }
+
+    .swiper-pagination-bullet {
+      width: 8px;
+      height: 8px;
+      margin: 0 4px !important;
+      background: #fff;
+      opacity: 0.55;
+      transition: width 0.25s ease, opacity 0.25s ease, border-radius 0.25s ease;
+    }
+
+    .swiper-pagination-bullet-active {
+      width: 1.5rem;
+      border-radius: 999px;
+      opacity: 1;
+    }
+  }
+
+  &.carousel--variant-indicators .carousel-resmed-navigation {
+    gap: 0;
+  }
+
+  // Play / pause
+  .carousel-resmed-playpause {
+    button {
+      width: 2.25rem;
+      height: 2.25rem;
+      border-radius: 50%;
+      border: 1px solid rgb(255 255 255 / 45%);
+      background: rgb(13 10 21 / 55%);
+      color: #fff;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      padding: 0;
+      transition: background-color 0.2s ease;
+
+      &:hover {
+        background: rgb(13 10 21 / 75%);
+      }
+
+      .material-symbols-outlined {
+        font-size: 1.25rem;
+      }
+    }
+  }
+
+  &.carousel--tone-light.carousel--variant-buttons .carousel-resmed-playpause button {
+    border-color: rgb(26 26 26 / 35%);
+    background: rgb(255 255 255 / 85%);
+    color: #1a1a1a;
+  }
+}

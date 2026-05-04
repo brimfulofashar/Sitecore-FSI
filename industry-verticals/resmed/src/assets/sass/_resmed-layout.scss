@@ -1,0 +1,43 @@
+@import 'abstracts/mixins';
+
+// Site-wide layout aligned with ResMed spacing / grid guide (24px gutters; XL 1128px, XXL 1320px containers).
+.site-resmed,
+.site-basic,
+.site-financial,
+.site-services {
+  .container {
+    --bs-gutter-x: 1.5rem;
+  }
+
+  @media (width >= 1200px) {
+    .container {
+      max-width: 1128px;
+    }
+  }
+
+  @media (width >= 1400px) {
+    .container {
+      max-width: 1320px;
+    }
+  }
+
+  #header {
+    box-shadow: var(--shadow-nav);
+    background: var(--bg-body);
+    position: sticky;
+    top: 0;
+    z-index: 1030;
+  }
+
+  .form-control,
+  .form-select {
+    border-radius: var(--roundness);
+    border: var(--border-width-default) solid var(--border-color);
+  }
+
+  .dropdown-menu {
+    border-radius: var(--roundness);
+    box-shadow: var(--shadow-dropdown);
+    border: var(--border-width-default) solid var(--border-color);
+  }
+}

@@ -1,0 +1,126 @@
+// ResMed brand tokens — Blissful Blue, Peaceful Purple, Majestic Magenta, Renewing Red (+ neutrals)
+// Applied to `.site-resmed` and `.site-basic` (this rendering host is the ResMed vertical).
+
+$rm-blue-extra-light: #e8f4fc;
+$rm-blue-light: #8ec8f4;
+$rm-blue-base: #0077c8;
+$rm-blue-dark: #005a9c;
+$rm-blue-extra-dark: #003459;
+
+$rm-purple-extra-light: #f3efff;
+$rm-purple-light: #c9b8ff;
+$rm-purple-base: #7b61ff;
+$rm-purple-dark: #5c3dcc;
+$rm-purple-extra-dark: #2d1870;
+
+$rm-magenta-extra-light: #fdeef6;
+$rm-magenta-light: #f5a8cb;
+$rm-magenta-base: #e91e8c;
+$rm-magenta-dark: #a51462;
+$rm-magenta-extra-dark: #5c0c38;
+
+$rm-red-extra-light: #fdeeea;
+$rm-red-light: #f8b5a8;
+$rm-red-base: #e53935;
+$rm-red-dark: #b71c1c;
+$rm-red-extra-dark: #6d1010;
+
+$rm-neutral-50: #f6f8fa;
+$rm-neutral-100: #e8ecf0;
+$rm-neutral-700: #3d454d;
+$rm-neutral-900: #12161a;
+
+$rm-soft-black: #000000;
+
+// Fallbacks when theme class has not yet mounted (fonts still load from Google CSS).
+:root {
+  --font-body: 'Plus Jakarta Sans', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --font-heading: 'Barlow Condensed', 'Arial Narrow', 'Helvetica Neue', sans-serif;
+}
+
+// This rendering host is branded ResMed; demo routes may use site names Financial / Services / Basic from shared items.
+.site-resmed,
+.site-basic,
+.site-financial,
+.site-services {
+  // Typography families (Heritage Grotesk → Barlow Condensed web fallback; Plus Jakarta Sans per guide)
+  --font-heading: 'Barlow Condensed', 'Arial Narrow', 'Helvetica Neue', sans-serif;
+  --font-body: 'Plus Jakarta Sans', system-ui, -apple-system, 'Segoe UI', sans-serif;
+
+  --text-body: #{$rm-soft-black};
+  --text-body-inverted: #ffffff;
+  --text-heading: #{$rm-soft-black};
+  --text-colored: #{$rm-blue-base};
+  --text-footer: #ffffff;
+  --text-accent: #{$rm-purple-base};
+  --text-muted: #{$rm-neutral-700};
+
+  --bg-body: #ffffff;
+  --bg-footer: #{$rm-neutral-900};
+  --bg-main: #{$rm-neutral-50};
+  --bg-main-alt: #{$rm-neutral-100};
+  --bg-color: #{$rm-blue-light};
+  --bg-saturated: #{$rm-blue-base};
+  --bg-accent: #{$rm-purple-base};
+  --border-color: #{$rm-neutral-100};
+  --hr-color: rgb(255 255 255 / 22%);
+  --roundness: 8px;
+  --roundness-lg: 24px;
+  --roundness-xl: 32px;
+  --border-width-default: 1px;
+  --border-width-strong: 2px;
+
+  // Elevation (Styles sheet — nav + dropdown)
+  --shadow-dropdown: 0 2px 8px rgb(18 22 26 / 12%);
+  --shadow-nav: 0 8px 32px rgb(18 22 26 / 10%);
+  --shadow-card: 0 4px 24px rgb(18 22 26 / 8%);
+
+  // Iconography default (functional icons black on light UI)
+  --icon-color: #{$rm-soft-black};
+  --icon-on-brand: #ffffff;
+
+  // Semantic validation pairs (light bg / dark fg)
+  --color-success-bg: #e8f7ee;
+  --color-success-fg: #0d5c2f;
+  --color-info-bg: #e8f2fc;
+  --color-info-fg: #{$rm-blue-extra-dark};
+  --color-warning-bg: #fff4e5;
+  --color-warning-fg: #8a4b00;
+  --color-error-bg: #fdecea;
+  --color-error-fg: #8c1c13;
+
+  .dark & {
+    --text-body: #ffffff;
+    --text-body-inverted: #{$rm-soft-black};
+    --text-heading: #ffffff;
+    --text-colored: #{$rm-blue-light};
+    --text-footer: #ffffff;
+    --text-accent: #{$rm-purple-light};
+    --bg-body: #{$rm-blue-extra-dark};
+    --bg-footer: #0a0c0e;
+    --bg-main: #{$rm-blue-extra-dark};
+    --bg-main-alt: #{$rm-neutral-900};
+    --bg-color: #{$rm-blue-dark};
+    --bg-saturated: #{$rm-blue-base};
+    --bg-accent: #{$rm-purple-base};
+    --border-color: rgb(255 255 255 / 15%);
+    --hr-color: rgb(255 255 255 / 25%);
+  }
+}
+
+.site-resmed,
+.site-basic,
+.site-financial,
+.site-services {
+  // Buttons (aligned with CTA + mobile button spec)
+  --button-main-color: #ffffff;
+  --button-main-bg-color: var(--bg-saturated);
+  --button-secondary-color: var(--text-colored);
+  --button-simple-color: var(--text-colored);
+  --button-padding: 0.75rem 1.75rem;
+  --button-roundness: 8px;
+  --button-font-weight: 700;
+  --button-font-size: 0.875rem;
+  --button-text-transform: uppercase;
+  --button-letter-spacing: 0.04em;
+}

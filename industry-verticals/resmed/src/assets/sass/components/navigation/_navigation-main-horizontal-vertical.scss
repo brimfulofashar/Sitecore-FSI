@@ -1,7 +1,5 @@
 @import 'src/assets/sass/abstracts/vars';
 @import 'src/assets/sass/abstracts/mixins';
-@import '../../../../../node_modules/font-awesome/scss/mixins';
-@import '../../../../../node_modules/font-awesome/scss/variables';
 
 $borderSize: 2px;
 
@@ -50,10 +48,10 @@ $borderSize: 2px;
         padding-right: 15px;
 
         &::after {
-          @include fa-icon;
+          @include material-symbols-outlined;
 
-          font-size: 10px;
-          content: $fa-var-chevron-down;
+          font-size: 0.75rem;
+          content: 'expand_more';
           position: absolute;
           transform: translateY(-50%);
           top: 50%;
@@ -187,13 +185,13 @@ $borderSize: 2px;
       ul {
         li {
           a::before {
-            @include fa-icon;
+            @include material-symbols-outlined;
 
-            content: $fa-var-chevron-right;
+            content: 'chevron_right';
             display: block;
             position: absolute;
             left: 0;
-            font-size: 10px;
+            font-size: 0.75rem;
             top: 18px;
             transform: translateY(-50%);
             padding-left: 7px;

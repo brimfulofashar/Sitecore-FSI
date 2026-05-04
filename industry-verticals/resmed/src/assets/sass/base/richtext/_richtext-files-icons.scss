@@ -1,9 +1,7 @@
 /* stylelint-disable no-duplicate-selectors */
-@import '../../../../../node_modules/font-awesome/scss/mixins';
-@import '../../../../../node_modules/font-awesome/scss/variables';
 @import 'src/assets/sass/abstracts/mixins';
 
-// files icons
+// Rich text attachment icons — Material Symbols Outlined (ligatures)
 .field-filetypeicon > a > span,
 .pdf,
 .xls,
@@ -36,7 +34,7 @@
   position: relative;
 
   &::before {
-    @include fa-icon;
+    @include material-symbols-outlined;
 
     font-size: 16px !important;
     position: absolute;
@@ -49,32 +47,32 @@
 }
 
 .field-filetypeicon span::before {
-  content: $fa-var-file-o;
+  content: 'insert_drive_file';
 }
 
 .field-filetypeicon {
   .pdf::before {
-    content: $fa-var-file-pdf-o;
+    content: 'picture_as_pdf';
   }
 
   .xlsx,
   .xls {
     &::before {
-      content: $fa-var-file-excel-o;
+      content: 'table_chart';
     }
   }
 
   .pptx,
   .ppt {
     &::before {
-      content: $fa-var-file-powerpoint-o;
+      content: 'slideshow';
     }
   }
 
   .docx,
   .doc {
     &::before {
-      content: $fa-var-file-word-o;
+      content: 'article';
     }
   }
 
@@ -86,7 +84,7 @@
   .gif,
   .tif {
     &::before {
-      content: $fa-var-file-image-o;
+      content: 'image';
     }
   }
 
@@ -110,7 +108,7 @@
   .movie,
   .divx {
     &::before {
-      content: $fa-var-file-video-o;
+      content: 'movie';
     }
   }
 
@@ -141,12 +139,12 @@
   .m3u,
   .xwma {
     &::before {
-      content: $fa-var-file-audio-o;
+      content: 'audio_file';
     }
   }
 
   .txt::before {
-    content: $fa-var-file-text-o;
+    content: 'description';
   }
 
   .zip,
@@ -157,7 +155,7 @@
   .dmg,
   .iso {
     &::before {
-      content: $fa-var-file-archive-o;
+      content: 'folder_zip';
     }
   }
 
@@ -165,13 +163,12 @@
   .js,
   .py,
   .git,
-  .py,
   .cpp,
   .h,
   .ini,
   .config {
     &::before {
-      content: $fa-var-file-code-o;
+      content: 'code';
     }
   }
 
@@ -185,12 +182,11 @@
   .app,
   .deb,
   .apk,
-  .jar,
   .vb,
   .prg,
   .sh {
     &::before {
-      content: $fa-var-cogs;
+      content: 'settings_applications';
     }
   }
 
@@ -213,7 +209,7 @@
   .aspx,
   .cfm {
     &::before {
-      content: $fa-var-link;
+      content: 'link';
     }
   }
 }

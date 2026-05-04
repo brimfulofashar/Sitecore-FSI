@@ -1,7 +1,5 @@
 @import 'src/assets/sass/abstracts/mixins';
 @import 'src/assets/sass/abstracts/vars';
-@import '../../../../../node_modules/font-awesome/scss/mixins';
-@import '../../../../../node_modules/font-awesome/scss/variables';
 
 .link-list {
   background: $link-list-bg;
@@ -34,14 +32,14 @@
         text-decoration: none;
 
         &::before {
-          @include fa-icon;
+          @include material-symbols-outlined;
 
-          content: $fa-var-chevron-right;
+          content: 'chevron_right';
           position: absolute;
           left: 0;
           top: 50%;
           transform: translateY(-50%);
-          font-size: 10px;
+          font-size: 0.75rem;
         }
 
         &:hover {

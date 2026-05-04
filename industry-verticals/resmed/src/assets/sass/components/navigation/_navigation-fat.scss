@@ -1,7 +1,5 @@
 @import 'src/assets/sass/abstracts/vars';
 @import 'src/assets/sass/abstracts/mixins';
-@import '../../../../../node_modules/font-awesome/scss/mixins';
-@import '../../../../../node_modules/font-awesome/scss/variables';
 
 .navigation.navigation-fat {
   background: $bg-basic-color;
@@ -28,14 +26,14 @@
       position: relative;
 
       &::before {
-        @include fa-icon;
+        @include material-symbols-outlined;
 
         transform: translateY(-50%);
         position: absolute;
-        content: $fa-var-chevron-right;
+        content: 'chevron_right';
         top: 50%;
         left: -9px;
-        font-size: 10px;
+        font-size: 0.75rem;
       }
     }
 

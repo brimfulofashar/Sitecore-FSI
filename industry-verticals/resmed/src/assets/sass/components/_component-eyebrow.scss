@@ -21,3 +21,11 @@
 .site-services .eyebrow .container {
   border-bottom: 1px solid var(--border-color);
 }
+
+// Utility links + language now live in Header (hardcoded strip). Hide legacy eyebrow to avoid double bars.
+.site-resmed .eyebrow,
+.site-basic .eyebrow,
+.site-financial .eyebrow,
+.site-services .eyebrow {
+  display: none !important;
+}

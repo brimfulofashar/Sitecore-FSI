@@ -140,7 +140,10 @@ const ArticleListSimplified = (props: ArticleListComponentProps): JSX.Element =>
           </div>
           <div className="col-auto learn-more">
             <Link href={allArticlesPageHref} className="button button-simple">
-              {t('See all') || 'See all'} <i className="fa fa-angle-right fs-4" />
+              {t('See all') || 'See all'}{' '}
+              <span className="material-symbols-outlined align-middle" translate="no" aria-hidden>
+                chevron_right
+              </span>
             </Link>
           </div>
         </div>

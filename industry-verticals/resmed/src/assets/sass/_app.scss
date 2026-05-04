@@ -6,15 +6,9 @@ html {
 }
 
 body {
-  @include opensans-font-stack;
-
   position: relative;
   overflow: auto;
   overflow-x: hidden;
-  color: $text-basic;
-  font-size: inherit;
-  line-height: 1.5;
-  background: $page-bg;
   -webkit-tap-highlight-color: rgb(0 0 0 / 0%);
   height: auto !important;
 
@@ -23,16 +17,27 @@ body {
   }
 }
 
+// Theme tokens live on the Layout wrapper (`.body.site-*`), not the HTML body element.
+.body {
+  font-family: var(--font-body);
+  color: var(--text-body);
+  font-size: 1rem;
+  line-height: 1.5;
+  background: var(--bg-body);
+  -webkit-tap-highlight-color: rgb(0 0 0 / 0%);
+}
+
 main {
   overflow: hidden;
 }
 
 a {
-  color: $text-basic;
+  color: var(--text-body);
   cursor: pointer;
+  text-decoration-color: rgba(0 0 0 / 35%);
 
   &:hover {
-    color: $text-basic-active;
+    color: var(--text-colored);
   }
 }
 
@@ -42,31 +47,71 @@ h3,
 h4,
 h5,
 h6 {
-  font-weight: bold;
+  font-family: var(--font-heading);
+  font-weight: 500;
+  color: var(--text-heading);
+  letter-spacing: 0;
 }
 
+// Desktop typography scale (Heritage Grotesk spec); mobile/tablet uses tighter rem scale below.
 h1 {
-  font-size: 2em;
+  font-size: 3.5rem;
+  line-height: 3.5rem;
+
+  @media (width >= 992px) {
+    font-size: 4rem;
+    line-height: 4.5rem;
+  }
 }
 
 h2 {
-  font-size: 1.5em;
+  font-size: 2.5rem;
+  line-height: 2.5rem;
+
+  @media (width >= 992px) {
+    font-size: 3rem;
+    line-height: 3.5rem;
+  }
 }
 
 h3 {
-  font-size: 1.2em;
+  font-size: 2rem;
+  line-height: 2rem;
+
+  @media (width >= 992px) {
+    font-size: 2rem;
+    line-height: 2.5rem;
+  }
 }
 
 h4 {
-  font-size: 1em;
+  font-size: 1.75rem;
+  line-height: 1.75rem;
+
+  @media (width >= 992px) {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
 }
 
 h5 {
-  font-size: 0.83em;
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+
+  @media (width >= 992px) {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
 }
 
 h6 {
-  font-size: 0.67em;
+  font-size: 1.25rem;
+  line-height: 1.25rem;
+
+  @media (width >= 992px) {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
 }
 
 ul li {

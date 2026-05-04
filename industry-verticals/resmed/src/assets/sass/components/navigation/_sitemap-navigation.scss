@@ -1,7 +1,5 @@
 @import 'src/assets/sass/abstracts/vars';
 @import 'src/assets/sass/abstracts/mixins';
-@import '../../../../../node_modules/font-awesome/scss/mixins';
-@import '../../../../../node_modules/font-awesome/scss/variables';
 
 .navigation.sitemap-navigation {
   @include respond-to(mobile-large) {
@@ -22,11 +20,11 @@
 
     &::before {
       @include font-size(1.4);
-      @include fa-icon;
+      @include material-symbols-outlined;
 
       transform: translateY(-50%) scale(1, -1);
       position: absolute;
-      content: $fa-var-share;
+      content: 'subdirectory_arrow_right';
       top: 30%;
       left: 0;
     }

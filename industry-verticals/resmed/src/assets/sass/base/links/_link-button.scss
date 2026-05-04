@@ -29,9 +29,11 @@
   text-decoration: none;
   font-weight: var(--button-font-weight);
   font-size: var(--button-font-size);
+  letter-spacing: var(--button-letter-spacing, normal);
   border-radius: var(--button-roundness);
   padding: var(--button-padding);
-  transition: all 0.2s ease-in-out;
+  transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-color 0.2s ease-in-out,
+    box-shadow 0.2s ease-in-out, filter 0.2s ease-in-out;
 }
 
 .button-main {

@@ -9,7 +9,7 @@ import {
 
 import Head from 'next/head';
 import client from 'lib/sitecore-client';
-import { useCallback, useRef, useState, useEffect, useMemo } from 'react';
+import { useCallback, useRef, useState, useEffect, useMemo, useId } from 'react';
 import React from 'react';
 import { Placeholder, RichText, NextImage, Link, Text, useSitecore, withDatasourceCheck, CdpHelper, Image as Image_8a80e63291fea86e0744df19113dc44bec187216 } from '@sitecore-content-sdk/nextjs';
 import PreviewSearchWidget from 'src/components/Search/PreviewSearch/PreviewSearch';
@@ -28,7 +28,7 @@ import { ArticleCard, Presence, PreviewSearch } from '@sitecore-search/ui';
 import Spinner from 'src/components/Search/components/Spinner/Spinner';
 import useVisibility from 'src/hooks/useVisibility';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Autoplay, EffectCoverflow, Pagination, Navigation } from 'swiper/modules';
+import { Autoplay, EffectCoverflow, Pagination, A11y, Navigation } from 'swiper/modules';
 import { CountUp } from 'components/NonSitecore/CountUp';
 import { DottedAccent } from 'components/NonSitecore/DottedAccent';
 import { ParallaxBackgroundImage } from 'components/NonSitecore/ParallaxBackgroundImage';
@@ -58,6 +58,7 @@ const importMap = [
       { name: 'useState', value: useState },
       { name: 'useEffect', value: useEffect },
       { name: 'useMemo', value: useMemo },
+      { name: 'useId', value: useId },
       { name: 'default', value: React },
     ]
   },
@@ -183,6 +184,7 @@ const importMap = [
       { name: 'Autoplay', value: Autoplay },
       { name: 'EffectCoverflow', value: EffectCoverflow },
       { name: 'Pagination', value: Pagination },
+      { name: 'A11y', value: A11y },
       { name: 'Navigation', value: Navigation },
     ]
   },

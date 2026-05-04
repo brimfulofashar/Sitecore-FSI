@@ -13,12 +13,16 @@ const PreviewSearchIcon = ({
 }: PreviewSearchIconProps): JSX.Element => {
   return (
     <span
-      className={`preview-search-content-icon fa fa-search ${className || ''}`}
+      className={`preview-search-content-icon material-symbols-outlined ${className || ''}`}
+      translate="no"
+      aria-hidden={true}
       onClick={() => {
         // eslint-disable-next-line @typescript-eslint/no-unused-expressions
         onClick && onClick(keyphrase);
       }}
-    />
+    >
+      search
+    </span>
   );
 };
 

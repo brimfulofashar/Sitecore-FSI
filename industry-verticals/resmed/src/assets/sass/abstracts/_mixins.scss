@@ -1,11 +1,16 @@
 @import 'vars';
+@import 'material-symbols';
 
-/* breakpoints */
+/* breakpoints — aligned with ResMed layout guide (LG = 992, XL = 1200, XXL = 1400) */
 
-$break-desktop: 1024px;
+$break-xs: 576px;
+$break-md: 768px;
+$break-desktop: 992px;
+$break-xl: 1200px;
+$break-xxl: 1400px;
 $break-mobile: 380px;
 $break-mobile-horizontal: 640px;
-$break-mobile-large: 992px;
+$break-mobile-large: $break-desktop - 1px;
 
 @mixin wrapper() {
   max-width: 960px;
@@ -42,7 +47,7 @@ $break-mobile-large: 992px;
 }
 
 @mixin opensans-font-stack() {
-  font-family: 'Open Sans', Helvetica, Verdana, Tahoma, sans-serif;
+  font-family: var(--font-body);
 }
 
 @mixin loading-gif() {
@@ -74,6 +79,14 @@ $break-mobile-large: 992px;
     }
   } @else if $media == desktop {
     @media only screen and (min-width: $break-desktop) {
+      @content;
+    }
+  } @else if $media == xl {
+    @media only screen and (min-width: $break-xl) {
+      @content;
+    }
+  } @else if $media == xxl {
+    @media only screen and (min-width: $break-xxl) {
       @content;
     }
   }

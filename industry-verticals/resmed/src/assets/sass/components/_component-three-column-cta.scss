@@ -41,6 +41,128 @@
     margin-top: auto;
   }
 
+  // ResMed promo cards: image + solid color band, stacked ghost pill CTAs (see design reference)
+  &--promo-cards {
+    img {
+      height: auto;
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+
+    .row {
+      @include respond-to(mobile-large) {
+        gap: 1.5rem;
+      }
+    }
+
+    .three-column-cta__col {
+      display: flex;
+    }
+
+    .three-column-cta-card {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      min-height: 100%;
+      border-radius: var(--roundness-lg);
+      overflow: hidden;
+      box-shadow: var(--shadow-card, 0 4px 24px rgb(18 22 26 / 10%));
+    }
+
+    .three-column-cta-card__media {
+      position: relative;
+      flex: 0 0 auto;
+      width: 100%;
+      aspect-ratio: 4 / 3;
+      background: rgb(0 0 0 / 6%);
+
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
+      }
+    }
+
+    .three-column-cta-card__body {
+      flex: 1 1 auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      padding: 2.5rem 1.25rem;
+      color: #fff;
+    }
+
+    .three-column-cta-card__title {
+      font-family: var(--font-body);
+      font-size: clamp(1.25rem, 2.5vw, 1.5rem);
+      font-weight: 500;
+      line-height: 1.3;
+      color: #fff;
+      margin: 0 0 1.5rem;
+      max-width: 22rem;
+    }
+
+    .three-column-cta-card__sub {
+      font-family: var(--font-body);
+      font-size: 1rem;
+      line-height: 1.5;
+      color: rgb(255 255 255 / 92%);
+      margin: -0.75rem 0 1.25rem;
+      max-width: 22rem;
+      opacity: 1;
+    }
+
+    .three-column-cta-card__actions {
+      display: flex;
+      flex-direction: column;
+      align-items: stretch;
+      gap: 0.75rem;
+      width: 100%;
+      max-width: 20rem;
+      margin-top: auto;
+    }
+
+    .three-column-cta-card__btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      box-sizing: border-box;
+      width: 100%;
+      margin: 0;
+      padding: 0.625rem 1.25rem;
+      border: 1px solid #fff;
+      border-radius: 100px;
+      background: transparent;
+      color: #fff !important;
+      font-family: var(--font-body);
+      font-size: 0.875rem;
+      font-weight: 700;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      text-decoration: none !important;
+      transition: background-color 0.2s ease, color 0.2s ease;
+
+      &:hover {
+        background: rgb(255 255 255 / 14%);
+        color: #fff !important;
+      }
+    }
+
+    .three-column-cta-card--accent-blue .three-column-cta-card__body {
+      background-color: #0073e6;
+    }
+
+    .three-column-cta-card--accent-rose .three-column-cta-card__body {
+      background-color: #e6004d;
+    }
+
+    .three-column-cta-card--accent-purple .three-column-cta-card__body {
+      background-color: #b32699;
+    }
+  }
+
   &.bordered {
     .content-wrapper {
       border-radius: var(--roundness);

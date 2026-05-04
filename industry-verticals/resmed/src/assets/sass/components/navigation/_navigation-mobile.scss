@@ -1,7 +1,5 @@
 @import 'src/assets/sass/abstracts/vars';
 @import 'src/assets/sass/abstracts/mixins';
-@import '../../../../../node_modules/font-awesome/scss/mixins';
-@import '../../../../../node_modules/font-awesome/scss/variables';
 
 .navigation.navigation-mobile {
   nav > ul {
@@ -51,13 +49,13 @@
         position: relative;
 
         a::before {
-          @include fa-icon;
+          @include material-symbols-outlined;
 
-          content: $fa-var-chevron-right;
+          content: 'chevron_right';
           display: block;
           position: absolute;
           left: 0;
-          font-size: 10px;
+          font-size: 1rem;
           top: 20px;
           transform: translateY(-50%);
         }
@@ -83,17 +81,16 @@
       position: relative;
 
       &::before {
-        @include fa-icon;
+        @include material-symbols-outlined;
 
-        content: $fa-var-chevron-down;
+        content: 'expand_more';
         display: block;
         position: absolute;
         right: 10px;
-        font-size: 10px;
+        font-size: 1rem;
         top: 20px;
-        transform: translateY(-50%);
-        transform: rotate(0);
-        transition: 0.6s;
+        transform: translateY(-50%) rotate(0);
+        transition: transform 0.25s ease;
         transform-style: preserve-3d;
       }
     }
