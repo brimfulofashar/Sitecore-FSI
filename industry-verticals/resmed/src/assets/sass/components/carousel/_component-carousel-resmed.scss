@@ -92,6 +92,18 @@
       font-size: clamp(1.75rem, 4vw, 3rem);
       font-weight: 500;
       margin-bottom: 1rem;
+
+      // Undo global `.title` styles from `_component-title.scss` (underline, link-like hover, pointer)
+      > a,
+      > span {
+        border-bottom: none;
+        padding-bottom: 0;
+        cursor: default;
+
+        &:hover {
+          color: $title-color;
+        }
+      }
     }
 
     .text {
@@ -203,39 +215,49 @@
     }
   }
 
-  // Pagination pill (Indicator + Combo)
+  // Custom dot indicators (Indicator + Combo) — avoids Swiper injected bullets fighting flex layout
   .carousel-resmed-pagination-host {
     display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
     align-items: center;
     justify-content: center;
+    gap: 0;
     min-height: 2.25rem;
     padding: 0.35rem 0.85rem;
     border-radius: 100px;
     background: var(--carousel-pill-bg);
     backdrop-filter: var(--carousel-pill-blur);
     -webkit-backdrop-filter: var(--carousel-pill-blur);
+  }
 
-    &.swiper-pagination-horizontal {
-      width: auto !important;
-      position: relative !important;
-      bottom: auto !important;
-      left: auto !important;
-      transform: none !important;
-    }
+  .carousel-resmed-dot {
+    flex-shrink: 0;
+    align-self: center;
+    width: 8px;
+    height: 8px;
+    min-width: 8px;
+    min-height: 8px;
+    max-height: 8px;
+    margin: 0 4px;
+    padding: 0;
+    border: none;
+    border-radius: 50%;
+    background: #fff;
+    opacity: 0.55;
+    cursor: pointer;
+    transition: width 0.25s ease, opacity 0.25s ease, border-radius 0.25s ease;
 
-    .swiper-pagination-bullet {
-      width: 8px;
-      height: 8px;
-      margin: 0 4px !important;
-      background: #fff;
-      opacity: 0.55;
-      transition: width 0.25s ease, opacity 0.25s ease, border-radius 0.25s ease;
-    }
-
-    .swiper-pagination-bullet-active {
+    &.is-active {
       width: 1.5rem;
+      min-width: 1.5rem;
       border-radius: 999px;
       opacity: 1;
+    }
+
+    &:focus-visible {
+      outline: 2px solid #fff;
+      outline-offset: 2px;
     }
   }
 

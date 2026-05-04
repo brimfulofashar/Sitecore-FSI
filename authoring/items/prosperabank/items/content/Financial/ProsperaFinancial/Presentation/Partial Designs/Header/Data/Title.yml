@@ -24,17 +24,18 @@ Languages:
         sitecore\johannes.zijlstra@sitecore.com
     - ID: "729034fc-24f3-40b7-8fa4-fb49d7de20dd"
       Hint: Text
-      Value: 
+      Value: |
+        <div class="ck-content"><figure class="image"><img style="aspect-ratio:1182/247;" src="https://jzi-resmed.sitecoresandbox.cloud/api/public/content/77c4ea2682a146a49dd7f6931e77a33e?v=286b3e06" alt="imgi_14_resmed_new_logo.png" width="1182" height="247" /></figure></div>
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "072fa276-0658-4acf-b94e-3209327891ff"
+      Value: "b0055f1c-a704-4771-a9b6-156271e6f8bf"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\johannes.zijlstra@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260504T182727Z
+      Value: 20260504T191241Z
 - Language: "fr-CA"
   Versions:
   - Version: 1

@@ -1,4 +1,4 @@
-import React, { useCallback, useEffect, useId, useMemo, useRef, useState, JSX } from 'react';
+import React, { useEffect, useId, useMemo, useRef, useState, JSX } from 'react';
 import {
   ComponentParams,
   ComponentRendering,
@@ -13,11 +13,10 @@ import {
   NextImage,
 } from '@sitecore-content-sdk/nextjs';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { A11y, Autoplay, Pagination } from 'swiper/modules';
+import { A11y, Autoplay } from 'swiper/modules';
 import type { Swiper as SwiperType } from 'swiper';
 
 import 'swiper/css';
-import 'swiper/css/pagination';
 
 interface Fields {
   Title: Field<string>;
@@ -69,10 +68,10 @@ const CarouselInner = ({ controlVariant, ...props }: CarouselInnerProps): JSX.El
   const comboColorClass =
     controlVariant === 'combo' && toneOnImage ? 'carousel--tone-on-color' : '';
 
-  const paginationRef = useRef<HTMLDivElement>(null);
   const swiperInstanceRef = useRef<SwiperType | null>(null);
 
   const [playing, setPlaying] = useState(true);
+  const [activeIndex, setActiveIndex] = useState(0);
 
   const items = props.fields?.items ?? [];
   const hasManySlides = items.length > 1;
@@ -84,42 +83,12 @@ const CarouselInner = ({ controlVariant, ...props }: CarouselInnerProps): JSX.El
     if (!isPageEditing && hasManySlides) {
       list.push(Autoplay);
     }
-    if (controlVariant !== 'buttons') {
-      list.push(Pagination);
-    }
     return list;
   }, [controlVariant, isPageEditing, hasManySlides]);
 
-  /** Pagination lives outside Swiper — bind after mount (prev/next use onClick + slidePrev/slideNext for reliability). */
-  const bindPaginationEl = useCallback(
-    (swiper: SwiperType) => {
-      if (!hasManySlides || controlVariant === 'buttons' || !paginationRef.current) {
-        return;
-      }
-
-      try {
-        swiper.params.pagination = {
-          ...(typeof swiper.params.pagination === 'object' ? swiper.params.pagination : {}),
-          el: paginationRef.current,
-          clickable: true,
-        };
-        swiper.pagination?.destroy();
-        swiper.pagination?.init();
-        swiper.pagination?.update();
-      } catch {
-        /* ignore */
-      }
-    },
-    [controlVariant, hasManySlides]
-  );
-
   const onSwiperInit = (swiper: SwiperType): void => {
     swiperInstanceRef.current = swiper;
-    const run = (): void => bindPaginationEl(swiper);
-    requestAnimationFrame(() => {
-      run();
-      window.setTimeout(run, 0);
-    });
+    setActiveIndex(swiper.realIndex);
   };
 
   const goPrev = (): void => {
@@ -128,6 +97,18 @@ const CarouselInner = ({ controlVariant, ...props }: CarouselInnerProps): JSX.El
 
   const goNext = (): void => {
     swiperInstanceRef.current?.slideNext();
+  };
+
+  const goToSlide = (index: number): void => {
+    const swiper = swiperInstanceRef.current;
+    if (!swiper) {
+      return;
+    }
+    if (swiper.params.loop && !isPageEditing) {
+      swiper.slideToLoop(index);
+    } else {
+      swiper.slideTo(index);
+    }
   };
 
   useEffect(() => {
@@ -174,6 +155,9 @@ const CarouselInner = ({ controlVariant, ...props }: CarouselInnerProps): JSX.El
         loop={hasManySlides && !isPageEditing}
         slidesPerView={1}
         speed={600}
+        allowTouchMove={false}
+        simulateTouch={false}
+        noSwiping
         autoplay={
           !isPageEditing && hasManySlides
             ? {
@@ -184,12 +168,11 @@ const CarouselInner = ({ controlVariant, ...props }: CarouselInnerProps): JSX.El
             : false
         }
         onSwiper={onSwiperInit}
+        onSlideChange={(swiper) => setActiveIndex(swiper.realIndex)}
         a11y={{
           prevSlideMessage: 'Previous slide',
           nextSlideMessage: 'Next slide',
         }}
-        navigation={false}
-        pagination={false}
       >
         {items.map((item, i) => (
           <SwiperSlide key={item.id || `slide-${baseId}-${i}`} className="carousel-resmed-slide">
@@ -261,9 +244,22 @@ const CarouselInner = ({ controlVariant, ...props }: CarouselInnerProps): JSX.El
 
             {showPagination && (
               <div
-                ref={paginationRef}
-                className={`carousel-resmed-pagination-host swiper-pagination carousel-resmed-pag-${baseId}`}
-              />
+                className="carousel-resmed-pagination-host"
+                role="tablist"
+                aria-label="Carousel slides"
+              >
+                {items.map((_, i) => (
+                  <button
+                    key={`${baseId}-dot-${i}`}
+                    type="button"
+                    role="tab"
+                    aria-selected={activeIndex === i}
+                    aria-label={`Go to slide ${i + 1} of ${items.length}`}
+                    className={`carousel-resmed-dot ${activeIndex === i ? 'is-active' : ''}`}
+                    onClick={() => goToSlide(i)}
+                  />
+                ))}
+              </div>
             )}
 
             {showArrows && (
