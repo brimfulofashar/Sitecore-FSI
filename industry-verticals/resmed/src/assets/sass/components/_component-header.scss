@@ -214,6 +214,45 @@
       display: flex !important;
       align-items: center;
     }
+
+    @include respond-to(mobile-large) {
+      .navigation label.menu-mobile-navigate-wrapper {
+        width: auto;
+        position: relative;
+        display: inline-flex;
+      }
+
+      .navigation .menu-mobile-navigate-wrapper .menu-humburger {
+        display: flex;
+        cursor: pointer;
+        z-index: 4;
+      }
+
+      .navigation .menu-mobile-navigate-wrapper .menu-mobile-navigate {
+        cursor: pointer;
+      }
+
+      // Keep page content visible on mobile until hamburger is opened.
+      .navigation .menu-mobile-navigate-wrapper .component-content {
+        display: none;
+        position: fixed;
+        inset: 0;
+        background: #fff;
+        z-index: 3;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .navigation .menu-mobile-navigate-wrapper .menu-mobile-navigate:checked ~ .component-content {
+        display: flex;
+      }
+
+      .navigation .menu-mobile-navigate-wrapper .component-content nav > ul {
+        flex-direction: column;
+        justify-content: center;
+        gap: 0.75rem;
+      }
+    }
   }
 }
 

@@ -113,10 +113,10 @@ Languages:
         sitecore\Admin
     - ID: "82e64b52-0b8a-4a38-8c78-530c5493814e"
       Hint: Name
-      Value: SYNC
+      Value: Sleep Health Campaign
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "b075057e-0e3c-48b2-b200-da270bf44d60"
+      Value: "ec001d00-6ea9-4042-9763-db585a841b46"
     - ID: "9f437e68-a84d-48ae-8ce1-a3e26c0b5e64"
       Hint: Description
       Value: "A clean, bold, campaign-focused site template with a homepage, subpage, navigation, and footer."
@@ -126,7 +126,7 @@ Languages:
         sitecore\johannes.zijlstra@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260501T163522Z
+      Value: 20260505T161337Z
     - ID: "da855368-e5f2-4932-ae55-7f8b08a5a205"
       Hint: Content
       Value: |

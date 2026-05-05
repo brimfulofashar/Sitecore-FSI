@@ -112,6 +112,26 @@
 
     .btns {
       margin-top: 1rem;
+
+      .button.button-accent {
+        background: transparent;
+        border: 2px solid #fff;
+        color: #fff;
+        border-radius: 999px;
+        padding: 0.9rem 2.4rem;
+        font-weight: 600;
+        line-height: 1;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        min-width: 13rem;
+
+        &:hover {
+          background: rgb(255 255 255 / 14%);
+          color: #fff;
+          filter: none;
+        }
+      }
     }
   }
 
@@ -123,9 +143,10 @@
     right: 0;
     z-index: 6;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
-    gap: 0.75rem;
+    justify-content: center;
+    gap: 0;
     pointer-events: none;
 
     > * {
@@ -265,8 +286,13 @@
     gap: 0;
   }
 
-  // Play / pause
+  // Play / pause — aligned to the right edge of the carousel (same row as arrows + dots)
   .carousel-resmed-playpause {
+    position: absolute;
+    top: 50%;
+    right: clamp(#{$size-padding}, 4vw, 3rem);
+    transform: translateY(-50%);
+
     button {
       width: 2.25rem;
       height: 2.25rem;

@@ -43,10 +43,10 @@ SharedFields:
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail
   Value: |
-    <image mediaid="{B82C712D-F88A-423A-924C-C2D53CAB2D85}" />
+    <image mediaid="{FB1951E3-6503-4960-958A-319DF3026585}" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "11fcc54e-cb4a-4870-ab3e-d22c5fe993ad"
+  Value: "34356086-29f0-466a-8cf4-a5c445d74019"
 Languages:
 - Language: da
   Fields:
@@ -113,20 +113,20 @@ Languages:
         sitecore\Admin
     - ID: "82e64b52-0b8a-4a38-8c78-530c5493814e"
       Hint: Name
-      Value: Alaris
+      Value: Regional Marketing Site
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "f609b0c0-9c76-4b21-b712-7a7352e769c5"
+      Value: "2abf55f3-ded3-4270-a9be-5500e3c2fe93"
     - ID: "9f437e68-a84d-48ae-8ce1-a3e26c0b5e64"
       Hint: Description
-      Value: A bold, minimalist template perfect for showcasing premium products, with a homepage, subpage, navigation, and footer.
+      Value: A bold, minimalist template perfect for regional markets, with a homepage, subpage, navigation, and footer.
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\richard.seal@sitecore.com
+        sitecore\johannes.zijlstra@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20250714T142759Z
+      Value: 20260505T161509Z
     - ID: "da855368-e5f2-4932-ae55-7f8b08a5a205"
       Hint: Content
       Value: |

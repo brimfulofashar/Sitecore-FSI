@@ -129,7 +129,7 @@ const CarouselInner = ({ controlVariant, ...props }: CarouselInnerProps): JSX.El
 
   const showArrows = controlVariant === 'buttons' || controlVariant === 'combo';
   const showPagination = controlVariant === 'indicators' || controlVariant === 'combo';
-  const showPlayPause = hasManySlides && !isPageEditing;
+  const showPlayPause = hasManySlides;
 
   const variantClass =
     controlVariant === 'indicators'
@@ -211,11 +211,9 @@ const CarouselInner = ({ controlVariant, ...props }: CarouselInnerProps): JSX.El
                     <div className="text">
                       <RichText field={item.fields.Text} />
                     </div>
-                    {!isPageEditing && item.fields?.Link?.value?.href && (
                       <div className="btns">
                         <Link field={item.fields.Link} className="button button-accent" />
                       </div>
-                    )}
                   </div>
                 </div>
               </div>
