@@ -7,7 +7,7 @@ import React, { JSX } from 'react';
  * External links use target="_blank" and get the open-in-new icon via CSS.
  */
 const HeaderUtilityStrip = (): JSX.Element => (
-  <nav className="header__utility-links" aria-label="Utility navigation">
+  <nav className="header__utility-links w-full" aria-label="Utility navigation">
     <a
       href="https://www.resmed.com/en-us/"
       target="_blank"
@@ -57,7 +57,7 @@ export const Default = (props: ComponentProps): JSX.Element => {
   const sxaStyles = `${props.params.styles?.trimEnd() || ''}`;
 
   return (
-    <div className={`component header header--resmed ${sxaStyles}`.trim()} id={id ? id : undefined}>
+    <div className={`component header header--resmed px-0 ${sxaStyles}`.trim()} id={id ? id : undefined}>
       <div className="header__utility-bar">
         <div className={`container container-${props.params?.ContainerWidth?.toLowerCase()}-fluid`}>
           <div className="header__utility-inner">
