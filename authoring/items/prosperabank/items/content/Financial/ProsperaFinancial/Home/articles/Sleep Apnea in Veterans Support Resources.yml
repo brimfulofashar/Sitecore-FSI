@@ -1,0 +1,487 @@
+﻿---
+ID: "bc031618-4a29-40c4-b18c-4da61dbd6c53"
+Parent: "0b45c71d-61ae-44f3-9f7d-6c88185f0b15"
+Template: "f83ccefd-fc41-4a60-9882-8f7ea5cf41a8"
+Path: /sitecore/content/Financial/ProsperaFinancial/Home/articles/Sleep Apnea in Veterans Support Resources
+SharedFields:
+- ID: "4a749557-242b-4372-8a20-b2db9d406301"
+  Hint: __AutoThumbnails
+  Value: 
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{A5BC37E7-ED96-4C1E-8590-A26E64DB55EA}"
+- ID: "ad26114f-29dd-4ef9-b5bf-1d64d558872d"
+  Hint: BackgroundImage
+  Value: |
+    <image mediaid="{10CB9C1E-EDEB-45AE-9598-EAD7CF3B3204}" alt="Blurred background image - fountain pen on notebook" height="" width="" hspace="" vspace="" />
+- ID: "ba2b872d-f67d-40dc-be41-6366b7030144"
+  Hint: Thumbnail
+  Value: |
+    <Image src="https://jzi-resmed.sitecoresandbox.cloud/api/public/content/ead32379a65f4a0a81e706a74aed1d47?v=4c024d59" dam-id="ZO1q5ueRRFGQLDSLoasKHg" width="400" height="286" alt="imgi_6_veteran-with-sleep-apnea-featured.png" dam-content-type="Image" thumbnailsrc="https://jzi-resmed.sitecoresandbox.cloud/api/gateway/106465/thumbnail" />
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 200
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{A01E82CA-AB22-4C0D-A740-E36B87E403BB}" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "79275087-b921-4ceb-92e7-e8b5f6765359"
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{1333C7A2-2A6C-4310-AE74-8D5DE936F8B3}"
+          s:ds="50f7c322-1c9f-4f58-a93b-2157be20bf50" />
+      </d>
+    </r>
+- ID: "f47c0d78-61f9-479c-96df-1159727d32c6"
+  Hint: __Suppressed Validation Rules
+  Value: "{CB57D0E7-5202-4C3D-838B-314F2B95A2CB}"
+Languages:
+- Language: en
+  Fields:
+  - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
+    Hint: __Unversioned revision
+    Value: "27536189-119c-4e14-9de2-f4d957611c73"
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Sleep Apnea in Veterans Support Resources
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "03117268-f84f-4fd8-ad9e-5990b3a21fe6"
+      Hint: Content
+      Value: |
+        <section class="blog-component component text-blog-component margin-0" style="margin: 0px; padding-bottom: 80px;">
+        <div>
+        <div>
+        <h5>Quick Takeaways:</h5>
+        <ul>
+            <li>Veterans are more likely to develop sleep apnea than the general population &mdash; often due to factors like PTSD, injuries and disrupted sleep during service.<span>1</span></li>
+            <li>The&nbsp;<a href="https://www.va.gov/" target="_blank" rel="noopener noreferrer">U.S. Department of Veterans Affairs</a>&nbsp;(VA) recognizes sleep apnea as a disability, with ratings ranging from 0% to 100% based on how much the condition impacts daily life and whether treatment is effective.<span>16</span></li>
+            <li>Support networks and veteran organizations can help with filing claims, accessing equipment, and connecting to peer programs for ongoing treatment and education.</li>
+            <li>Obstructive sleep apnea (OSA) is common among veterans and former service members. Research suggests that veterans are 2.5 times more likely to develop OSA than members of the general population. They&rsquo;re also diagnosed with the condition about 5 years earlier than those who never served in the military.<span>1</span></li>
+            <li>Fortunately, OSA can be successfully managed with the right treatment. Recognizing the symptoms and risks of OSA, seeking advice from a healthcare professional, and connecting with community resources can empower veterans to get the support they need.</li>
+        </ul>
+        <h5>Understanding sleep apnea in veterans</h5>
+        <p>Sleep apnea affects 1 billion people worldwide<span>13</span>, and roughly 30 million Americans.<span>16</span>&nbsp;Veterans tend to experience sleep apnea more commonly<span>1</span>&nbsp;than the general population. Those who&rsquo;ve served in the military often experience service-related factors, such as disrupted sleep schedules, injuries and post-traumatic stress disorder (PTSD), that makes them more likely to have trouble breathing during sleep.<span>1</span>&nbsp;By understanding what sleep apnea is and why it occurs more often in veterans, former service members can better recognize their own risk of developing this condition.</p>
+        <h6>What it is and why it matters after service</h6>
+        <p>Sleep apnea is a condition where breathing stops and restarts many times throughout the night. These interruptions can make it harder for your body to get enough oxygen.</p>
+        <p>Compared to the general population, veterans are considerably more likely to experience sleep disorders. In a study of nearly 10 million U.S. veterans, 9.7% had a diagnosed sleep disorder.<span>4</span></p>
+        <p>There are two recognized forms of sleep apnea:</p>
+        <ul>
+            <li><span>Obstructive sleep apnea (OSA)</span><span>3</span>: The most common form is obstructive sleep apnea, a condition where your upper airway becomes blocked repeatedly during sleep, making it harder for air to flow. These blockages can reduce or completely stop the flow of air, causing your breathing to pause throughout the night.</li>
+            <li><span>Central sleep apnea (CSA)</span><span>3</span>: This is a condition in which the brain doesn&rsquo;t send signals to the muscles that control breathing, causing breathing to pause during sleep.</li>
+        </ul>
+        <p>Treatment-emergent central sleep apnea (TECSA). TECSA, which was formerly called complex sleep apnea, is a form of CSA where your brain briefly stops sending the signals to breathe after you start CPAP therapy for OSA. Several factors can contribute to increased sleep apnea risk for veterans. For example:</p>
+        <ul>
+            <li>Post-traumatic stress disorder (PTSD), a condition that affects about 7% of veterans,<span>5</span>&nbsp;is associated with an increased risk of OSA.<span>6</span></li>
+            <li>Traumatic brain injuries, which may be present in 25% of veterans,<span>7</span>&nbsp;can also contribute to the risk of developing a sleep disorder.<span>8</span></li>
+            <li>Chronic pain, which veterans have higher risk of developing, can lead to pain-related insomnia and, in some cases, opioid use.<span>9</span>&nbsp;These types of drugs suppress respiratory function, contributing to OSA<span>10</span>&nbsp;and poor sleep quality overall.</li>
+        </ul>
+        <p>Sleep apnea is often linked to other chronic health issues, including diabetes, heart disease, and high blood pressure. These conditions are more common among veterans,<span>11</span>&nbsp;which may be related to the mental and physical demands of service.</p>
+        <div>
+        <div>&nbsp;</div>
+        </div>
+        </div>
+        </div>
+        </section><section>
+        <div>
+        <div><img src="https://media.resmed.com/20260429135450/veteran-woman-with-sleep-apnea-scaled.jpg" alt=" veteran woman with sleep apnea" data-lazy-src="https://media.resmed.com/20260429135450/veteran-woman-with-sleep-apnea-scaled.jpg" data-ll-status="loaded" /></div>
+        </div>
+        </section><section>
+        <div>
+        <div>
+        <h6>How common is sleep apnea for veterans?</h6>
+        <p>Sleep apnea has become one of the most frequently diagnosed conditions within the VA health care system. According to the National Veteran Sleep Disorder Study, OSA diagnoses among VA participants increased 6-fold between 2000 and 2010.<span>12</span>&nbsp;This rise likely reflects growing awareness of how common OSA is and the dangers associated with it, along with improved screening within the veteran community.</p>
+        <p>Compared to the civilian population, the rate of OSA among veterans is alarming. While between 24-33% of the general population may have sleep apnea,<span>14</span>&nbsp;research suggests that more than half of veterans may be living with the condition.<span>15</span></p>
+        <h5>Care and resources for veterans with sleep apnea</h5>
+        <p>Veterans with sleep apnea have access to a variety of resources to help them manage their condition. Through the Sleep Clinical Resource Hub,<span>23</span>&nbsp;veterans can locate VA facilities that provide on-site sleep studies and see an overview of the sleep apnea services the department covers.</p>
+        <h6>VA programs and benefits</h6>
+        <p><a href="https://www.va.gov/find-locations/" target="_blank" rel="noopener noreferrer">Through the VA</a>, veterans can obtain sleep services at eight facilities throughout California, Hawaii, Nevada, Wyoming and Colorado.<span>23</span>&nbsp;Many VA medical centers have sleep clinics that conduct sleep studies and provide treatment plans. Veterans may also access support groups through local VA vet centers.<span>24</span></p>
+        <p>For veterans living with obstructive sleep apnea (OSA), the VA often provides continuous positive airway pressure (CPAP) devices and supplies at little to no cost.<span>22</span>&nbsp;CPAP therapy uses a mask that fits over your nose and/or mouth, connected to a machine that delivers a steady flow of air. This air is designed to keep your airway open and reduce breathing pauses while you sleep.</p>
+        <h6>Advocacy and support networks</h6>
+        <p>Veterans Service Organizations such as&nbsp;<a href="https://www.amvets.org/" target="_blank" rel="noopener noreferrer">Veterans of Foreign Wars (AMVETS)</a>,&nbsp;<a href="https://www.dav.org/" target="_blank" rel="noopener noreferrer">Disabled American Veterans</a>&nbsp;and&nbsp;<a href="https://www.legion.org/" target="_blank" rel="noopener noreferrer">American Legion</a>&nbsp;can help veterans navigate the process.</p>
+        <p>Additionally, peer-to-peer sleep apnea groups such as AWAKE Peer Mentor Program can help veterans adjust to therapy.<span>21</span>&nbsp;Other nonprofit organizations, including the Wounded Warrior Project, can support veterans navigating OSA and other sleep-related challenges.<span>20</span></p>
+        <div>
+        <div>&nbsp;</div>
+        </div>
+        </div>
+        </div>
+        </section><section>
+        <div>
+        <div><img src="https://media.resmed.com/20260429135659/sleep-apnea-in-veterans.jpg" alt=" sleep apnea in veterans" data-lazy-src="https://media.resmed.com/20260429135659/sleep-apnea-in-veterans.jpg" data-ll-status="loaded" /></div>
+        </div>
+        </section><section>
+        <div>
+        <div>
+        <h5>Living with sleep apnea after service</h5>
+        <p>Military service may increase a person&rsquo;s risk of developing sleep apnea. The good news? Sleep apnea is a well-understood condition with effective treatment options available. CPAP therapy, along with healthy lifestyle strategies and support, may help veterans improve their sleep and overall well-being.<span>18</span></p>
+        <h6><span>Long-term management of sleep apnea</span></h6>
+        <p>Managing sleep apnea requires consistent treatment, which can help support long-term improvements in health and quality of life.<span>17</span>&nbsp;Veterans who use their CPAP device and follow other prescribed therapies may experience improvements in sleep quality, daytime energy and alertness, and overall health.</p>
+        <p>Lifestyle strategies<span>18</span>&nbsp;can support an individual&rsquo;s OSA treatment plan. Maintaining a healthy weight, avoiding alcohol, and practicing a calm, consistent sleep routine may help support better rest. In some cases, veterans benefit from seeing civilian sleep specialists familiar with military service-related conditions such as PTSD or chronic pain.<span>19</span></p>
+        <h6><span>Transitioning to civilian life</span></h6>
+        <p>As part of the discharge process, military personnel should plan on discussing any sleep-related concerns with a doctor during their final health assessment. Transition assistance program counselors can help arrange a continuity of care plan before discharge.</p>
+        <p>If you&rsquo;re already getting treatment for obstructive sleep apnea (OSA), you should request that your medical records and diagnostic results be transferred to the VA healthcare system. This can help prevent disruptions in treatment.</p>
+        <p>You may also need to consider your medical needs when choosing a private or employer-based health insurance plan. This can help you maintain coverage for continuous positive airway pressure (CPAP) supplies and other treatments.</p>
+        <h5>References</h5>
+        <ol>
+            <li><span>Source:</span>&nbsp;Goldstein, L. A., et al. 2024 Prevalence of Obstructive Sleep Apnea Among Veterans and Nonveterans American Journal of Health Promotion&nbsp;<a href="https://doi.org/10.1177/08901171241273443" target="_blank" rel="noopener noreferrer">https://doi.org/10.1177/08901171241273443<br />
+            </a></li>
+            <li><span>Source:</span>&nbsp;What doctors wish patients knew about sleep apnea 2022 American Medical Association&nbsp;<a href="https://www.ama-assn.org/public-health/prevention-wellness/what-doctors-wish-patients-knew-about-sleep-apnea" target="_blank" rel="noopener noreferrer">https://www.ama-assn.org/public-health/prevention-wellness/what-doctors-wish-patients-knew-about-sleep-apnea</a></li>
+            <li><span>Source:</span>&nbsp;Sleep apnea American Lung Association&nbsp;<a href="https://www.lung.org/lung-health-diseases/lung-disease-lookup/sleep-apnea" target="_blank" rel="noopener noreferrer">https://www.lung.org/lung-health-diseases/lung-disease-lookup/sleep-apnea</a></li>
+            <li><span>Source:</span>&nbsp;Alexander M et al 2016 The National Veteran Sleep Disorder Study Descriptive Epidemiology and Secular Trends 2000-2010 Sleep&nbsp;<a href="https://doi.org/10.5665/sleep.5972" target="_blank" rel="noopener noreferrer">https://doi.org/10.5665/sleep.5972</a></li>
+            <li><span>Source:</span>&nbsp;PTSD National Center for PTSD 2025 U.S. Department of Veterans Affairs&nbsp;<a href="https://www.ptsd.va.gov/understand/common/common_veterans.asp" target="_blank" rel="noopener noreferrer">https://www.ptsd.va.gov/understand/common/common_veterans.asp</a></li>
+            <li><span>Source:</span>&nbsp;McCall C A Watson N F 2022 A Narrative Review of the Association between Post-Traumatic Stress Disorder and Obstructive Sleep Apnea Journal of Clinical Medicine&nbsp;<a href="https://doi.org/10.3390/jcm11020415" target="_blank" rel="noopener noreferrer">https://doi.org/10.3390/jcm11020415</a></li>
+            <li><span>Source:</span>&nbsp;Karr J E et al 2025 Traumatic Brain injury in us veterans Prevalence and associations with physical mental and cognitive health Archives of Physical Medicine and Rehabilitation&nbsp;<a href="https://doi.org/10.1016/j.apmr.2024.11.010" target="_blank" rel="noopener noreferrer">https://doi.org/10.1016/j.apmr.2024.11.010</a></li>
+            <li><span>Source:</span>&nbsp;Viola-Saltzman M Watson N F 2012 Traumatic brain injury and sleep disorders Neurologic clinics&nbsp;<a href="https://doi.org/10.1016/j.ncl.2012.08.008" target="_blank" rel="noopener noreferrer">https://doi.org/10.1016/j.ncl.2012.08.008</a></li>
+            <li><span>Source:</span>&nbsp;Bennett A S et al 2022 U.S. Military veterans and the opioid overdose crisis A review of risk factors and prevention efforts Annals of Medicine&nbsp;<a href="https://doi.org/10.1080/07853890.2022.2092896" target="_blank" rel="noopener noreferrer">https://doi.org/10.1080/07853890.2022.2092896</a></li>
+            <li><span>Source:</span>&nbsp;Freire C Sennes L U Polotsky V Y 2022 Opioids and obstructive sleep apnea Journal of Clinical Sleep Medicine&nbsp;<a href="https://doi.org/10.5664/jcsm.9730" target="_blank" rel="noopener noreferrer">https://doi.org/10.5664/jcsm.9730</a></li>
+            <li><span>Source:</span>&nbsp;Finnegan A Salem K 2024 Comparative study of hypertension diabetes dementia and smoking in military veterans and non-veterans BMJ Military Health&nbsp;<a href="https://doi.org/10.1136/military-2024-002817" target="_blank" rel="noopener noreferrer">https://doi.org/10.1136/military-2024-002817</a></li>
+            <li><span>Source:</span>&nbsp;Lyons MM Bhatt NY Pack AI Magalang UJ 2020 Global burden of sleep-disordered breathing and its implications Respirology&nbsp;<a href="https://doi.org/10.1111/resp.13838" target="_blank" rel="noopener noreferrer">https://doi.org/10.1111/resp.13838</a></li>
+            <li><span>Source:</span>&nbsp;Watson N et al 2025 Prevalence and unmet need of obstructive sleep apnea in the United States Sleep&nbsp;<a href="https://doi.org/10.1093/sleep/zsaf090.0637" target="_blank" rel="noopener noreferrer">https://doi.org/10.1093/sleep/zsaf090.0637</a></li>
+            <li><span>Source:</span>&nbsp;Ulmer C et al 2021 Prevalence of insomnia disorder and sleep apnea in a sample of veterans at risk for cardiovascular disease Journal of Clinical Sleep Medicine&nbsp;<a href="https://doi.org/10.5664/jcsm.9228" target="_blank" rel="noopener noreferrer">https://doi.org/10.5664/jcsm.9228</a></li>
+            <li><span>Source:</span>&nbsp;Berg Sara 2025 What Doctors Wish Patients Knew About Sleep Apnea American Medical Association&nbsp;<a href="https://www.ama-assn.org/public-health/prevention-wellness/what-doctors-wish-patients-knew-about-sleep-apnea" target="_blank" rel="noopener noreferrer">https://www.ama-assn.org/public-health/prevention-wellness/what-doctors-wish-patients-knew-about-sleep-apnea</a></li>
+            <li><span>Source:</span>&nbsp;Benjafield Adam V et al 2025 Positive Airway Pressure Therapy and All-Cause and Cardiovascular Mortality in People with Obstructive Sleep Apnoea The Lancet Respiratory Medicine&nbsp;<a href="https://doi.org/10.1016/S2213-2600(25)00002-5" target="_blank" rel="noopener noreferrer">https://doi.org/10.1016/S2213-2600(25)00002-5</a></li>
+            <li><span>Source:</span>&nbsp;Adult Obstructive Sleep Apnea Task Force 2009 Clinical Guideline for the Evaluation Management and Long-term Care of Obstructive Sleep Apnea in Adults Journal of Clinical Sleep Medicine&nbsp;<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2699173/" target="_blank" rel="noopener noreferrer">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2699173/</a></li>
+            <li><span>Source:</span>&nbsp;Talking Sleep Sleep Disorders in Military Veterans American Academy of Sleep Medicine&nbsp;<a href="https://aasm.org/talking-sleep-sleep-disorders-in-military-veterans/" target="_blank" rel="noopener noreferrer">https://aasm.org/talking-sleep-sleep-disorders-in-military-veterans/</a></li>
+            <li><span>Source:</span>&nbsp;Physical health and wellness 2025 Wounded Warrior Project&nbsp;<a href="https://www.woundedwarriorproject.org/programs/physical-health-wellness" target="_blank" rel="noopener noreferrer">https://www.woundedwarriorproject.org/programs/physical-health-wellness</a></li>
+            <li><span>Source:</span>&nbsp;AWAKE peer mentor program 2025 Wellness Sleep and Circadian Network&nbsp;<a href="https://www.sleephealth.org/wscn/awake-peer-mentor-program/" target="_blank" rel="noopener noreferrer">https://www.sleephealth.org/wscn/awake-peer-mentor-program/</a></li>
+            <li><span>Source:</span>&nbsp;Order medical supplies 2025 U.S. Department of Veterans Affairs&nbsp;<a href="https://www.va.gov/health-care/order-medical-supplies/#order-hearing-aid-and-cpap-sup" target="_blank" rel="noopener noreferrer">https://www.va.gov/health-care/order-medical-supplies/#order-hearing-aid-and-cpap-sup</a></li>
+            <li><span>Source:</span>&nbsp;VISN 21 sleep clinical resource hub U.S. Department of Veterans Affairs&nbsp;<a href="https://department.va.gov/integrated-service-networks/wp-content/uploads/sites/24/2024/08/Sleep-Clinical-Resource-Hub.pdf" target="_blank" rel="noopener noreferrer">https://department.va.gov/integrated-service-networks/wp-content/uploads/sites/24/2024/08/Sleep-Clinical-Resource-Hub.pdf</a></li>
+            <li><span>Source:</span>&nbsp;Find VA locations U.S. Department of Veterans Affairs&nbsp;<a href="https://www.va.gov/find-locations/" target="_blank" rel="noopener noreferrer">https://www.va.gov/find-locations/</a></li>
+        </ol>
+        </div>
+        </div>
+        </section>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260506T010538Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{FCA998C5-0CC3-4F91-94D8-0A4E6CAECE88}"
+    - ID: "3e700dce-26eb-4bf0-990f-9d9fe555990d"
+      Hint: Excerpt
+      Value: "Military service may increase a person’s risk of developing sleep apnea. The good news? Sleep apnea is a well-understood condition with effective treatment options available. CPAP therapy, along with healthy lifestyle strategies and support, may help veterans improve their sleep and overall well-being."
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: "Sleep Apnea in Veterans: VA Claims, Disability Ratings, and Support"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "cad25ebc-e15b-4f80-9ae6-bf9d7df0b75d"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260506T012109Z
+    - ID: "e81c4912-a4d2-4466-842c-02f0b2c9dc42"
+      Hint: Title
+      Value: "Sleep Apnea in Veterans: VA Claims, Disability Ratings, and Support"
+  - Version: 2
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "03117268-f84f-4fd8-ad9e-5990b3a21fe6"
+      Hint: Content
+      Value: |
+        <section class="blog-component component text-blog-component margin-0" style="margin: 0px; padding-bottom: 80px;">
+        <div>
+        <div>
+        <h5>Quick Takeaways:</h5>
+        <ul>
+            <li>Veterans are more likely to develop sleep apnea than the general population &mdash; often due to factors like PTSD, injuries and disrupted sleep during service.<span>1</span></li>
+            <li>The&nbsp;<a href="https://www.va.gov/" target="_blank" rel="noopener noreferrer">U.S. Department of Veterans Affairs</a>&nbsp;(VA) recognizes sleep apnea as a disability, with ratings ranging from 0% to 100% based on how much the condition impacts daily life and whether treatment is effective.<span>16</span></li>
+            <li>Support networks and veteran organizations can help with filing claims, accessing equipment, and connecting to peer programs for ongoing treatment and education.</li>
+            <li>Obstructive sleep apnea (OSA) is common among veterans and former service members. Research suggests that veterans are 2.5 times more likely to develop OSA than members of the general population. They&rsquo;re also diagnosed with the condition about 5 years earlier than those who never served in the military.<span>1</span></li>
+            <li>Fortunately, OSA can be successfully managed with the right treatment. Recognizing the symptoms and risks of OSA, seeking advice from a healthcare professional, and connecting with community resources can empower veterans to get the support they need.</li>
+        </ul>
+        <h5>Understanding sleep apnea in veterans</h5>
+        <p>Sleep apnea affects 1 billion people worldwide<span>13</span>, and roughly 30 million Americans.<span>16</span>&nbsp;Veterans tend to experience sleep apnea more commonly<span>1</span>&nbsp;than the general population. Those who&rsquo;ve served in the military often experience service-related factors, such as disrupted sleep schedules, injuries and post-traumatic stress disorder (PTSD), that makes them more likely to have trouble breathing during sleep.<span>1</span>&nbsp;By understanding what sleep apnea is and why it occurs more often in veterans, former service members can better recognize their own risk of developing this condition.</p>
+        <h6>What it is and why it matters after service</h6>
+        <p>Sleep apnea is a condition where breathing stops and restarts many times throughout the night. These interruptions can make it harder for your body to get enough oxygen.</p>
+        <p>Compared to the general population, veterans are considerably more likely to experience sleep disorders. In a study of nearly 10 million U.S. veterans, 9.7% had a diagnosed sleep disorder.<span>4</span></p>
+        <p>There are two recognized forms of sleep apnea:</p>
+        <ul>
+            <li><span>Obstructive sleep apnea (OSA)</span><span>3</span>: The most common form is obstructive sleep apnea, a condition where your upper airway becomes blocked repeatedly during sleep, making it harder for air to flow. These blockages can reduce or completely stop the flow of air, causing your breathing to pause throughout the night.</li>
+            <li><span>Central sleep apnea (CSA)</span><span>3</span>: This is a condition in which the brain doesn&rsquo;t send signals to the muscles that control breathing, causing breathing to pause during sleep.</li>
+        </ul>
+        <p>Treatment-emergent central sleep apnea (TECSA). TECSA, which was formerly called complex sleep apnea, is a form of CSA where your brain briefly stops sending the signals to breathe after you start CPAP therapy for OSA. Several factors can contribute to increased sleep apnea risk for veterans. For example:</p>
+        <ul>
+            <li>Post-traumatic stress disorder (PTSD), a condition that affects about 7% of veterans,<span>5</span>&nbsp;is associated with an increased risk of OSA.<span>6</span></li>
+            <li>Traumatic brain injuries, which may be present in 25% of veterans,<span>7</span>&nbsp;can also contribute to the risk of developing a sleep disorder.<span>8</span></li>
+            <li>Chronic pain, which veterans have higher risk of developing, can lead to pain-related insomnia and, in some cases, opioid use.<span>9</span>&nbsp;These types of drugs suppress respiratory function, contributing to OSA<span>10</span>&nbsp;and poor sleep quality overall.</li>
+        </ul>
+        <p>Sleep apnea is often linked to other chronic health issues, including diabetes, heart disease, and high blood pressure. These conditions are more common among veterans,<span>11</span>&nbsp;which may be related to the mental and physical demands of service.</p>
+        <div>
+        <div>&nbsp;</div>
+        </div>
+        </div>
+        </div>
+        </section><section>
+        <div>
+        <div><img src="https://media.resmed.com/20260429135450/veteran-woman-with-sleep-apnea-scaled.jpg" alt=" veteran woman with sleep apnea" data-lazy-src="https://media.resmed.com/20260429135450/veteran-woman-with-sleep-apnea-scaled.jpg" data-ll-status="loaded" /></div>
+        </div>
+        </section><section>
+        <div>
+        <div>
+        <h6>How common is sleep apnea for veterans?</h6>
+        <p>Sleep apnea has become one of the most frequently diagnosed conditions within the VA health care system. According to the National Veteran Sleep Disorder Study, OSA diagnoses among VA participants increased 6-fold between 2000 and 2010.<span>12</span>&nbsp;This rise likely reflects growing awareness of how common OSA is and the dangers associated with it, along with improved screening within the veteran community.</p>
+        <p>Compared to the civilian population, the rate of OSA among veterans is alarming. While between 24-33% of the general population may have sleep apnea,<span>14</span>&nbsp;research suggests that more than half of veterans may be living with the condition.<span>15</span></p>
+        <h5>Care and resources for veterans with sleep apnea</h5>
+        <p>Veterans with sleep apnea have access to a variety of resources to help them manage their condition. Through the Sleep Clinical Resource Hub,<span>23</span>&nbsp;veterans can locate VA facilities that provide on-site sleep studies and see an overview of the sleep apnea services the department covers.</p>
+        <h6>VA programs and benefits</h6>
+        <p><a href="https://www.va.gov/find-locations/" target="_blank" rel="noopener noreferrer">Through the VA</a>, veterans can obtain sleep services at eight facilities throughout California, Hawaii, Nevada, Wyoming and Colorado.<span>23</span>&nbsp;Many VA medical centers have sleep clinics that conduct sleep studies and provide treatment plans. Veterans may also access support groups through local VA vet centers.<span>24</span></p>
+        <p>For veterans living with obstructive sleep apnea (OSA), the VA often provides continuous positive airway pressure (CPAP) devices and supplies at little to no cost.<span>22</span>&nbsp;CPAP therapy uses a mask that fits over your nose and/or mouth, connected to a machine that delivers a steady flow of air. This air is designed to keep your airway open and reduce breathing pauses while you sleep.</p>
+        <h6>Advocacy and support networks</h6>
+        <p>Veterans Service Organizations such as&nbsp;<a href="https://www.amvets.org/" target="_blank" rel="noopener noreferrer">Veterans of Foreign Wars (AMVETS)</a>,&nbsp;<a href="https://www.dav.org/" target="_blank" rel="noopener noreferrer">Disabled American Veterans</a>&nbsp;and&nbsp;<a href="https://www.legion.org/" target="_blank" rel="noopener noreferrer">American Legion</a>&nbsp;can help veterans navigate the process.</p>
+        <p>Additionally, peer-to-peer sleep apnea groups such as AWAKE Peer Mentor Program can help veterans adjust to therapy.<span>21</span>&nbsp;Other nonprofit organizations, including the Wounded Warrior Project, can support veterans navigating OSA and other sleep-related challenges.<span>20</span></p>
+        <div>
+        <div>&nbsp;</div>
+        </div>
+        </div>
+        </div>
+        </section><section>
+        <div>
+        <div><img src="https://media.resmed.com/20260429135659/sleep-apnea-in-veterans.jpg" alt=" sleep apnea in veterans" data-lazy-src="https://media.resmed.com/20260429135659/sleep-apnea-in-veterans.jpg" data-ll-status="loaded" /></div>
+        </div>
+        </section><section>
+        <div>
+        <div>
+        <h5>Living with sleep apnea after service</h5>
+        <p>Military service may increase a person&rsquo;s risk of developing sleep apnea. The good news? Sleep apnea is a well-understood condition with effective treatment options available. CPAP therapy, along with healthy lifestyle strategies and support, may help veterans improve their sleep and overall well-being.<span>18</span></p>
+        <h6><span>Long-term management of sleep apnea</span></h6>
+        <p>Managing sleep apnea requires consistent treatment, which can help support long-term improvements in health and quality of life.<span>17</span>&nbsp;Veterans who use their CPAP device and follow other prescribed therapies may experience improvements in sleep quality, daytime energy and alertness, and overall health.</p>
+        <p>Lifestyle strategies<span>18</span>&nbsp;can support an individual&rsquo;s OSA treatment plan. Maintaining a healthy weight, avoiding alcohol, and practicing a calm, consistent sleep routine may help support better rest. In some cases, veterans benefit from seeing civilian sleep specialists familiar with military service-related conditions such as PTSD or chronic pain.<span>19</span></p>
+        <h6><span>Transitioning to civilian life</span></h6>
+        <p>As part of the discharge process, military personnel should plan on discussing any sleep-related concerns with a doctor during their final health assessment. Transition assistance program counselors can help arrange a continuity of care plan before discharge.</p>
+        <p>If you&rsquo;re already getting treatment for obstructive sleep apnea (OSA), you should request that your medical records and diagnostic results be transferred to the VA healthcare system. This can help prevent disruptions in treatment.</p>
+        <p>You may also need to consider your medical needs when choosing a private or employer-based health insurance plan. This can help you maintain coverage for continuous positive airway pressure (CPAP) supplies and other treatments.</p>
+        <h5>References</h5>
+        <ol>
+            <li><span>Source:</span>&nbsp;Goldstein, L. A., et al. 2024 Prevalence of Obstructive Sleep Apnea Among Veterans and Nonveterans American Journal of Health Promotion&nbsp;<a href="https://doi.org/10.1177/08901171241273443" target="_blank" rel="noopener noreferrer">https://doi.org/10.1177/08901171241273443<br />
+            </a></li>
+            <li><span>Source:</span>&nbsp;What doctors wish patients knew about sleep apnea 2022 American Medical Association&nbsp;<a href="https://www.ama-assn.org/public-health/prevention-wellness/what-doctors-wish-patients-knew-about-sleep-apnea" target="_blank" rel="noopener noreferrer">https://www.ama-assn.org/public-health/prevention-wellness/what-doctors-wish-patients-knew-about-sleep-apnea</a></li>
+            <li><span>Source:</span>&nbsp;Sleep apnea American Lung Association&nbsp;<a href="https://www.lung.org/lung-health-diseases/lung-disease-lookup/sleep-apnea" target="_blank" rel="noopener noreferrer">https://www.lung.org/lung-health-diseases/lung-disease-lookup/sleep-apnea</a></li>
+            <li><span>Source:</span>&nbsp;Alexander M et al 2016 The National Veteran Sleep Disorder Study Descriptive Epidemiology and Secular Trends 2000-2010 Sleep&nbsp;<a href="https://doi.org/10.5665/sleep.5972" target="_blank" rel="noopener noreferrer">https://doi.org/10.5665/sleep.5972</a></li>
+            <li><span>Source:</span>&nbsp;PTSD National Center for PTSD 2025 U.S. Department of Veterans Affairs&nbsp;<a href="https://www.ptsd.va.gov/understand/common/common_veterans.asp" target="_blank" rel="noopener noreferrer">https://www.ptsd.va.gov/understand/common/common_veterans.asp</a></li>
+            <li><span>Source:</span>&nbsp;McCall C A Watson N F 2022 A Narrative Review of the Association between Post-Traumatic Stress Disorder and Obstructive Sleep Apnea Journal of Clinical Medicine&nbsp;<a href="https://doi.org/10.3390/jcm11020415" target="_blank" rel="noopener noreferrer">https://doi.org/10.3390/jcm11020415</a></li>
+            <li><span>Source:</span>&nbsp;Karr J E et al 2025 Traumatic Brain injury in us veterans Prevalence and associations with physical mental and cognitive health Archives of Physical Medicine and Rehabilitation&nbsp;<a href="https://doi.org/10.1016/j.apmr.2024.11.010" target="_blank" rel="noopener noreferrer">https://doi.org/10.1016/j.apmr.2024.11.010</a></li>
+            <li><span>Source:</span>&nbsp;Viola-Saltzman M Watson N F 2012 Traumatic brain injury and sleep disorders Neurologic clinics&nbsp;<a href="https://doi.org/10.1016/j.ncl.2012.08.008" target="_blank" rel="noopener noreferrer">https://doi.org/10.1016/j.ncl.2012.08.008</a></li>
+            <li><span>Source:</span>&nbsp;Bennett A S et al 2022 U.S. Military veterans and the opioid overdose crisis A review of risk factors and prevention efforts Annals of Medicine&nbsp;<a href="https://doi.org/10.1080/07853890.2022.2092896" target="_blank" rel="noopener noreferrer">https://doi.org/10.1080/07853890.2022.2092896</a></li>
+            <li><span>Source:</span>&nbsp;Freire C Sennes L U Polotsky V Y 2022 Opioids and obstructive sleep apnea Journal of Clinical Sleep Medicine&nbsp;<a href="https://doi.org/10.5664/jcsm.9730" target="_blank" rel="noopener noreferrer">https://doi.org/10.5664/jcsm.9730</a></li>
+            <li><span>Source:</span>&nbsp;Finnegan A Salem K 2024 Comparative study of hypertension diabetes dementia and smoking in military veterans and non-veterans BMJ Military Health&nbsp;<a href="https://doi.org/10.1136/military-2024-002817" target="_blank" rel="noopener noreferrer">https://doi.org/10.1136/military-2024-002817</a></li>
+            <li><span>Source:</span>&nbsp;Lyons MM Bhatt NY Pack AI Magalang UJ 2020 Global burden of sleep-disordered breathing and its implications Respirology&nbsp;<a href="https://doi.org/10.1111/resp.13838" target="_blank" rel="noopener noreferrer">https://doi.org/10.1111/resp.13838</a></li>
+            <li><span>Source:</span>&nbsp;Watson N et al 2025 Prevalence and unmet need of obstructive sleep apnea in the United States Sleep&nbsp;<a href="https://doi.org/10.1093/sleep/zsaf090.0637" target="_blank" rel="noopener noreferrer">https://doi.org/10.1093/sleep/zsaf090.0637</a></li>
+            <li><span>Source:</span>&nbsp;Ulmer C et al 2021 Prevalence of insomnia disorder and sleep apnea in a sample of veterans at risk for cardiovascular disease Journal of Clinical Sleep Medicine&nbsp;<a href="https://doi.org/10.5664/jcsm.9228" target="_blank" rel="noopener noreferrer">https://doi.org/10.5664/jcsm.9228</a></li>
+            <li><span>Source:</span>&nbsp;Berg Sara 2025 What Doctors Wish Patients Knew About Sleep Apnea American Medical Association&nbsp;<a href="https://www.ama-assn.org/public-health/prevention-wellness/what-doctors-wish-patients-knew-about-sleep-apnea" target="_blank" rel="noopener noreferrer">https://www.ama-assn.org/public-health/prevention-wellness/what-doctors-wish-patients-knew-about-sleep-apnea</a></li>
+            <li><span>Source:</span>&nbsp;Benjafield Adam V et al 2025 Positive Airway Pressure Therapy and All-Cause and Cardiovascular Mortality in People with Obstructive Sleep Apnoea The Lancet Respiratory Medicine&nbsp;<a href="https://doi.org/10.1016/S2213-2600(25)00002-5" target="_blank" rel="noopener noreferrer">https://doi.org/10.1016/S2213-2600(25)00002-5</a></li>
+            <li><span>Source:</span>&nbsp;Adult Obstructive Sleep Apnea Task Force 2009 Clinical Guideline for the Evaluation Management and Long-term Care of Obstructive Sleep Apnea in Adults Journal of Clinical Sleep Medicine&nbsp;<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2699173/" target="_blank" rel="noopener noreferrer">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2699173/</a></li>
+            <li><span>Source:</span>&nbsp;Talking Sleep Sleep Disorders in Military Veterans American Academy of Sleep Medicine&nbsp;<a href="https://aasm.org/talking-sleep-sleep-disorders-in-military-veterans/" target="_blank" rel="noopener noreferrer">https://aasm.org/talking-sleep-sleep-disorders-in-military-veterans/</a></li>
+            <li><span>Source:</span>&nbsp;Physical health and wellness 2025 Wounded Warrior Project&nbsp;<a href="https://www.woundedwarriorproject.org/programs/physical-health-wellness" target="_blank" rel="noopener noreferrer">https://www.woundedwarriorproject.org/programs/physical-health-wellness</a></li>
+            <li><span>Source:</span>&nbsp;AWAKE peer mentor program 2025 Wellness Sleep and Circadian Network&nbsp;<a href="https://www.sleephealth.org/wscn/awake-peer-mentor-program/" target="_blank" rel="noopener noreferrer">https://www.sleephealth.org/wscn/awake-peer-mentor-program/</a></li>
+            <li><span>Source:</span>&nbsp;Order medical supplies 2025 U.S. Department of Veterans Affairs&nbsp;<a href="https://www.va.gov/health-care/order-medical-supplies/#order-hearing-aid-and-cpap-sup" target="_blank" rel="noopener noreferrer">https://www.va.gov/health-care/order-medical-supplies/#order-hearing-aid-and-cpap-sup</a></li>
+            <li><span>Source:</span>&nbsp;VISN 21 sleep clinical resource hub U.S. Department of Veterans Affairs&nbsp;<a href="https://department.va.gov/integrated-service-networks/wp-content/uploads/sites/24/2024/08/Sleep-Clinical-Resource-Hub.pdf" target="_blank" rel="noopener noreferrer">https://department.va.gov/integrated-service-networks/wp-content/uploads/sites/24/2024/08/Sleep-Clinical-Resource-Hub.pdf</a></li>
+            <li><span>Source:</span>&nbsp;Find VA locations U.S. Department of Veterans Affairs&nbsp;<a href="https://www.va.gov/find-locations/" target="_blank" rel="noopener noreferrer">https://www.va.gov/find-locations/</a></li>
+        </ol>
+        </div>
+        </div>
+        </section>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260506T155249Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{46DA5376-10DC-4B66-B464-AFDAA29DE84F}"
+    - ID: "3e700dce-26eb-4bf0-990f-9d9fe555990d"
+      Hint: Excerpt
+      Value: "Military service may increase a person’s risk of developing sleep apnea. The good news? Sleep apnea is a well-understood condition with effective treatment options available. CPAP therapy, along with healthy lifestyle strategies and support, may help veterans improve their sleep and overall well-being."
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: "Sleep Apnea in Veterans: VA Claims, Disability Ratings, and Support"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "c915f85a-9aa2-422b-8a2f-85ce72ff2e43"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: 
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20260506T155249Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260506T155542Z
+    - ID: "e81c4912-a4d2-4466-842c-02f0b2c9dc42"
+      Hint: Title
+      Value: "Sleep Apnea in Veterans: VA Claims, Disability Ratings, and Support"
+- Language: "fr-CA"
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: "On vous présente MOBILE! Finance"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "03117268-f84f-4fd8-ad9e-5990b3a21fe6"
+      Hint: Content
+      Value: |
+        <p><strong>La puissance de MOBILE! Finance</strong></p>
+        <p>MOBILE! Finance est bien plus qu'une simple application financière&mdash;c'est votre compagnon financier ultime, offrant une suite complète de fonctionnalités et d'outils pour vous aider à prendre le contrôle de vos finances avec facilité et confiance. Que vous suiviez vos dépenses, économisiez pour un objectif ou planifiiez votre retraite, MOBILE! Finance a tout ce dont vous avez besoin pour réussir.</p>
+        <p><a href="https://example.com" rel="noopener noreferrer" target="_blank" title="Ouvre dans une nouvelle fenêtre"><img src="-/media/FEAF65D3394846DAB95213780D61AADA.ashx?h=45&amp;w=149" alt="Télécharger MOBILE! Finance depuis l'App Store" style="height: 45px; width: 149px;" /></a>&nbsp;&nbsp;&nbsp;<a href="https://example.com" rel="noopener noreferrer" target="_blank" title="Ouvre dans une nouvelle fenêtre"><img src="-/media/DCDCD7A8F8DA4110BA4FD19FEFFD1465.ashx?h=45&amp;w=151" alt="Google Play" style="height: 45px; width: 151px;" /></a></p>
+        <p><strong><br />
+        Fonctionnalités principales</strong></p>
+        <ul>
+            <li><strong><em>Budget personnalisé</em></strong> : Créez des budgets personnalisés adaptés à votre situation financière unique et suivez vos dépenses en temps réel.</li>
+            <li><strong><em>Épargne basée sur les objectifs</em></strong> : Fixez des objectifs d'épargne pour toutes vos aspirations financières, d'un voyage de rêve à un acompte sur une maison, et suivez vos progrès sans effort.</li>
+            <li><strong><em>Investissement intelligent</em></strong> : Accédez à une gamme d'options et d'outils d'investissement pour vous aider à accroître votre patrimoine et atteindre vos objectifs financiers à long terme.</li>
+            <li><strong><em>Gestion des factures</em></strong> : Ne manquez plus jamais un paiement de facture avec des rappels automatiques et des fonctionnalités de planification des paiements.</li>
+            <li><strong><em>Sécurité et confidentialité</em></strong> : Soyez assuré que vos informations financières sensibles sont protégées par des mesures de sécurité et des protocoles de cryptage de pointe.</li>
+        </ul>
+        <p><strong>Pourquoi choisir MOBILE! Finance?</strong></p>
+        <p>En tant que partie intégrante de la plateforme de banque en ligne de confiance, MOBILE! Finance offre une intégration transparente avec vos comptes bancaires existants, vous offrant une vue d'ensemble de vos finances en un seul endroit pratique. De plus, avec notre interface conviviale et notre design intuitif, gérer votre argent n'a jamais été aussi facile et agréable.</p>
+        <p><strong>Commencez dès aujourd'hui</strong></p>
+        <p>Prêt à prendre le contrôle de vos finances et à débloquer votre potentiel financier? Téléchargez dès maintenant l'application MOBILE! Finance et rejoignez des milliers d'utilisateurs satisfaits qui profitent déjà des avantages de la banque moderne avec PLAY! Finance.</p>
+    - ID: "3e700dce-26eb-4bf0-990f-9d9fe555990d"
+      Hint: Excerpt
+      Value: "Nous sommes ravis de vous présenter MOBILE! Finance, une nouvelle application financière révolutionnaire conçue pour transformer votre façon de gérer vos finances et vos opérations bancaires."
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: "On vous présente MOBILE! Finance"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "f8b12913-9418-46bc-82bc-36e813da0373"
+    - ID: "e81c4912-a4d2-4466-842c-02f0b2c9dc42"
+      Hint: Title
+      Value: "On vous présente MOBILE! Finance : Votre nouvelle application de compagnon financier"
+- Language: "ja-JP"
+  Fields:
+  - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
+    Hint: __Unversioned revision
+    Value: "aa489e4e-e731-4e4e-a5e1-de5ae7a527fc"
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: "MOBILE! Finance の紹介"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "03117268-f84f-4fd8-ad9e-5990b3a21fe6"
+      Hint: Content
+      Value: |
+        <p><strong>MOBILE! Finance の紹介</strong></p>
+        <p>MOBILE! Finance は単なるアプリではありません &mdash; MOBILE! Finance はあなたの究極のファイナンシャル・コンパニオンであり、包括的な機能とツールを提供し、簡単かつ自信を持ってあなたの財政を管理するのに役立ちます。 支出の把握、目標に向けた貯蓄、退職後の生活設計など、MOBILE! Finance はあなたの家計をサポートします！ Financeは、あなたが成功するために必要なすべてを備えています。</p>
+        <p><a href="https://example.com" rel="noopener noreferrer" target="_blank" title="Opens in new window"><img src="-/media/FEAF65D3394846DAB95213780D61AADA.ashx?h=45&amp;w=149" alt="Download MOBILE! Finance from the App Store" style="height: 45px; width: 149px;" /></a>&nbsp;&nbsp;&nbsp;<a href="https://example.com" rel="noopener noreferrer" target="_blank" title="Opens in new window"><img src="-/media/DCDCD7A8F8DA4110BA4FD19FEFFD1465.ashx?h=45&amp;w=151" alt="Google Play" style="height: 45px; width: 151px;" /></a></p>
+        <p><strong><br />
+        主な特徴</strong></p>
+        <ul>
+            <li><strong><em>パーソナライズされた予算管理</em></strong>: 独自の財務状況に合わせてカスタマイズされた予算を作成し、リアルタイムで支出を追跡します。</li>
+            <li><strong><em>目標に基づく貯蓄</em></strong>: 夢の休暇からマイホームの頭金まで、あらゆる経済的な願望に対して貯蓄目標を設定し、進捗状況を簡単に追跡できます。</li>
+            <li><strong><em>賢い投資</em></strong>: お客様の資産を増やし、長期的な財務目標を達成するためのさまざまな投資オプションやツールをご利用いただけます。</li>
+            <li><strong><em>請求書管理</em></strong>: 自動請求リマインダーと支払いスケジュール機能で、請求書の支払いをもう逃しません。</li>
+            <li><strong><em>セキュリティとプライバシー</em></strong>: お客様の重要な財務情報は、最先端のセキュリティ対策と暗号化プロトコルで保護されていますのでご安心ください。</li>
+        </ul>
+        <p><strong>MOBILE! Finance を選ぶ理由</strong></p>
+        <p>信頼できるオンライン・バンキング・プラットフォームの一部として, MOBILE! Finance は、既存の銀行口座とのシームレスな統合を提供し、便利な1つの場所であなたの財政の全体的なビューを提供します。 さらに、ユーザーフレンドリーなインターフェースと直感的なデザインで、お金の管理がかつてないほど簡単で楽しいものになります。</p>
+        <p><strong>今日から始めよう</strong></p>
+        <p>家計を管理し、潜在能力を引き出す準備はできていますか？ MOBILE！ Financeアプリを今すぐダウンロードして、PLAYでモダン・バンキングのメリットを体験し、満足している何千人ものユーザーに加わりましょう！ ファイナンス。</p>
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{13D6CCE7-A6C3-4EE1-A1D9-8A8E34225ED7}"
+    - ID: "3e700dce-26eb-4bf0-990f-9d9fe555990d"
+      Hint: Excerpt
+      Value: MOBILEをご紹介できることを嬉しく思います！ Financeは、銀行取引と財務管理の方法に革命をもたらすように設計された、画期的な新しい財務アプリです。
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: "MOBILE! Finance の紹介"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "79dc2968-1570-4c5e-8127-31dfffcfd4a0"
+    - ID: "e81c4912-a4d2-4466-842c-02f0b2c9dc42"
+      Hint: Title
+      Value: MOBILEのご紹介！ ファイナンス 新しい財務コンパニオンアプリ
+  - Version: 2
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "03117268-f84f-4fd8-ad9e-5990b3a21fe6"
+      Hint: Content
+      Value: |
+        <p><strong>MOBILE! Finance の紹介</strong></p>
+        <p>MOBILE! Finance は単なるアプリではありません &mdash; MOBILE! Finance はあなたの究極のファイナンシャル・コンパニオンであり、包括的な機能とツールを提供し、簡単かつ自信を持ってあなたの財政を管理するのに役立ちます。 支出の把握、目標に向けた貯蓄、退職後の生活設計など、MOBILE! Finance はあなたの家計をサポートします！ Financeは、あなたが成功するために必要なすべてを備えています。</p>
+        <p><a href="https://example.com" rel="noopener noreferrer" target="_blank" title="Opens in new window"><img src="-/media/FEAF65D3394846DAB95213780D61AADA.ashx?h=45&amp;w=149" alt="Download MOBILE! Finance from the App Store" style="height: 45px; width: 149px;" /></a>&nbsp;&nbsp;&nbsp;<a href="https://example.com" rel="noopener noreferrer" target="_blank" title="Opens in new window"><img src="-/media/DCDCD7A8F8DA4110BA4FD19FEFFD1465.ashx?h=45&amp;w=151" alt="Google Play" style="height: 45px; width: 151px;" /></a></p>
+        <p><strong><br />
+        主な特徴</strong></p>
+        <ul>
+            <li><strong><em>パーソナライズされた予算管理</em></strong>: 独自の財務状況に合わせてカスタマイズされた予算を作成し、リアルタイムで支出を追跡します。</li>
+            <li><strong><em>目標に基づく貯蓄</em></strong>: 夢の休暇からマイホームの頭金まで、あらゆる経済的な願望に対して貯蓄目標を設定し、進捗状況を簡単に追跡できます。</li>
+            <li><strong><em>賢い投資</em></strong>: お客様の資産を増やし、長期的な財務目標を達成するためのさまざまな投資オプションやツールをご利用いただけます。</li>
+            <li><strong><em>請求書管理</em></strong>: 自動請求リマインダーと支払いスケジュール機能で、請求書の支払いをもう逃しません。</li>
+            <li><strong><em>セキュリティとプライバシー</em></strong>: お客様の重要な財務情報は、最先端のセキュリティ対策と暗号化プロトコルで保護されていますのでご安心ください。</li>
+        </ul>
+        <p><strong>MOBILE! Finance を選ぶ理由</strong></p>
+        <p>信頼できるオンライン・バンキング・プラットフォームの一部として, MOBILE! Finance は、既存の銀行口座とのシームレスな統合を提供し、便利な1つの場所であなたの財政の全体的なビューを提供します。 さらに、ユーザーフレンドリーなインターフェースと直感的なデザインで、お金の管理がかつてないほど簡単で楽しいものになります。</p>
+        <p><strong>今日から始めよう</strong></p>
+        <p>家計を管理し、潜在能力を引き出す準備はできていますか？ MOBILE！ Financeアプリを今すぐダウンロードして、PLAYでモダン・バンキングのメリットを体験し、満足している何千人ものユーザーに加わりましょう！ ファイナンス。</p>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260506T155249Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{46DA5376-10DC-4B66-B464-AFDAA29DE84F}"
+    - ID: "3e700dce-26eb-4bf0-990f-9d9fe555990d"
+      Hint: Excerpt
+      Value: MOBILEをご紹介できることを嬉しく思います！ Financeは、銀行取引と財務管理の方法に革命をもたらすように設計された、画期的な新しい財務アプリです。
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: "MOBILE! Finance の紹介"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "5ace3de6-42ff-40cb-9720-8fa71683a819"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20260506T155249Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260506T183407Z
+    - ID: "e81c4912-a4d2-4466-842c-02f0b2c9dc42"
+      Hint: Title
+      Value: MOBILEのご紹介！ ファイナンス 新しい財務コンパニオンアプリ

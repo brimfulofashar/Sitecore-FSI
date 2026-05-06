@@ -23,3 +23,6 @@ Languages:
 - Language: en
   Versions:
   - Version: 1
+- Language: "ja-JP"
+  Versions:
+  - Version: 1

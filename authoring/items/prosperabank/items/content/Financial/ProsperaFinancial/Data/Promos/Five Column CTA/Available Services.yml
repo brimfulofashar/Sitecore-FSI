@@ -164,3 +164,66 @@ Languages:
     - ID: "f5e90981-3210-4316-bcf5-f083fe639e66"
       Hint: Text4
       Value: 中小企業
+  - Version: 2
+    Fields:
+    - ID: "12ece9de-445a-42be-a483-9e8095ca3b8f"
+      Hint: Text5
+      Value: クレジットカード
+    - ID: "1d581533-1aa5-4679-9e2a-e7fe765218ba"
+      Hint: Link3
+      Value: |
+        <link class="" id="{B6D8EF4D-8137-4081-B939-7058C1FD944A}" querystring="" anchor="" target="" title="タイトル" linktype="internal" text="テキスト" url="/Financial/ProsperaBank/Home/personal/investing" />
+    - ID: "2490d428-27e2-4daa-8337-4e34f37fc26b"
+      Hint: Link2
+      Value: |
+        <link class="" id="{C63FF335-ABDA-42B1-83FD-18E67881FAAA}" querystring="" anchor="" target="" title="タイトル" linktype="internal" text="テキスト" url="/Financial/ProsperaBank/Home/personal/borrowing/line-of-credit" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251030T165630Z
+    - ID: "41910271-6970-45e7-8819-3d531826d4a6"
+      Hint: Link5
+      Value: |
+        <link class="" id="{D0E2F5F1-E984-4DDD-9A32-BE0D90674E6C}" querystring="" anchor="" target="" title="タイトル" linktype="internal" text="テキスト" url="/Financial/ProsperaBank/Home/personal/borrowing/credit-cards" />
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: 
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "3330c7bd-b393-49fa-8608-9b42d8fb8f74"
+    - ID: "8f49a654-7b7f-4c0b-b6df-d3ce2389c1bf"
+      Hint: Text2
+      Value: クレジットライン
+    - ID: "91d94aff-4137-4702-93f7-8db4eacde4d5"
+      Hint: Text3
+      Value: 投資オプション
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "9ea34c36-7e22-4d12-b632-032361c3b17c"
+      Hint: Text1
+      Value: パーソナルローン
+    - ID: "b867909f-d20c-4c76-b82f-778d25239cd1"
+      Hint: Link1
+      Value: |
+        <link class="" id="{D26AF0F1-5E54-41F0-B026-C96D4D2BEEA3}" querystring="" anchor="" target="" title="タイトル" linktype="internal" text="テキスト" url="/Financial/ProsperaBank/Home/get-a-loan" />
+    - ID: "b8b8fa51-0c41-442e-8757-07b7a59d6d3f"
+      Hint: Link4
+      Value: |
+        <link class="" id="{AF81673A-E745-40B2-8EA7-34E0589693A7}" querystring="" anchor="" target="" title="タイトル" linktype="internal" text="テキスト" url="/Financial/ProsperaBank/Home/business" />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260506T183624Z
+    - ID: "f5e90981-3210-4316-bcf5-f083fe639e66"
+      Hint: Text4
+      Value: 中小企業

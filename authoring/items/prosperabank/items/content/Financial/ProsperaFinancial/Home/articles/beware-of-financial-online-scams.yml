@@ -6,7 +6,7 @@ Path: "/sitecore/content/Financial/ProsperaFinancial/Home/articles/beware-of-fin
 SharedFields:
 - ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
   Hint: __Workflow
-  Value: "{63CC4D0D-63F1-4BFB-BF63-7EC9D231AFA8}"
+  Value: "{A5BC37E7-ED96-4C1E-8590-A26E64DB55EA}"
 - ID: "ad26114f-29dd-4ef9-b5bf-1d64d558872d"
   Hint: BackgroundImage
   Value: |
@@ -15,6 +15,13 @@ SharedFields:
   Hint: Thumbnail
   Value: |
     <image mediaid="{DC72FADF-5C01-44F2-97A8-F0121AB9D5B6}" alt="Online scams - computer screen with code" height="" width="" hspace="" vspace="" />
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{67DA8D92-63F3-47FA-843B-80D432281EE7}" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "5a16c1e7-939c-4bb2-b86f-f264e11227d2"
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Value: |
@@ -45,9 +52,12 @@ SharedFields:
 Languages:
 - Language: en
   Fields:
+  - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
+    Hint: __Unversioned revision
+    Value: "4b30144b-af31-440d-84db-ef91c2adacfc"
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
     Hint: __Display name
-    Value: Beware of financial online scams
+    Value: How CPAP Machines Help Treat Sleep Apnea
   Versions:
   - Version: 1
     Fields:
@@ -82,18 +92,32 @@ Languages:
         <p>Protecting yourself from financial online scams requires awareness, skepticism, and proactive measures to safeguard your personal and financial information. By staying informed and exercising caution when conducting online transactions, you can reduce the risk of falling victim to scams and enjoy a safer online experience.
         </p>
         <p>Remember, if something seems suspicious or too good to be true, it probably is. Stay vigilant, trust your instincts, and always prioritize your financial security.</p>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260506T010802Z
     - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
       Hint: __Workflow state
-      Value: "{13D6CCE7-A6C3-4EE1-A1D9-8A8E34225ED7}"
+      Value: "{FCA998C5-0CC3-4F91-94D8-0A4E6CAECE88}"
     - ID: "3e700dce-26eb-4bf0-990f-9d9fe555990d"
       Hint: Excerpt
       Value: Online financial scams pose a significant threat to individuals' financial security, requiring heightened awareness and caution. Stay vigilant against phishing attempts, investment schemes, and online shopping fraud to protect yourself online.
     - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
       Hint: NavigationTitle
       Value: Beware of financial online scams
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "9a8f4b11-df7d-405f-9baa-6d9e6196dca2"
+      Value: "f3f02255-93e5-4fe2-b85d-5f3ad0098a4d"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260506T010815Z
     - ID: "e81c4912-a4d2-4466-842c-02f0b2c9dc42"
       Hint: Title
       Value: "Protect yourself: Beware of financial online scams"
@@ -143,9 +167,12 @@ Languages:
       Value: "Protégez-vous : Méfiez-vous des arnaques financières en ligne"
 - Language: "ja-JP"
   Fields:
+  - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
+    Hint: __Unversioned revision
+    Value: "67e36933-edd6-4db3-b306-949af1ed0c6f"
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
     Hint: __Display name
-    Value: 金融オンライン詐欺に注意
+    Value: CPAPマシンが睡眠時無呼吸症候群の治療に役立つ方法
   Versions:
   - Version: 1
     Fields:
@@ -184,3 +211,71 @@ Languages:
     - ID: "e81c4912-a4d2-4466-842c-02f0b2c9dc42"
       Hint: Title
       Value: 自分の身は自分で守る： 金融オンライン詐欺に注意
+  - Version: 2
+    Fields:
+    - ID: "03117268-f84f-4fd8-ad9e-5990b3a21fe6"
+      Hint: Content
+      Value: |
+        <p>ますますデジタル化が進む世界では、オンラインでの金融取引の利便性とともに、詐欺や不正行為のリスクも高まっています。技術が進歩するにつれて、サイバー犯罪者の手口も巧妙化しており、個人が自分の大切なお金を守るために警戒し、情報を得ることが不可欠です。ここでは、注意すべき一般的なオンライン金融詐欺と、それを回避するためのヒントをご紹介します。</p>
+        <p><strong>フィッシング詐欺</strong></p>
+        <p>フィッシング詐欺は、信頼できる組織を装って、ユーザー名、パスワード、クレジットカード情報などの機密情報を不正に取得しようとする詐欺行為です。これらの詐欺は、正規のものに見えるが、実際には個人情報を開示させるために設計された偽のメール、テキストメッセージ、またはウェブサイトの形で行われることがよくあります。
+        </p>
+        <p style="margin-left: 40px;"><strong>ヒント</strong>: 個人情報や金融情報を求める未承諾のメールやメッセージには注意してください。送信者の正当性を確認するために、公式ウェブサイトやカスタマーサービスのホットラインなど、公式のチャネルを通じて組織に直接連絡してください。
+        </p>
+        <p><strong>投資詐欺</strong></p>
+        <p>投資詐欺は、ほとんどリスクがなく高いリターンを約束し、迅速に資産を増やしたいと考える人々を狙うことがよくあります。これらの詐欺には、ポンジスキーム、ピラミッドスキーム、または非現実的なリターンや保証された利益を約束する偽の投資機会などの不正な計画が含まれる場合があります。
+        </p>
+        <p style="margin-left: 40px;"><strong>ヒント</strong>: あまりにも良すぎるように聞こえる投資機会には注意してください。徹底的に調査し、投資決定を下す前に信頼できる金融専門家に相談してください。
+        </p>
+        <p><strong>オンラインショッピング詐欺</strong></p>
+        <p>オンラインショッピング詐欺は、魅力的な価格で偽造品や存在しない商品を提供する詐欺的なウェブサイトや販売者を含みます。これらの詐欺により、購入者が商品を受け取れなかったり、広告されていたものと比べて質の低い商品を受け取ったりすることがあります。
+        </p>
+        <p style="margin-left: 40px;"><strong>ヒント</strong>: 信頼できるウェブサイトからのみ購入し、あまりにも良すぎるように見える取引には注意してください。安全な支払いオプションを探し、購入前に他の顧客のレビューを確認してください。
+        </p>
+        <p><strong>ロマンス詐欺</strong></p>
+        <p>ロマンス詐欺は、潜在的なロマンチックなパートナーを装い、信頼を築き、被害者にお金や個人情報を送らせるよう操作する詐欺です。これらの詐欺は、ソーシャルメディアプラットフォーム、出会い系ウェブサイト、またはオンラインフォーラムで、仲間を求める脆弱な個人を標的にすることがよくあります。
+        </p>
+        <p style="margin-left: 40px;"><strong>ヒント</strong>: 特に金銭的な援助を求めたり、関係の初期段階で個人情報を開示したりする場合、オンラインでのコミュニケーションには注意してください。見知らぬ人と機密情報を共有するのは避け、さらに関与する前に他の手段で身元を確認することを検討してください。
+        </p>
+        <p><strong>結論</strong></p>
+        <p>金融オンライン詐欺から身を守るには、意識、懐疑心、そして個人情報や金融情報を保護するための積極的な対策が必要です。情報を得て、オンライン取引を行う際に注意を払うことで、詐欺の被害に遭うリスクを減らし、より安全なオンライン体験を楽しむことができます。
+        </p>
+        <p>疑わしい、またはあまりにも良すぎるように見える場合、それはおそらくそうです。警戒を怠らず、自分の直感を信じ、常に金融の安全を最優先に考えてください。</p>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260506T010802Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{FCA998C5-0CC3-4F91-94D8-0A4E6CAECE88}"
+    - ID: "3e700dce-26eb-4bf0-990f-9d9fe555990d"
+      Hint: Excerpt
+      Value: オンライン金融詐欺は、個人の金融セキュリティに重大な脅威をもたらし、意識と注意が必要です。フィッシング詐欺、投資スキーム、オンラインショッピング詐欺に警戒し、オンラインで自分を守りましょう。
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: 金融オンライン詐欺に注意
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: 
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "9369fd96-f5bd-46dd-a992-9d7c64689cd6"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260506T183427Z
+    - ID: "e81c4912-a4d2-4466-842c-02f0b2c9dc42"
+      Hint: Title
+      Value: "自分を守る: 金融オンライン詐欺に注意"

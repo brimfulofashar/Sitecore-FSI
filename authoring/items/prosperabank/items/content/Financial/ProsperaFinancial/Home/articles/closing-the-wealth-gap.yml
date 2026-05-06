@@ -6,7 +6,7 @@ Path: "/sitecore/content/Financial/ProsperaFinancial/Home/articles/closing-the-w
 SharedFields:
 - ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
   Hint: __Workflow
-  Value: "{63CC4D0D-63F1-4BFB-BF63-7EC9D231AFA8}"
+  Value: "{A5BC37E7-ED96-4C1E-8590-A26E64DB55EA}"
 - ID: "ad26114f-29dd-4ef9-b5bf-1d64d558872d"
   Hint: BackgroundImage
   Value: |
@@ -18,6 +18,13 @@ SharedFields:
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
   Value: 500
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{FFBDE394-1D5B-46CB-8310-003684B27F24}" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "26f6c5f0-fac0-4f00-8f9d-02f4c96dd4a4"
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Value: |
@@ -40,9 +47,12 @@ SharedFields:
 Languages:
 - Language: en
   Fields:
+  - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
+    Hint: __Unversioned revision
+    Value: "b6c6ad60-37eb-44c4-adeb-757d6e3934e9"
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
     Hint: __Display name
-    Value: Bridging the wealth divide
+    Value: Can Surgery Fix Sleep Apnea
   Versions:
   - Version: 1
     Fields:
@@ -69,18 +79,32 @@ Languages:
         <p><strong>Towards a More Equitable Future</strong></p>
         <p>Closing the wealth gap is not only a moral imperative but also an economic necessity for building a more just and sustainable society. By addressing systemic inequalities, empowering individuals and communities, and promoting diversity and inclusion, we can work together to create a future where everyone has the opportunity to thrive and prosper, regardless of their background or circumstances.</p>
         <p><em>Join us in our commitment to closing the wealth gap and building a more equitable world for generations to come.</em></p>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260506T010941Z
     - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
       Hint: __Workflow state
-      Value: "{13D6CCE7-A6C3-4EE1-A1D9-8A8E34225ED7}"
+      Value: "{FCA998C5-0CC3-4F91-94D8-0A4E6CAECE88}"
     - ID: "3e700dce-26eb-4bf0-990f-9d9fe555990d"
       Hint: Excerpt
       Value: Explore the complexities of the wealth gap and discover actionable steps towards a more equitable future. Join us in the commitment to closing the gap and building a world where everyone has the opportunity to thrive.
     - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
       Hint: NavigationTitle
       Value: Bridging the wealth divide
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "edcfdbce-bdeb-4ae6-8031-8d18c9b6cd43"
+      Value: "3bde40b2-1710-4abb-b5f3-d2a0c574317a"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260506T010941Z
     - ID: "e81c4912-a4d2-4466-842c-02f0b2c9dc42"
       Hint: Title
       Value: Bridging the wealth divide
@@ -130,9 +154,12 @@ Languages:
       Value: Réduire l'écart de richesse
 - Language: "ja-JP"
   Fields:
+  - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
+    Hint: __Unversioned revision
+    Value: "579457be-1adb-426f-b2e2-8402541201e5"
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
     Hint: __Display name
-    Value: 貧富の格差を埋める
+    Value: 手術で睡眠時無呼吸症候群を治せるか
   Versions:
   - Version: 1
     Fields:
@@ -176,3 +203,63 @@ Languages:
     - ID: "e81c4912-a4d2-4466-842c-02f0b2c9dc42"
       Hint: Title
       Value: 貧富の格差を埋める
+  - Version: 2
+    Fields:
+    - ID: "03117268-f84f-4fd8-ad9e-5990b3a21fe6"
+      Hint: Content
+      Value: |
+        <p>富の格差を解消することは、経済的正義とすべての人々の繁栄を実現するための最重要課題となっています。富の格差の複雑さ、その広範な影響、そしてより公平な富の分配に向けて個人やコミュニティが取るべき具体的な行動について探ってみましょう。</p>
+        <p><strong>富の格差を理解する</strong></p>
+        <p>
+        富の格差とは、社会内の異なる社会経済的グループ間における資産と富の分配の格差を指します。この格差は、所得格差、制度的障壁、差別的慣行、歴史的不正などの要因によって影響を受け、不平等な機会と資源へのアクセスをもたらします。
+        </p>
+        <p><strong>富の格差の影響</strong></p>
+        <p>
+        富の格差の影響は、財政的不平等を超えて、教育、医療、住宅、経済的移動性など、個人の生活のさまざまな側面に影響を及ぼします。不平等は貧困と疎外の連鎖を永続させ、社会的移動性を妨げ、経済成長とイノベーションを抑制します。</p>
+        <p><strong>富の格差への対処</strong></p>
+        <p>富の格差を解消するには、不平等に寄与する制度的および個別的要因の両方に対処する多面的なアプローチが必要です。累進課税、富の再分配、社会プログラムへの投資などの政府政策は、公平な競争の場を整え、疎外されたコミュニティに機会を創出する上で重要な役割を果たします。</p>
+        <p><strong>個人とコミュニティのエンパワーメント</strong></p>
+        <p>政策介入に加えて、教育、金融リテラシー、起業の機会、富構築のリソースへのアクセスを提供することで、個人とコミュニティをエンパワーすることが、富の格差を埋めるために不可欠です。教育とスキル訓練への投資は、個人がより高収入の仕事を確保し、世代を超えた富を築くためのツールと知識を提供します。</p>
+        <p><strong>多様性と包括性の促進</strong></p>
+        <p>ビジネス、学術、政府を含む社会のすべての分野で多様性と包括性を促進することは、誰もが成功する平等な機会を持つ環境を作り出すために不可欠です。多様性を受け入れることは、イノベーション、創造性、協力を促進し、すべての人々にとって経済成長と繁栄をもたらします。</p>
+        <p><strong>より公平な未来に向けて</strong></p>
+        <p>富の格差を解消することは、道徳的な義務であるだけでなく、より公正で持続可能な社会を構築するための経済的必要性でもあります。制度的不平等に対処し、個人とコミュニティをエンパワーし、多様性と包括性を促進することによって、私たちはすべての人がその背景や状況に関係なく繁栄し成功する機会を持つ未来を共に創造することができます。</p>
+        <p><em>富の格差を解消し、次世代のためにより公平な世界を構築するという私たちのコミットメントにぜひご参加ください。</em></p>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260506T010941Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{FCA998C5-0CC3-4F91-94D8-0A4E6CAECE88}"
+    - ID: "3e700dce-26eb-4bf0-990f-9d9fe555990d"
+      Hint: Excerpt
+      Value: 富の格差の複雑さを探り、より公平な未来に向けた具体的な行動を見つけましょう。格差を解消し、すべての人が繁栄する機会を持つ世界を構築するというコミットメントにぜひご参加ください。
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: 富の格差を埋める
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: 
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "915011de-a172-4fa3-9bdb-a5cd3264a541"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260506T183428Z
+    - ID: "e81c4912-a4d2-4466-842c-02f0b2c9dc42"
+      Hint: Title
+      Value: 富の格差を埋める

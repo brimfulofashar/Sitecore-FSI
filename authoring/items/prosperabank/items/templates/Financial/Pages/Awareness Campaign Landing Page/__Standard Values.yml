@@ -1,0 +1,53 @@
+﻿---
+ID: "083f21d6-9674-4aef-9e47-514253a4de76"
+Parent: "ec324140-8627-4cf1-8056-5f5e742a5d4d"
+Template: "ec324140-8627-4cf1-8056-5f5e742a5d4d"
+Path: /sitecore/templates/Project/Financial/Pages/Awareness Campaign Landing Page/__Standard Values
+SharedFields:
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "3ece8205-9782-4ca1-99d9-a66ea7147aee"
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        l="{96E5F4BA-A2CF-4A4C-A4E7-64DA88226362}">
+        <r
+          id="{381A60B7-8E4F-48D3-8DE1-9B0467A85EE4}"
+          par="CSSStyles"
+          ph="headless-header"
+          uid="{CF41339F-2078-40E8-B40C-0C7720702327}" />
+        <r
+          id="{9B8392B1-8443-48F2-8C23-7A7B439636FC}"
+          ph="headless-main"
+          uid="{129C16F9-CE0C-423E-9C31-B50429146416}" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260506T140225Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "fb037d15-9521-413e-8e69-74e68c1f59b9"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260506T145702Z

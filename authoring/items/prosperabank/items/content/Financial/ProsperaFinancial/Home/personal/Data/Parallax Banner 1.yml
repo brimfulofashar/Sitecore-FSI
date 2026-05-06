@@ -125,3 +125,49 @@ Languages:
     - ID: "f34c6976-7e76-490b-a91e-5977db4a2208"
       Hint: Title
       Value: 私たちと一緒に貯蓄を増やしましょう！
+  - Version: 2
+    Fields:
+    - ID: "143cb4dc-b0b5-46ae-98b1-b16900ec79f6"
+      Hint: Text
+      Value: 大きな人生のイベントのための貯蓄、退職後の計画、または堅実な財務基盤を築くために、私たちの専門アドバイザーがあらゆるステップであなたをサポートします。
+    - ID: "1fbdde82-0dd2-46ad-a636-0d5e714dd086"
+      Hint: ForegroundImage
+      Value: |
+        <image height="" mediaid="{719649FD-F937-4ADD-8E17-6915F6F67472}" vspace="" hspace="" alt="カウンターの上の植物" width="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20251030T165635Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: 
+    - ID: "5ba03d3f-ffbc-412e-80ff-6dd0fe312042"
+      Hint: Link
+      Value: |
+        <link class="" id="{0B45C71D-61AE-44F3-9F7D-6C88185F0B15}" querystring="" anchor="" target="" title="" linktype="internal" text="詳細はこちら" url="/Financial/ProsperaBank/Home/articles" />
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "308b20d9-9c41-46cc-9459-28b78fe40c9e"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "a54476a3-eb25-4a1a-a521-e702f1372b8f"
+      Hint: BackgroundImage
+      Value: |
+        <image height="" mediaid="{EE13D176-D0CF-4B45-9F1D-93D1F797CF4D}" vspace="" hspace="" alt="背景テクスチャ" width="" />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260506T183530Z
+    - ID: "f34c6976-7e76-490b-a91e-5977db4a2208"
+      Hint: Title
+      Value: 私たちと一緒に貯蓄を増やしましょう！

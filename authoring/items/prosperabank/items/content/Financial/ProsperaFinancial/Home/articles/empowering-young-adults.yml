@@ -6,7 +6,7 @@ Path: "/sitecore/content/Financial/ProsperaFinancial/Home/articles/empowering-yo
 SharedFields:
 - ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
   Hint: __Workflow
-  Value: "{63CC4D0D-63F1-4BFB-BF63-7EC9D231AFA8}"
+  Value: "{A5BC37E7-ED96-4C1E-8590-A26E64DB55EA}"
 - ID: "ad26114f-29dd-4ef9-b5bf-1d64d558872d"
   Hint: BackgroundImage
   Value: |
@@ -20,7 +20,11 @@ SharedFields:
   Value: 400
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail
-  Value: 
+  Value: |
+    <image mediaid="{FFA1BA14-958B-40EF-98D9-2F9F3A622D78}" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "6a473996-e1ba-48f9-a69e-509fa0c04324"
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Value: |
@@ -40,9 +44,12 @@ SharedFields:
 Languages:
 - Language: en
   Fields:
+  - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
+    Hint: __Unversioned revision
+    Value: "76e01f9f-207c-4593-b3f3-43ebe7386326"
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
     Hint: __Display name
-    Value: Empowering young adults
+    Value: Sleep Apnea and Blood Pressure
   Versions:
   - Version: 1
     Fields:
@@ -69,18 +76,32 @@ Languages:
         </p>
         <p>
         <em><strong>Are you ready to take control of your financial future? Join us at PLAY! Finance and embark on a journey toward financial empowerment today!</strong></em></p>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260506T010909Z
     - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
       Hint: __Workflow state
-      Value: "{13D6CCE7-A6C3-4EE1-A1D9-8A8E34225ED7}"
+      Value: "{FCA998C5-0CC3-4F91-94D8-0A4E6CAECE88}"
     - ID: "3e700dce-26eb-4bf0-990f-9d9fe555990d"
       Hint: Excerpt
       Value: "Financial literacy is key to unlocking opportunities and achieving long-term goals. We've developed a comprehensive program designed specifically for young adults, providing them with the tools, resources, and knowledge they need to succeed."
     - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
       Hint: NavigationTitle
       Value: Empowering young adults
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "0b378e4d-1083-42cb-9fcf-74656f4a2289"
+      Value: "23fdc197-4362-43fd-a178-b03b62e77084"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260506T010909Z
     - ID: "e81c4912-a4d2-4466-842c-02f0b2c9dc42"
       Hint: Title
       Value: "Empowering young adults: Control of your financial future"
@@ -127,9 +148,12 @@ Languages:
       Value: "Autonomiser les jeunes adultes : Prendre le contrôle de votre avenir financier"
 - Language: "ja-JP"
   Fields:
+  - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
+    Hint: __Unversioned revision
+    Value: "7d3c5287-e577-442a-8087-1cf16239c4c9"
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
     Hint: __Display name
-    Value: 若年層に力を与える
+    Value: 睡眠時無呼吸症候群と血圧
   Versions:
   - Version: 1
     Fields:
@@ -170,3 +194,63 @@ Languages:
     - ID: "e81c4912-a4d2-4466-842c-02f0b2c9dc42"
       Hint: Title
       Value: 若い大人に力を与える： 経済的な未来をコントロールする
+  - Version: 2
+    Fields:
+    - ID: "03117268-f84f-4fd8-ad9e-5990b3a21fe6"
+      Hint: Content
+      Value: |
+        <p>経済的自立が成功の鍵となる現代社会において、若者たちは必要な指導や支援がないまま、複雑な財務判断の迷路を進むことがよくあります。この課題を認識し、PLAY! Financeは若者が自分の財務を管理し、将来のための確固たる基盤を築くことを目指した変革的なイニシアチブを誇りを持って紹介します。</p>
+        <p>
+        <strong>インタラクティブな教育ワークショップ</strong></p>
+        <p>私たちのプログラムには、予算管理、貯蓄、投資、借金管理などの重要な財務トピックをカバーする一連のインタラクティブなワークショップやセミナーが含まれています。業界の専門家が主導するこれらのセッションは、参加者が日常生活で実践できる実用的なスキルを身につけられるよう、魅力的で情報豊富、かつ実行可能な内容となっています。</p>
+        <p><strong>デジタル学習リソース</strong></p>
+        <p>対面ワークショップに加え、参加者は私たちのプラットフォーム上で利用可能な豊富なデジタル学習リソースにアクセスできます。記事や動画からインタラクティブなモジュールやクイズまで、オンラインリソースは幅広い金融リテラシートピックをカバーしており、若者が自分のペースで、自分のスケジュールに合わせて学ぶことができます。</p>
+        <p><strong>メンターシップとコーチング</strong></p>
+        <p>メンターシップは個人および職業的成長のための強力なツールであると私たちは信じています。そのため、私たちはメンターシップとコーチングの機会を提供し、若者を経験豊富なメンターとペアリングし、個々の財務目標や状況に合わせたガイダンス、サポート、そして個別のアドバイスを提供します。</p>
+        <p><strong>コミュニティエンゲージメント</strong></p>
+        <p>支援的なコミュニティを構築することは成功のために不可欠です。私たちのプログラムは若者同士のつながりを促進し、仲間とつながり、経験を共有し、お互いの成功や課題から学ぶためのプラットフォームを提供します。協力と相互支援を通じて、若者たちがより大きな財務的エンパワーメントを達成できると信じています。
+        </p>
+        <p>
+        <strong>結論</strong></p>
+        <p>PLAY! Financeでは、若者が自分の財務の未来を管理できるよう支援することに尽力しています。彼らが情報に基づいた意思決定を行うために必要な知識、ツール、サポートを提供することで、目標や願望を達成し、長期的な成功と繁栄への道を歩む手助けができると信じています。
+        </p>
+        <p>
+        <em><strong>あなたも自分の財務の未来を管理する準備はできていますか？PLAY! Financeに参加して、今日から財務的エンパワーメントへの旅を始めましょう！</strong></em></p>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260506T010909Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{FCA998C5-0CC3-4F91-94D8-0A4E6CAECE88}"
+    - ID: "3e700dce-26eb-4bf0-990f-9d9fe555990d"
+      Hint: Excerpt
+      Value: 金融リテラシーは、機会を切り開き、長期的な目標を達成するための鍵です。私たちは、若者が成功するために必要なツール、リソース、知識を提供することを目的とした包括的なプログラムを開発しました。
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: 若者をエンパワーメント
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: 
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "0a5d65cc-758d-4b80-ba18-a1184dd2114d"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260506T183428Z
+    - ID: "e81c4912-a4d2-4466-842c-02f0b2c9dc42"
+      Hint: Title
+      Value: 若者をエンパワーメント：あなたの財務の未来を管理する

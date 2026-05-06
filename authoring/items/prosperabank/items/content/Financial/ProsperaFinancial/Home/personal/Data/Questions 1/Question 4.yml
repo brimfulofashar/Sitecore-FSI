@@ -48,3 +48,37 @@ Languages:
     - ID: "ef205dfd-6af2-4514-b694-77efa748f951"
       Hint: Answer
       Value: 当ウェブサイトでは、クレジット・スコアの理解と向上に役立つクレジット・モニタリング・ツールや教育リソースへのアクセスを提供しています。 時間の経過に伴うスコアの変化を追跡したり、詐欺やなりすましの可能性に関するアラートを受信したり、信用力を高めるための個別のヒントにアクセスしたりすることができます。 ゼロから信用を築こうとしている方にも、スコアアップを目指している方にも、あらゆるステップでサポートいたします。
+  - Version: 2
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260506T183650Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: 
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "ba09c206-382e-488f-82d1-ae10ab0289c3"
+    - ID: "93ba0221-aa2a-4a04-b8f6-39c2ab65c694"
+      Hint: Question
+      Value: クレジットスコアを追跡し向上させるために、どのようなツールやリソースを提供していますか？
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260506T183650Z
+    - ID: "ef205dfd-6af2-4514-b694-77efa748f951"
+      Hint: Answer
+      Value: 私たちのウェブサイトでは、クレジットモニタリングツールや教育リソースへのアクセスを提供し、クレジットスコアを理解し向上させるお手伝いをします。スコアの変化を時間とともに追跡し、詐欺やアイデンティティ盗難の可能性についてのアラートを受け取り、クレジット価値を高めるための個別のヒントにアクセスできます。クレジットをゼロから構築する場合でも、スコアを上げることを目指している場合でも、私たちはそのすべてのステップでサポートします。

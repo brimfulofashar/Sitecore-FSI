@@ -18,6 +18,13 @@ SharedFields:
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
   Value: 600
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{A303889D-5A1F-4661-B4EA-8A7AEEBDCE1F}" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "492d9313-2465-45a0-bff3-4170d1952b57"
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Value: |
@@ -135,9 +142,12 @@ Languages:
       Value: "Commencer votre parcours de retraite : 5 conseils pour les nouveaux retraités"
 - Language: "ja-JP"
   Fields:
+  - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
+    Hint: __Unversioned revision
+    Value: "3d591b47-8534-49f8-bb8b-d6cc37425457"
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
     Hint: __Display name
-    Value: 新規退職者のための5つのヒント
+    Value: 新しい退職者のための5つのヒント
   Versions:
   - Version: 1
     Fields:
@@ -181,3 +191,68 @@ Languages:
     - ID: "e81c4912-a4d2-4466-842c-02f0b2c9dc42"
       Hint: Title
       Value: 引退後の旅立ち 新規退職者のための5つのヒント
+  - Version: 2
+    Fields:
+    - ID: "03117268-f84f-4fd8-ad9e-5990b3a21fe6"
+      Hint: Content
+      Value: |
+        <p>退職は人生の新たな章の始まりです&mdash;自由、機会、新しい冒険に満ちた章です。このエキサイティングな旅を始めるにあたり、退職後の生活を最大限に活用するための知識とリソースを備えておくことが重要です。
+        </p>
+        <p><strong>1. 財務計画</strong>
+        </p>
+        <p>退職の準備を始める最初のステップの1つは、包括的な財務計画を作成することです。退職金、投資、収入源を評価し、ライフスタイルや目標に合った予算を決定します。退職計画が長期的に堅実で持続可能であることを確認するために、ファイナンシャルアドバイザーに相談することを検討してください。</p>
+        <p>
+        <strong>2. 医療保険のカバレッジ</strong>
+        </p>
+        <p>医療費は退職後の大きな出費となる可能性があるため、医療保険の選択肢を理解することが重要です。メディケアの対象となる場合は、利用可能なさまざまなパートやカバレッジオプションをよく理解してください。補足保険プランを検討して、カバレッジのギャップを埋め、予期しない医療費から自分を守りましょう。</p>
+        <p><strong>3. 社会保障給付</strong></p>
+        <p>社会保障給付がどのように機能するか、そしていつ受給を開始するのが最適かを理解してください。62歳から給付を受け始めることができますが、退職を遅らせることで月々の給付額を増やすことができます。受給開始時期について決定する前に、財務状況と退職目標を慎重に検討してください。</p>
+        <p>
+        <strong>4. ライフスタイルの調整</strong></p>
+        <p>退職は、時間の使い方や財務管理の両面で大きなライフスタイルの変化を伴うことがよくあります。優先事項、興味、退職後の目標を評価し、それに応じてライフスタイルを調整する時間を取りましょう。新しい趣味、旅行の機会、地域社会で活発に関与する方法を探求してください。</p>
+        <p>
+        <strong>5. 遺産計画</strong></p>
+        <p>遺産計画は、多くの人が見落としがちな退職計画の重要な側面です。遺言、信託、委任状を含む遺産計画を見直し、自分の意思が文書化され、資産が保護されていることを確認してください。必要に応じて受益者を更新し、財務および医療の決定を代わりに行う人を指名することを検討してください。</p>
+        <p>
+        <strong>結論</strong></p>
+        <p>退職は、新しい経験を受け入れ、努力の成果を楽しむ機会を提供するエキサイティングな節目となります。退職の計画と準備に時間をかけることで、スムーズな移行を確保し、充実した経済的に安定した未来を築くことができます。情報を常に把握し、積極的に関与し、この新しい人生の章を始める際にあらゆる瞬間を最大限に活用してください。
+        </p>
+        <p><strong><em>退職の旅を始める準備はできていますか？成功する退職計画を立てるために、ぜひ私たちにお問い合わせください。</em></strong></p>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260506T010603Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{13D6CCE7-A6C3-4EE1-A1D9-8A8E34225ED7}"
+    - ID: "3e700dce-26eb-4bf0-990f-9d9fe555990d"
+      Hint: Excerpt
+      Value: 退職の計画を始めたばかりの方も、最近退職された方も、安心して自信を持ってこの移行を乗り越えるための重要なヒントをご紹介します。
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: 新しい退職者のための5つのヒント
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: 
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "d02911a7-3f49-490c-ba0a-ecb128dd2731"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260506T183428Z
+    - ID: "e81c4912-a4d2-4466-842c-02f0b2c9dc42"
+      Hint: Title
+      Value: "退職の旅を始める: 新しい退職者のための5つのヒント"

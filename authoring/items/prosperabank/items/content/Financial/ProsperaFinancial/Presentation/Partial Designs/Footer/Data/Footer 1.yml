@@ -176,3 +176,100 @@ Languages:
     - ID: "f17614b2-487a-472c-a509-3e56df0930d4"
       Hint: Title4
       Value: ヘルプ & サポート
+  - Version: 2
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "24fe8274-d95f-439f-9aeb-6c240759ab6b"
+      Hint: Text1
+      Value: |
+        <div class="ck-content"><p><a href="~/link.aspx?_id=312D7889330C49E69A8B6C97A06268E0&amp;_z=z">Resmedについて</a></p><p><a href="~/link.aspx?_id=5D60619D833B44F3AA73CA51FE3A0F3C&amp;_z=z">経営陣</a></p><p><a href="~/link.aspx?_id=38E1734C163E47E3B51FA5EE2AB85BA6&amp;_z=z">環境方針</a></p><p><a href="~/link.aspx?_id=38E1734C163E47E3B51FA5EE2AB85BA6&amp;_z=z">採用情報</a></p><p><a href="~/link.aspx?_id=38E1734C163E47E3B51FA5EE2AB85BA6&amp;_z=z">ニュースルーム</a></p><p><a href="~/link.aspx?_id=38E1734C163E47E3B51FA5EE2AB85BA6&amp;_z=z">サプライヤー</a></p><p><a href="~/link.aspx?_id=38E1734C163E47E3B51FA5EE2AB85BA6&amp;_z=z">製品サポート</a></p><p><a href="~/link.aspx?_id=38E1734C163E47E3B51FA5EE2AB85BA6&amp;_z=z">製品登録</a></p><p><a href="~/link.aspx?_id=38E1734C163E47E3B51FA5EE2AB85BA6&amp;_z=z">Resmed医療専門家向けプライバシー通知</a></p><p><a href="~/link.aspx?_id=38E1734C163E47E3B51FA5EE2AB85BA6&amp;_z=z">Resmedよくある質問</a></p><p><a href="~/link.aspx?_id=38E1734C163E47E3B51FA5EE2AB85BA6&amp;_z=z">研究への参加</a></p></div>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260505T161852Z
+    - ID: "33526cb5-70d7-401e-bb5c-fdd6c2c974c2"
+      Hint: SocialIcon2
+      Value: |
+        <image mediaid="{B5E0C7F5-5693-4875-B68F-70B99E7F34EF}" alt="instagram" />
+    - ID: "342fb66b-0e4b-419d-ba86-2355e33ee1bf"
+      Hint: Title1
+      Value: 便利なリンク
+    - ID: "4770eb87-8856-4251-b831-6c8522c39da1"
+      Hint: Copyright
+      Value: Copyright © Sitecore
+    - ID: "4bf70960-7097-4f87-a67a-8a7e87d1cd01"
+      Hint: Text4
+      Value: |
+        <div class="ck-content"><p><a href="/?utm_campaign=business">法務および知的財産</a></p><p><a href="/?utm_campaign=retirement">消費者健康データ</a></p><p><a href="/?utm_campaign=retirement">セキュリティ</a></p><p><a href="/?utm_campaign=retirement">プライバシーポリシー</a></p><p><a href="/?utm_campaign=retirement">利用規約</a></p><p><a href="/?utm_campaign=retirement">SMS利用規約</a></p><p><a href="/?utm_campaign=retirement">お問い合わせ</a></p></div>
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: 
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "63ec28c9-bceb-4180-ba86-5a6b3c975d52"
+      Hint: Link1
+      Value: |
+        <link class="" target="" title="" linktype="external" text="プライバシーポリシー" url="https://www.sitecore.com/legal/privacy-policy" />
+    - ID: "798d70ab-9044-4c10-8792-8879857b22ac"
+      Hint: Link2
+      Value: |
+        <link class="" target="" title="" linktype="external" text="利用規約" url="https://www.sitecore.com/legal" />
+    - ID: "7ce64d4f-9943-4db3-92f2-882703a73e83"
+      Hint: SocialLink2
+      Value: |
+        <link text="Instagram" linktype="external" url="https://instagram.com/" anchor="" target="" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "4a6d976e-9944-49c0-a6a1-0f592723455b"
+    - ID: "92612ddf-b3fd-4597-a655-de6da2eb553f"
+      Hint: Text3
+      Value: |
+        <div class="ck-content"><p><a href="~/link.aspx?_id=D26AF0F15E5441F0B026C96D4D2BEEA3&amp;_z=z">ニュースルーム</a>&nbsp;</p><p><a href="~/link.aspx?_id=0B45C71D61AE44F39F7D6C88185F0B15&amp;_z=z">ブログ</a></p><p><a href="~/link.aspx?_id=8C2D676591BE4BD8A0B34F81256E75A6&amp;_z=z">リソース</a></p></div>
+    - ID: "940de628-0ffa-4d7b-8ffb-187fe90c760a"
+      Hint: SocialIcon3
+      Value: |
+        <image mediaid="{D7668912-4C04-4881-8C8B-3EEDBC4277A6}" alt="twitter" />
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "9b41e129-1410-48d0-832e-d812d38fc892"
+      Hint: SocialLink3
+      Value: |
+        <link text="Twitter" linktype="external" url="https://www.x.com/" anchor="" target="" />
+    - ID: "9bab16e3-3b9d-425e-8adc-06c0838f7706"
+      Hint: SocialsTitle
+      Value: 共有する
+    - ID: "af34efbc-ee7c-4106-8772-c851c58b7b56"
+      Hint: SocialLink1
+      Value: |
+        <link text="Facebook" linktype="external" url="https://www.facebook.com/" anchor="" target="" />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 
+    - ID: "ca370d33-63e1-4e1b-986d-fe82ae23027c"
+      Hint: Text2
+      Value: |
+        <div class="ck-content"><p><a href="~/link.aspx?_id=406FD98C50E44F3090E46245498A2D10&amp;_z=z">お問い合わせ</a></p><p><a href="~/link.aspx?_id=AF81673AE74540B28EA734E0589693A7&amp;_z=z">eshop</a></p><p><a href="~/link.aspx?_id=524F5CD24FB9437DB733CF5861B8CED3&amp;_z=z">従業員エンゲージメント</a></p><p><a href="~/link.aspx?_id=524F5CD24FB9437DB733CF5861B8CED3&amp;_z=z">倫理とコンプライアンス</a></p><p><a href="~/link.aspx?_id=524F5CD24FB9437DB733CF5861B8CED3&amp;_z=z">投資家</a></p><p><a href="~/link.aspx?_id=524F5CD24FB9437DB733CF5861B8CED3&amp;_z=z">従業員エンゲージメント</a></p><p><a href="~/link.aspx?_id=524F5CD24FB9437DB733CF5861B8CED3&amp;_z=z">倫理とコンプライアンス</a></p><p><a href="~/link.aspx?_id=524F5CD24FB9437DB733CF5861B8CED3&amp;_z=z">投資家</a></p><p><a href="~/link.aspx?_id=524F5CD24FB9437DB733CF5861B8CED3&amp;_z=z">企業パートナーシップ</a></p><p><a href="~/link.aspx?_id=524F5CD24FB9437DB733CF5861B8CED3&amp;_z=z">CPAP交換部品</a></p><p><a href="~/link.aspx?_id=524F5CD24FB9437DB733CF5861B8CED3&amp;_z=z">Kontor</a></p><p><a href="~/link.aspx?_id=524F5CD24FB9437DB733CF5861B8CED3&amp;_z=z">製品保証情報</a></p><p><a href="~/link.aspx?_id=524F5CD24FB9437DB733CF5861B8CED3&amp;_z=z">オフィスと販売代理店</a></p><p><a href="~/link.aspx?_id=524F5CD24FB9437DB733CF5861B8CED3&amp;_z=z">抗肥満薬と閉塞性睡眠時無呼吸</a></p><p><a href="~/link.aspx?_id=524F5CD24FB9437DB733CF5861B8CED3&amp;_z=z">24/7デジタルアシスタント</a></p></div>
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260506T183825Z
+    - ID: "dcf0b02e-fa59-48c0-bc92-5bce6ddfde18"
+      Hint: SocialIcon1
+      Value: |
+        <image mediaid="{37E8F17D-5AA1-4AF4-9CB1-45C4F07BDD4C}" alt="facebook" />
+    - ID: "e71e7e6c-29a7-4a9a-a7f8-a4e29609cb64"
+      Hint: Title2
+      Value: 
+    - ID: "ee146d7d-5c17-47f9-acf4-1583573db084"
+      Hint: Title3
+      Value: リソース
+    - ID: "f17614b2-487a-472c-a509-3e56df0930d4"
+      Hint: Title4
+      Value: 接続する

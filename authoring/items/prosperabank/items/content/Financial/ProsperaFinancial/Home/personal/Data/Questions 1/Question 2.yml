@@ -48,3 +48,37 @@ Languages:
     - ID: "ef205dfd-6af2-4514-b694-77efa748f951"
       Hint: Answer
       Value: 当行では、普通預金口座、当座預金口座、マネーマーケット口座など、さまざまな金融ニーズに合わせた口座をご用意しています。 お客様に最適な口座は、短期的・長期的な財務目標、支出の習慣、利用しやすさや金利の好みなどの要素によって異なります。 お客様の目的に合った口座を見つけるお手伝いをいたします。
+  - Version: 2
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260506T183650Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: 
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "88bb9e78-6868-4f33-b1d2-67be4d5514f3"
+    - ID: "93ba0221-aa2a-4a04-b8f6-39c2ab65c694"
+      Hint: Question
+      Value: どのような種類の口座を提供していますか？また、私の財務目標に最適な口座はどれですか？
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260506T183650Z
+    - ID: "ef205dfd-6af2-4514-b694-77efa748f951"
+      Hint: Answer
+      Value: 私たちは、貯蓄口座、当座預金口座、マネーマーケット口座など、さまざまな金融ニーズに合わせた口座を提供しています。最適な口座は、短期および長期の財務目標、支出習慣、アクセス性や金利に対する好みによって異なります。私たちのチームが、あなたの目標に合った口座を見つけるお手伝いをします。

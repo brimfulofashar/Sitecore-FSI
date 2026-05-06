@@ -58,3 +58,42 @@ Languages:
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
       Value: "f40dc24f-4f6c-4b99-8b5c-4b50c7fe803f"
+  - Version: 2
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260506T183755Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: 
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "729034fc-24f3-40b7-8fa4-fb49d7de20dd"
+      Hint: Text
+      Value: |
+        <h2>将来の世代のために遺産を守る</h2>
+        <p>遺産計画は、資産や財産を相続人や受益者に引き継ぐための手配を行う、財務計画の重要な要素です。</p>
+        <p>遺産計画の主な目的の一つは、資産があなたの希望に従って分配され、あなたが亡くなった後に愛する人々が支えられることを確実にすることです。遺産計画により、銀行口座、退職金口座、生命保険、不動産などの資産の受益者を指定することができます。</p>
+        <h2>計画を立てる</h2>
+        <p>遺産計画により、相続税や遺言検認費用を最小限に抑えることができ、資産のより多くを税金や法的費用ではなく受益者に引き継ぐことが可能になります。</p>
+        <p>遺産計画は、未成年の子供や慈善団体を支援するために、特定の指示やスケジュールに従って資産を管理・分配する信託を設立する機会を提供します。また、未成年の子供の後見人を指名し、無能力状態になった場合に医療や財務の決定を行う医療代理人や代理人を指定することができます。</p>
+        <p>整理整頓を保ち、遺産計画を最新の状態に保つことは、現在の希望や状況を正確に反映させるために不可欠です。</p>
+        <p>最終的に、遺産計画は単に資産を分配することではなく、永続的な遺産を作り、自分自身と愛する人々に安心感を提供することです。</p>
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "ef876206-06f7-40ad-9273-4aa9dd6adf79"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260506T183755Z

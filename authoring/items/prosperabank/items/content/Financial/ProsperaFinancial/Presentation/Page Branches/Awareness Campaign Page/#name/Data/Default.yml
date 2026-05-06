@@ -1,0 +1,73 @@
+﻿---
+ID: "7ccbc030-d037-4ef7-87cc-6daa0cbcc096"
+Parent: "c021eafe-5ca1-41a6-bdfa-c6fdba1e9a82"
+Template: "a6a2e74b-2221-46d0-b3b8-3f896c80be39"
+Path: /sitecore/content/Financial/ProsperaFinancial/Presentation/Page Branches/Awareness Campaign Page/$name/Data/Default
+SharedFields:
+- ID: "bea96872-0d30-4912-939c-23cf6f663f73"
+  Hint: BackgroundImage
+  Value: |
+    <image mediaid="{99617DE0-EAD5-448E-BC85-EAE51558631D}" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "eca1a7d0-1acb-4565-a0c6-58dcc93a12d8"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260506T144958Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "165623ee-f82d-4331-a71b-c9af0cf3c3af"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260506T195741Z
+- Language: "ja-JP"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260506T144958Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "768c71ef-569b-44ec-b3c9-f595cc06c326"
+      Hint: Text
+      Value: <p>ロレム・イプサム・ドロール・シット・アメット、コンセクテトゥル・アディピシング・エリート、セッド・ドゥ・エイウスモッド・テンポル。</p>
+    - ID: "83ad22f3-201d-4423-8cfa-98218d012d05"
+      Hint: Link
+      Value: |
+        <link anchor="" target="" linktype="external" text="詳細" url="https://example.com" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "d2befdfb-d1c8-45e2-bf7e-ab231ece68f8"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "a5743cb3-700f-4211-96c5-6f007a26d189"
+      Hint: Title
+      Value: ロレム・イプサム・ドロール・シット・アメット
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260506T183449Z

@@ -6,7 +6,7 @@ Path: "/sitecore/content/Financial/ProsperaFinancial/Home/articles/introducing-i
 SharedFields:
 - ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
   Hint: __Workflow
-  Value: "{63CC4D0D-63F1-4BFB-BF63-7EC9D231AFA8}"
+  Value: "{A5BC37E7-ED96-4C1E-8590-A26E64DB55EA}"
 - ID: "ad26114f-29dd-4ef9-b5bf-1d64d558872d"
   Hint: BackgroundImage
   Value: |
@@ -20,7 +20,11 @@ SharedFields:
   Value: 800
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail
-  Value: 
+  Value: |
+    <image mediaid="{0584A2D1-2BD6-4D61-A0DD-07184A5F9DCD}" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "239d15cb-e6d0-435b-8b68-c6b80c85c873"
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Value: |
@@ -43,9 +47,12 @@ SharedFields:
 Languages:
 - Language: en
   Fields:
+  - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
+    Hint: __Unversioned revision
+    Value: "6c1d38f4-a6eb-4671-b48b-8796113a18fc"
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
     Hint: __Display name
-    Value: Introducing innovative financial solutions for modern consumers
+    Value: Best Positions Sleep Apnea
   Versions:
   - Version: 1
     Fields:
@@ -76,18 +83,32 @@ Languages:
         <p>Whether users are looking to save for a dream vacation, build an emergency fund, or simply gain better control over their finances, PLAY! Finance offers a comprehensive suite of solutions to meet their needs.</p>
         <p><strong>About PLAY! Finance</strong><br />
         PLAY! Finance is a leading provider of innovative financial solutions, dedicated to empowering individuals to achieve financial wellness. Through advanced technology and personalized tools, PLAY! Finance is redefining the way consumers engage with their finances, making financial management accessible, engaging, and rewarding for all.</p>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260506T011033Z
     - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
       Hint: __Workflow state
-      Value: "{F0C30D3F-4537-4F66-98A4-213D0FA050FE}"
+      Value: "{FCA998C5-0CC3-4F91-94D8-0A4E6CAECE88}"
     - ID: "3e700dce-26eb-4bf0-990f-9d9fe555990d"
       Hint: Excerpt
       Value: "PLAY! Finance introduces a suite of innovative financial solutions, leveraging advanced technology and gamification to empower users to manage their finances in an engaging and rewarding manner."
     - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
       Hint: NavigationTitle
       Value: Introducing innovative financial solutions for modern consumers
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "8b5212c3-0ef8-4601-a295-812ccdad3f86"
+      Value: "c983ed55-31f0-4c8a-9380-cf64bae852d7"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260506T011033Z
     - ID: "e81c4912-a4d2-4466-842c-02f0b2c9dc42"
       Hint: Title
       Value: Introducing innovative financial solutions for modern consumers
@@ -142,9 +163,12 @@ Languages:
       Value: On vous présente des solutions financières innovantes pour les consommateurs modernes
 - Language: "ja-JP"
   Fields:
+  - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
+    Hint: __Unversioned revision
+    Value: "13df7f6e-5d13-466a-8f75-46eeddb0d850"
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
     Hint: __Display name
-    Value: 現代消費者のための革新的な金融ソリューションを紹介
+    Value: 睡眠時無呼吸症候群に最適なポジション
   Versions:
   - Version: 1
     Fields:
@@ -193,3 +217,67 @@ Languages:
     - ID: "e81c4912-a4d2-4466-842c-02f0b2c9dc42"
       Hint: Title
       Value: 現代消費者のための革新的な金融ソリューションを紹介
+  - Version: 2
+    Fields:
+    - ID: "03117268-f84f-4fd8-ad9e-5990b3a21fe6"
+      Hint: Content
+      Value: |
+        <p>PLAY! Financeは、最先端の金融サービスを提供するリーディングプロバイダーとして、消費者が自分の財務と向き合う方法を革新する最新の製品群を発表しました。</p>
+        <p>革新とユーザー中心のデザインに焦点を当て、PLAY! Financeは個人が自分の財務の未来をコントロールできるよう支援することに尽力しています。先進技術とパーソナライズされたソリューションを組み合わせることで、財務管理をすべての人にとって魅力的でやりがいのある体験にすることを目指しています。</p>
+        <p style="margin-left: 40px;">"<strong><em>PLAY! Financeでは、財務のエンパワーメントはすべての人にアクセス可能であるべきだと信じています。</em></strong>", とPLAY! FinanceのCPOであるアリソン・パーカー氏は述べています。"<strong><em>私たちの使命は、障壁を取り除き、個人が財務目標を達成するために必要なツールを提供し、その過程を楽しめるようにすることです。</em></strong>"</p>
+        <p>PLAY! Financeの提供する主な機能は以下の通りです:</p>
+        <ul>
+            <li>
+            <p><strong>インタラクティブな予算管理ツール:&nbsp;</strong>直感的なインターフェースを通じて、個別の予算を作成し、リアルタイムで支出を追跡することを可能にします。</p>
+            </li>
+            <li>
+            <p><strong>ゲーミフィケーションを活用した貯蓄ソリューション:&nbsp;</strong>貯蓄を楽しくやりがいのある体験にするゲーミフィケーション技術を活用し、健全な財務習慣を促進します。</p>
+            </li>
+            <li>
+            <p><strong>AI駆動の財務インサイト:&nbsp;</strong>人工知能の力を活用して、各ユーザーの独自の財務状況に合わせたパーソナライズされた推奨事項とインサイトを提供します。</p>
+            </li>
+            <li>
+            <p><strong>コミュニティエンゲージメント:&nbsp;</strong>ソーシャル機能を通じてコミュニティ意識を育み、ユーザーが志を同じくする人々とつながり、自分の財務の旅を共有できるようにします。</p>
+            </li>
+        </ul>
+        <p>ユーザーが夢の休暇のために貯蓄をしたい場合でも、緊急資金を構築したい場合でも、単に財務をより良く管理したい場合でも、PLAY! Financeはそのニーズを満たす包括的なソリューションを提供します。</p>
+        <p><strong>PLAY! Financeについて</strong><br />
+        PLAY! Financeは、革新的な金融ソリューションを提供するリーディングプロバイダーであり、個人が財務の健康を達成できるよう支援することに専念しています。先進技術とパーソナライズされたツールを通じて、PLAY! Financeは消費者が財務と向き合う方法を再定義し、財務管理をすべての人にとってアクセス可能で魅力的でやりがいのあるものにしています。</p>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260506T011033Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{FCA998C5-0CC3-4F91-94D8-0A4E6CAECE88}"
+    - ID: "3e700dce-26eb-4bf0-990f-9d9fe555990d"
+      Hint: Excerpt
+      Value: "PLAY! Financeは、先進技術とゲーミフィケーションを活用して、ユーザーが財務を魅力的でやりがいのある方法で管理できるようにする革新的な金融ソリューションを提供します。"
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: 現代の消費者向け革新的な金融ソリューションの紹介
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: 
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "d31a79c1-ac8d-4ef9-94e3-f4e5bb62342f"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260506T183443Z
+    - ID: "e81c4912-a4d2-4466-842c-02f0b2c9dc42"
+      Hint: Title
+      Value: 現代の消費者向け革新的な金融ソリューションの紹介

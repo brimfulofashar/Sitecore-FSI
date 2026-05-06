@@ -39,3 +39,37 @@ Languages:
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
       Value: "1ff09e28-5806-492c-aacd-556fc5accc39"
+  - Version: 2
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260506T183651Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: 
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "729034fc-24f3-40b7-8fa4-fb49d7de20dd"
+      Hint: Text
+      Value: "<h2>当座預金口座</h2><p> 一律のアプローチでは、あなたの独自のニーズに合わない場合があります。そのため、個人の当座預金に関しては、「選択肢」という言葉を大切にしています。あなたの銀行ニーズに合ったすべての適切な機能を備えた適切なオプションが見つかります。お金を最大限に活用するには、賢いソリューションが必要です。当座預金口座の完全な利点に加えて、毎月の利息報酬を得る資格を得ることもできます。</p><h2>優遇当座預金</h2><p>優遇当座預金には、すべての特典が付いています。競争力のある金利を探すのに、無限の選択肢を探し回る必要はありません。当社の最も価値のあるお客様の一人として、PLAY! Finance優遇当座預金口座を開設するとすぐに資格を得ることができます。通常の当座預金口座のすべての賢い機能を組み合わせ、より良い金利、増加したサービス、専任のアカウントエグゼクティブなどの独占的な特典をお楽しみいただけます。さらに、口座に高い残高を維持することで、より高い金利を得ることができます。それは信頼できるウィンウィンの関係です。</p>"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "3ca9aa2f-7793-4650-8d32-c51b82e10fc0"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260506T183651Z

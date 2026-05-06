@@ -1,0 +1,42 @@
+﻿---
+ID: "1dd824c1-cd56-43ed-9048-da3b81dde868"
+Parent: "a6a2e74b-2221-46d0-b3b8-3f896c80be39"
+Template: "a6a2e74b-2221-46d0-b3b8-3f896c80be39"
+Path: /sitecore/templates/Project/Financial/Components/Campaign Header Banner/__Standard Values
+SharedFields:
+- ID: "bea96872-0d30-4912-939c-23cf6f663f73"
+  Hint: BackgroundImage
+  Value: |
+    <image mediaid="{7ED35C53-B0C3-4508-8561-EDEC520BB63A}" alt="top-view-passport-money-with-copy-space" height="" width="" hspace="" vspace="" />
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260506T144927Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "768c71ef-569b-44ec-b3c9-f595cc06c326"
+      Hint: Text
+      Value: <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+    - ID: "83ad22f3-201d-4423-8cfa-98218d012d05"
+      Hint: Link
+      Value: |
+        <link text="Details" linktype="external" url="https://example.com" anchor="" target="" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "3d05379d-8ed3-4b58-b39c-ac2016074e4d"
+    - ID: "a5743cb3-700f-4211-96c5-6f007a26d189"
+      Hint: Title
+      Value: Lorem ipsum dolor sit amet
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260506T144927Z

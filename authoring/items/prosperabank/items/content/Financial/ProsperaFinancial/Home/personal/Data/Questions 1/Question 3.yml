@@ -48,3 +48,37 @@ Languages:
     - ID: "ef205dfd-6af2-4514-b694-77efa748f951"
       Hint: Answer
       Value: お客様の財務情報を保護することは、当社にとって最優先事項です。 お客様のデータを保護し、不正アクセスを防止するために、最先端のセキュリティ対策を採用しています。 さらに、一般的な詐欺やフィッシングを見分け、回避するためのヒントやガイダンスも提供しています。 当行のオンライン・バンキング・プラットフォームには暗号化技術が採用されており、お客様のお取引が常に安全であることを保証いたします。
+  - Version: 2
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260506T183650Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: 
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "f8c2d30a-264f-4a8d-a15b-381511e0fb00"
+    - ID: "93ba0221-aa2a-4a04-b8f6-39c2ab65c694"
+      Hint: Question
+      Value: 身元盗難やオンライン詐欺から自分を守るにはどうすればよいですか？
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260506T183650Z
+    - ID: "ef205dfd-6af2-4514-b694-77efa748f951"
+      Hint: Answer
+      Value: お客様の財務情報を保護することは、私たちの最優先事項です。私たちは、最先端のセキュリティ対策を採用してお客様のデータを保護し、不正アクセスを防止しています。また、一般的な詐欺やフィッシング詐欺を認識し回避する方法についてのヒントやガイダンスも提供しています。私たちのオンラインバンキングプラットフォームは、常にお客様の取引が安全であることを保証する暗号化技術を備えています。

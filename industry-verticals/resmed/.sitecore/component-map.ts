@@ -61,6 +61,9 @@ import * as Header from 'src/components/Navigation/Header';
 import * as Footer from 'src/components/Navigation/Footer';
 import * as Eyebrow from 'src/components/Navigation/Eyebrow';
 import * as Breadcrumb from 'src/components/Navigation/Breadcrumb';
+import * as CampaignInfo from 'src/components/Campaigns/CampaignInfo';
+import * as CampaignFooter from 'src/components/Campaigns/CampaignFooter';
+import * as AwarenessHeader from 'src/components/Campaigns/AwarenessHeader';
 
 export const componentMap = new Map<string, NextjsContentSdkComponent>([
   ['BYOCWrapper', BYOCWrapper],
@@ -123,6 +126,9 @@ export const componentMap = new Map<string, NextjsContentSdkComponent>([
   ['Footer', { ...Footer }],
   ['Eyebrow', { ...Eyebrow }],
   ['Breadcrumb', { ...Breadcrumb }],
+  ['CampaignInfo', { ...CampaignInfo, componentType: 'client' }],
+  ['CampaignFooter', { ...CampaignFooter }],
+  ['AwarenessHeader', { ...AwarenessHeader, componentType: 'client' }],
 ]);
 
 export default componentMap;

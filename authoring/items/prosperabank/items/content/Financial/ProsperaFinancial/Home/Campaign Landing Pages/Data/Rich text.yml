@@ -1,0 +1,70 @@
+﻿---
+ID: "5d7c81a7-48a5-4a37-868b-09cebcb63514"
+Parent: "58d4d12a-f10d-4014-bdc6-da252d6a7fc3"
+Template: "0a7aa373-5ed1-4e9b-9678-22d3c5faf6df"
+Path: /sitecore/content/Financial/ProsperaFinancial/Home/Campaign Landing Pages/Data/Rich text
+BranchID: "5914dab5-7831-494e-ac68-b9e3a207a42f"
+SharedFields:
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{8B410AD1-C3A3-41BD-BFD5-DE39CC316E62}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260506T133838Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "729034fc-24f3-40b7-8fa4-fb49d7de20dd"
+      Hint: Text
+      Value: "<p>At PLAY! Finance, we believe that managing your finances should be as enjoyable as it is essential. We're not just a bank; we're your financial partner, committed to making banking a seamless and rewarding experience.</p><h2>Our Mission</h2><p>Our mission is to empower our customers to achieve their financial goals and dreams by providing innovative banking solutions and personalized service. We strive to create a banking experience that is simple, convenient, and enjoyable, allowing you to focus on what matters most—living your best life.</p><h2>Who We Are</h2><p>PLAY! Finance is a dynamic and forward-thinking financial institution dedicated to reimagining banking for the modern world. We combine cutting-edge technology with a human touch to deliver tailored financial solutions that meet the unique needs of our diverse customer base.</p><h2>What Sets Us Apart</h2><p>At PLAY! Finance, we understand that one size does not fit all when it comes to banking. That's why we offer a wide range of products and services designed to cater to individuals, families, and businesses of all sizes. Whether you're saving for a dream vacation, buying your first home, or growing your business, we have the tools and expertise to help you succeed.</p><h2>Our Commitment to You</h2><p>At the heart of PLAY! Finance is a commitment to putting our customers first. We believe in transparency, integrity, and accountability in everything we do. Our team of experienced banking professionals is dedicated to providing exceptional service and guidance every step of the way, ensuring that you have the support you need to make informed financial decisions.</p>"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "cacd4d40-b04c-4703-a513-6d512c4a168c"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260506T133838Z
+- Language: "ja-JP"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260506T133838Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "729034fc-24f3-40b7-8fa4-fb49d7de20dd"
+      Hint: Text
+      Value: "<p>PLAY! Financeでは、財務管理は必要不可欠であると同時に楽しいものであるべきだと考えています。私たちは単なる銀行ではなく、シームレスでやりがいのある銀行体験を提供することに専念する、あなたの金融パートナーです。</p><h2>私たちの使命</h2><p>私たちの使命は、革新的な銀行ソリューションとパーソナライズされたサービスを提供することで、お客様が財務目標や夢を達成できるよう支援することです。シンプルで便利、そして楽しい銀行体験を創造することで、お客様が最も重要なこと—最高の人生を送ること—に集中できるよう努めています。</p><h2>私たちについて</h2><p>PLAY! Financeは、現代の世界における銀行業務を再構築することに専念する、ダイナミックで先進的な金融機関です。最先端の技術と人間的なアプローチを組み合わせ、多様なお客様のニーズに応えるためのオーダーメイドの金融ソリューションを提供しています。</p><h2>私たちの特徴</h2><p>PLAY! Financeでは、銀行業務において一律の方法がすべてに適用されるわけではないことを理解しています。そのため、個人、家族、そしてあらゆる規模の企業に対応する幅広い商品とサービスを提供しています。夢の休暇のための貯蓄、初めての家の購入、またはビジネスの成長など、どのような目標であっても、成功をサポートするためのツールと専門知識を備えています。</p><h2>お客様への約束</h2><p>PLAY! Financeの中心にあるのは、お客様を第一に考えるというコミットメントです。私たちは、透明性、誠実さ、そして責任を持ってすべての業務を行うことを信条としています。経験豊富な銀行業務の専門家チームが、あらゆる段階で卓越したサービスとガイダンスを提供し、お客様が情報に基づいた財務判断を下せるようサポートします。</p>"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "734b1461-ddc8-4b96-a4b3-ce885e4a5211"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260506T183511Z
