@@ -7,7 +7,6 @@ import {
   RichTextField,
   Link,
   LinkField,
-  useSitecore,
   NextImage,
   RichText,
 } from '@sitecore-content-sdk/nextjs';
@@ -15,7 +14,6 @@ import { ComponentProps } from 'lib/component-props';
 
 const HERO_BACKGROUND_IMAGE =
   'https://lm.resmed.com/hubfs/Resmed%20Oura/phys_exam_female_wpatents.png';
-const LOGO_SRC = 'https://jzi-resmed.sitecoresandbox.cloud/api/public/content/8fe7a14e5821499d8462b366d1f815bb?v=232e7563';
 const CONTINUE_URL =
   'https://sleep.arimahealth.com/e/resmed/refer?utm_source=ada-health-app&utm_medium=referral&utm_campaign=autobahn-ada-health';
 
