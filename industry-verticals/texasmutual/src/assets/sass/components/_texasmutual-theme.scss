@@ -1,0 +1,123 @@
+@import 'src/assets/sass/abstracts/mixins';
+
+// Texas Mutual – layout and component polish (works with CSS variables in _colors.scss)
+
+.site-texasmutual {
+  &.body {
+    font-size: 1.0625rem;
+    line-height: 1.65;
+  }
+
+  #header {
+    background-color: var(--bg-body);
+    border-bottom: 1px solid var(--border-color);
+  }
+
+  // Top utility strip (matches public site “Just for:” bar – light, link-forward)
+  .eyebrow {
+    color: var(--text-colored);
+    background-color: var(--bg-body);
+
+    a {
+      color: var(--text-colored);
+      font-size: 0.9375rem;
+      font-weight: 600;
+      border-bottom: none;
+      text-decoration: none;
+
+      &:hover {
+        text-decoration: underline;
+        color: var(--bg-saturated);
+      }
+    }
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  .display-1,
+  .display-2,
+  .display-3,
+  .display-4,
+  .display-5,
+  .display-6 {
+    color: var(--text-heading);
+  }
+
+  .navigation.navigation-horizontal .component-content ul {
+    gap: 1.5rem;
+
+    @include respond-to(mobile-large) {
+      gap: 0;
+    }
+  }
+
+  .navigation.navigation-horizontal {
+    .level0 > .navigation-title > a,
+    .level1 > .navigation-title > a,
+    .rel-level1 > .navigation-title > a {
+      font-weight: 600;
+      color: var(--text-heading);
+      border-bottom: 2px solid transparent;
+      padding-bottom: 0.15rem;
+      transition:
+        color 0.2s ease,
+        border-color 0.2s ease;
+
+      &:hover {
+        color: var(--text-colored);
+        border-bottom-color: var(--text-colored);
+      }
+    }
+  }
+
+  .features .items .item .icon {
+    background-color: rgb(184 104 47 / 14%);
+    border: 1px solid rgb(184 104 47 / 28%);
+  }
+
+  .hero-banner .content-column .rich-content {
+    opacity: 1;
+  }
+
+  .promo.promo-hero .field-promotext {
+    background: rgb(15 31 53 / 55%);
+  }
+
+  .footer {
+    font-size: 1rem;
+
+    .title {
+      font-size: 0.8125rem;
+      font-weight: 700;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      opacity: 0.95;
+    }
+  }
+
+  .footer.with-socials .links-socials > a {
+    background-color: transparent;
+    border: 2px solid rgb(255 255 255 / 90%);
+
+    &:hover {
+      background-color: rgb(255 255 255 / 12%);
+    }
+
+    > img {
+      filter: brightness(0) invert(1);
+    }
+  }
+
+  .preview-search-content-icon {
+    color: var(--text-heading);
+    font-size: 1.1rem;
+
+    &:hover {
+      color: var(--text-colored);
+    }
+  }
+}

@@ -1,0 +1,60 @@
+@import 'src/assets/sass/abstracts/vars';
+
+.header {
+  width: 100%;
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+
+  @include respond-to(mobile-large) {
+    padding: 1.25rem $size-padding;
+  }
+
+  .rich-text,
+  .navigation {
+    padding: 0 !important;
+  }
+}
+
+// Texas Mutual – title / wordmark area in header (content-driven)
+.site-texasmutual .header {
+  h1 {
+    font-size: 1.65rem !important;
+    line-height: 1.2 !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    font-weight: 700;
+    color: var(--text-heading);
+    letter-spacing: -0.02em;
+
+    @include respond-to(mobile-large) {
+      font-size: 1.35rem !important;
+      text-align: center;
+    }
+  }
+}
+
+// Legacy vertical themes – neutral header title (removed prior “PLAY!” demo styling)
+.site-financial .header,
+.site-services .header {
+  h1 {
+    font-size: 1.65rem !important;
+    line-height: 1.2 !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    font-weight: 700;
+    color: var(--text-body);
+    display: flex;
+    align-items: center;
+    text-align: left;
+
+    @include respond-to(mobile-large) {
+      justify-content: center;
+      text-align: center;
+    }
+  }
+}
+
+.site-services .header h1 svg {
+  width: 2.5rem;
+  margin-right: 1rem;
+}
