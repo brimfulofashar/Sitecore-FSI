@@ -5,6 +5,8 @@ import Bootstrap from 'src/Bootstrap';
 import { JSX } from 'react';
 import scConfig from 'sitecore.config';
 import 'assets/main.scss';
+// Split Hero Tailwind utilities (global CSS must load from Custom App per Next.js)
+import 'components/TexasMutual/split-hero.tw.css';
 
 // DEMO TEAM CUSTOMIZATION - Search SDK integration
 import { isSearchSDKEnabled, config as searchSDKConfig } from '../services/SearchSDKService';

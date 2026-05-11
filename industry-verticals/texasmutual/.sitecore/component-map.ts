@@ -21,6 +21,7 @@ import * as LoanCalculator from 'src/components/Utilities/LoanCalculator';
 import * as LanguageSwitcher from 'src/components/Utilities/LanguageSwitcher';
 import * as ContactForm from 'src/components/Utilities/ContactForm';
 import * as ApplicationForm from 'src/components/Utilities/ApplicationForm';
+import * as SplitHero from 'src/components/TexasMutual/SplitHero';
 import * as PreviewSearchIcon from 'src/components/Search/PreviewSearch/PreviewSearchIcon';
 import * as PreviewSearch from 'src/components/Search/PreviewSearch/PreviewSearch';
 import * as Spinner from 'src/components/Search/components/Spinner/Spinner';
@@ -83,6 +84,7 @@ export const componentMap = new Map<string, NextjsContentSdkComponent>([
   ['LanguageSwitcher', { ...LanguageSwitcher }],
   ['ContactForm', { ...ContactForm }],
   ['ApplicationForm', { ...ApplicationForm }],
+  ['SplitHero', { ...SplitHero }],
   ['PreviewSearchIcon', { ...PreviewSearchIcon }],
   ['PreviewSearch', { ...PreviewSearch }],
   ['Spinner', { ...Spinner }],

@@ -18,6 +18,10 @@ SharedFields:
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
   Value: 600
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{507F60CB-057B-4812-9949-A0BF3BD0997D}" />
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Value: |
@@ -40,9 +44,12 @@ SharedFields:
 Languages:
 - Language: en
   Fields:
+  - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
+    Hint: __Unversioned revision
+    Value: "8e40cb62-8f95-454c-826b-fbc538e3c7ac"
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
     Hint: __Display name
-    Value: 5 tips for new retirees
+    Value: Regulatory Roundup March 2026
   Versions:
   - Version: 1
     Fields:
@@ -74,6 +81,9 @@ Languages:
         <p>Retirement is an exciting milestone that offers the opportunity to embrace new experiences and enjoy the fruits of your labor. By taking the time to plan and prepare for retirement, you can ensure a smooth transition and set yourself up for a fulfilling and financially secure future. Remember to stay informed, stay engaged, and make the most of every moment as you embark on this new chapter of your life.
         </p>
         <p><strong><em>Are you ready to start your retirement journey? Contact us today to learn more about how we can help you plan for a successful retirement.</em></strong></p>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260510T225229Z
     - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
       Hint: __Workflow state
       Value: "{13D6CCE7-A6C3-4EE1-A1D9-8A8E34225ED7}"
@@ -83,9 +93,20 @@ Languages:
     - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
       Hint: NavigationTitle
       Value: 5 tips for new retirees
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "64e46c09-6a08-4f64-9254-bca2da71e206"
+      Value: "f6b07fd0-ff24-44fd-b561-424e1b23d6b3"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260510T225229Z
     - ID: "e81c4912-a4d2-4466-842c-02f0b2c9dc42"
       Hint: Title
       Value: "Starting your retirement journey: 5 tips for new retirees"

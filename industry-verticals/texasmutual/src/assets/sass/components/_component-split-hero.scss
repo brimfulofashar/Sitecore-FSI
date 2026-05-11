@@ -1,0 +1,10 @@
+// Split hero: edge-to-edge viewport (breaks out of SXA .container max-width + .component padding)
+.split-hero.component {
+  box-sizing: border-box;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  width: 100vw;
+  max-width: 100vw;
+  margin-left: calc(50% - 50vw);
+  margin-right: calc(50% - 50vw);
+}

@@ -5,6 +5,8 @@
   .button-nav-item a {
     @extend .button;
     @extend .button-main;
+
+    color: white !important; 
   }
 
   ul {

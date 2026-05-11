@@ -156,6 +156,42 @@ export const WithPlaceholderColumn = (props: PromoCtaProps): JSX.Element => {
   );
 };
 
+/**
+ * Centered copy + CTA link, no image (e.g. community funding band).
+ * Sitecore fields: Title (H2), Text (rich text body), Link (inline text link).
+ */
+export const TextOnly = (props: PromoCtaProps): JSX.Element => {
+  const id = props.params.RenderingIdentifier;
+  const { page } = useSitecore();
+  const isPageEditing = page.mode.isEditing;
+  const sxaStyles = `${props.params?.styles || ''}`.trim();
+
+  return (
+    <section
+      className={`component promo-cta promo-cta-text-only full-width-section py-3 py-md-3 ${sxaStyles}`.trim()}
+      id={id ? id : undefined}
+    >
+      <div className="container d-flex flex-wrap">
+        <div className="col-12 col-md-10 col-lg-8 mx-auto">
+          <h2 className="text-center mb-3">
+            <Text field={props.fields.Title} />
+          </h2>
+          <div className="text-center promo-cta-text-only-body mb-3">
+            <RichText field={props.fields.Text} />
+          </div>
+            <p className="text-center promo-cta-text-only-link mb-0">
+              <Link
+                field={props.fields.Link}
+                className="promo-cta-text-only-link-anchor"
+                editable={isPageEditing}
+              />
+            </p>
+        </div>
+      </div>
+    </section>
+  );
+};
+
 export const WithBackgroundImage = (props: PromoCtaProps): JSX.Element => {
   const id = props.params.RenderingIdentifier;
   const { page } = useSitecore();

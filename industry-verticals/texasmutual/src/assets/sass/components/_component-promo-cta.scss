@@ -154,4 +154,51 @@
       right: unset;
     }
   }
+
+  &.promo-cta-text-only {
+    background-color: var(--bg-body);
+    padding-top: 1rem !important;
+    padding-bottom: 1rem !important;
+    margin-top: 0;
+    margin-bottom: 0;
+
+    h2 {
+      color: var(--text-heading);
+      font-weight: 700;
+      font-size: clamp(1.35rem, 2.5vw, 1.75rem);
+      line-height: 1.25;
+    }
+
+    .promo-cta-text-only-body {
+      color: var(--text-body);
+      font-size: 1.0625rem;
+      line-height: 1.65;
+
+      p {
+        text-align: center;
+        margin-bottom: 0.75rem;
+      }
+
+      p:last-child {
+        margin-bottom: 0;
+      }
+    }
+
+    .promo-cta-text-only-link {
+      font-size: 1.0625rem;
+      line-height: 1.65;
+
+      .promo-cta-text-only-link-anchor,
+      a {
+        color: var(--text-colored);
+        font-weight: 600;
+        text-decoration: underline;
+        border-bottom: none;
+
+        &:hover {
+          color: var(--bg-saturated);
+        }
+      }
+    }
+  }
 }

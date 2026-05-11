@@ -1,0 +1,2 @@
+/* Scoped Tailwind for Split Hero only (Bootstrap remains global; preflight disabled in tailwind.config.js) */
+@tailwind utilities;

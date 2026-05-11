@@ -20,7 +20,8 @@ SharedFields:
   Value: 800
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail
-  Value: 
+  Value: |
+    <image mediaid="{CF99AFC9-4B05-4C6E-B06F-4ECE4F9B67D1}" />
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Value: |
@@ -43,9 +44,12 @@ SharedFields:
 Languages:
 - Language: en
   Fields:
+  - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
+    Hint: __Unversioned revision
+    Value: "8d4e7c29-219a-4de7-8db1-0753f75ef7c2"
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
     Hint: __Display name
-    Value: Introducing innovative financial solutions for modern consumers
+    Value: Independent Contractors vs Employees
   Versions:
   - Version: 1
     Fields:
@@ -76,6 +80,9 @@ Languages:
         <p>Whether users are looking to save for a dream vacation, build an emergency fund, or simply gain better control over their finances, PLAY! Finance offers a comprehensive suite of solutions to meet their needs.</p>
         <p><strong>About PLAY! Finance</strong><br />
         PLAY! Finance is a leading provider of innovative financial solutions, dedicated to empowering individuals to achieve financial wellness. Through advanced technology and personalized tools, PLAY! Finance is redefining the way consumers engage with their finances, making financial management accessible, engaging, and rewarding for all.</p>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260510T225247Z
     - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
       Hint: __Workflow state
       Value: "{F0C30D3F-4537-4F66-98A4-213D0FA050FE}"
@@ -85,9 +92,20 @@ Languages:
     - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
       Hint: NavigationTitle
       Value: Introducing innovative financial solutions for modern consumers
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "8b5212c3-0ef8-4601-a295-812ccdad3f86"
+      Value: "fd0e72b6-9813-46fc-90d9-93d847032a83"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260510T225247Z
     - ID: "e81c4912-a4d2-4466-842c-02f0b2c9dc42"
       Hint: Title
       Value: Introducing innovative financial solutions for modern consumers

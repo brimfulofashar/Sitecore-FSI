@@ -4,14 +4,43 @@ Parent: "8522d94a-3b27-4e87-baa6-511f9068177b"
 Template: "3b41d9fc-0edf-48e1-966c-e260339ba815"
 Path: /sitecore/content/Financial/ProsperaFinancial/Data/Promos/Five Column CTA/Available Services
 SharedFields:
+- ID: "3b0a6484-9ce0-4386-b2b3-5792c0db7b72"
+  Hint: Image3
+  Value: |
+    <Image src="https://jzi-texasmutual.sitecoresandbox.cloud/api/public/content/ea503c47bb0e4aff82e5bc37f20cd3e7?v=466dc2ed" dam-id="I6ObW5-xRCiGal2CRfQlkw" width="36" height="21" alt="imgi_30_icon-check-blue.svg" dam-content-type="Image" thumbnailsrc="https://jzi-texasmutual.sitecoresandbox.cloud/api/gateway/82730/thumbnail" />
+- ID: "4301130a-505e-4a6d-ba47-f783d47a1750"
+  Hint: Image2
+  Value: |
+    <Image src="https://jzi-texasmutual.sitecoresandbox.cloud/api/public/content/1f01f2a7531144ce84e80ce931ea039a?v=071e4ecc" dam-id="817xEE_WSai9rs5i93AsLA" width="32" height="32" alt="imgi_29_icon-doctor.svg" dam-content-type="Image" thumbnailsrc="https://jzi-texasmutual.sitecoresandbox.cloud/api/gateway/82692/thumbnail" />
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
   Value: 1200
+- ID: "c5d0b517-0ed6-4cd4-9354-8adf7a04bc7d"
+  Hint: Image4
+  Value: |
+    <Image src="https://jzi-texasmutual.sitecoresandbox.cloud/api/public/content/3709e3e6043843619e427ab292e5f427?v=965cd170" dam-id="dQC5QKw-TlCMWGT6703IWg" width="55" height="48" alt="imgi_11_icon-community.svg" dam-content-type="Image" thumbnailsrc="https://jzi-texasmutual.sitecoresandbox.cloud/api/gateway/82723/thumbnail" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "7f6f3607-e66f-4752-bbe4-984896ecbff2"
+- ID: "df3b6320-8a59-49d6-98a6-917ba4a400cf"
+  Hint: Image5
+  Value: |
+    <Image src="https://jzi-texasmutual.sitecoresandbox.cloud/api/public/content/1e0c710c4ef94addb93c49d684469695?v=ca1f6fa8" dam-id="HDljviNiTJKMQYeU6dq36w" width="23" height="28" alt="imgi_32_icon-docs.svg" dam-content-type="Image" thumbnailsrc="https://jzi-texasmutual.sitecoresandbox.cloud/api/gateway/82698/thumbnail" />
+- ID: "f762ad0b-e486-48ca-acb3-d8523551a990"
+  Hint: Image1
+  Value: |
+    <Image src="https://jzi-texasmutual.sitecoresandbox.cloud/api/public/content/e78d0d8996f04b159e2541b687921d82?v=2162bad1" dam-id="KJWgAp7ZTGGQiJX365xCig" width="31" height="31" alt="imgi_28_icon-exclamation.svg" dam-content-type="Image" thumbnailsrc="https://jzi-texasmutual.sitecoresandbox.cloud/api/gateway/82693/thumbnail" />
 Languages:
 - Language: en
   Versions:
   - Version: 1
     Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "12ece9de-445a-42be-a483-9e8095ca3b8f"
+      Hint: Text5
+      Value: Download Forms
     - ID: "1d581533-1aa5-4679-9e2a-e7fe765218ba"
       Hint: Link3
       Value: |
@@ -33,10 +62,16 @@ Languages:
         sitecore\johannes.zijlstra@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "ce736940-75c6-4012-a0cf-7da08111ef48"
+      Value: "ba818498-e72a-4698-8b7f-cd2746d4c7b8"
     - ID: "8f49a654-7b7f-4c0b-b6df-d3ce2389c1bf"
       Hint: Text2
-      Value: Line of Credit
+      Value: Find a Doctor or Pharmacy
+    - ID: "91d94aff-4137-4702-93f7-8db4eacde4d5"
+      Hint: Text3
+      Value: Make a Payment
+    - ID: "9ea34c36-7e22-4d12-b632-032361c3b17c"
+      Hint: Text1
+      Value: Report an Injury
     - ID: "b867909f-d20c-4c76-b82f-778d25239cd1"
       Hint: Link1
       Value: |
@@ -51,7 +86,10 @@ Languages:
         sitecore\johannes.zijlstra@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251030T165659Z
+      Value: 20260510T205047Z
+    - ID: "f5e90981-3210-4316-bcf5-f083fe639e66"
+      Hint: Text4
+      Value: Report your Payroll
 - Language: "fr-CA"
   Versions:
   - Version: 1

@@ -18,6 +18,10 @@ SharedFields:
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
   Value: 500
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{F7A09BF6-C710-4F18-9693-D72EB7DCE7A4}" />
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Value: |
@@ -40,9 +44,12 @@ SharedFields:
 Languages:
 - Language: en
   Fields:
+  - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
+    Hint: __Unversioned revision
+    Value: "978cd3d2-8aab-4f42-a58c-e38f54895e01"
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
     Hint: __Display name
-    Value: Bridging the wealth divide
+    Value: Safety Alert April 2026
   Versions:
   - Version: 1
     Fields:
@@ -69,6 +76,9 @@ Languages:
         <p><strong>Towards a More Equitable Future</strong></p>
         <p>Closing the wealth gap is not only a moral imperative but also an economic necessity for building a more just and sustainable society. By addressing systemic inequalities, empowering individuals and communities, and promoting diversity and inclusion, we can work together to create a future where everyone has the opportunity to thrive and prosper, regardless of their background or circumstances.</p>
         <p><em>Join us in our commitment to closing the wealth gap and building a more equitable world for generations to come.</em></p>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260510T225220Z
     - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
       Hint: __Workflow state
       Value: "{13D6CCE7-A6C3-4EE1-A1D9-8A8E34225ED7}"
@@ -78,9 +88,20 @@ Languages:
     - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
       Hint: NavigationTitle
       Value: Bridging the wealth divide
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "edcfdbce-bdeb-4ae6-8031-8d18c9b6cd43"
+      Value: "26ff29fb-00c6-49f7-bba3-14746431f27a"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260510T225220Z
     - ID: "e81c4912-a4d2-4466-842c-02f0b2c9dc42"
       Hint: Title
       Value: Bridging the wealth divide
