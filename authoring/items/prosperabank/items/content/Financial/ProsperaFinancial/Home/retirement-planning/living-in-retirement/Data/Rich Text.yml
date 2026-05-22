@@ -28,6 +28,50 @@ Languages:
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
       Value: "4877e29d-291e-4158-b548-3021e5e3e671"
+- Language: "es-CR"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260515T155015Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: 
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "729034fc-24f3-40b7-8fa4-fb49d7de20dd"
+      Hint: Text
+      Value: |
+        <h2>Abrazando la Jubilación</h2>
+        <p>La jubilación marca un hito significativo en la vida, ofreciendo la oportunidad de explorar nuevas pasiones, perseguir sueños largamente acariciados y saborear los frutos de tu trabajo. Al embarcarte en este viaje, es esencial abordar la jubilación con intencionalidad, abrazando la libertad y las posibilidades que vienen con este nuevo capítulo.</p>
+        <p>Un aspecto clave de vivir en la jubilación es la planificación financiera. Evaluar tus ahorros para la jubilación, crear un presupuesto y desarrollar una estrategia de retiro sostenible son pasos esenciales para garantizar la seguridad financiera durante tus años de jubilación. Al trabajar con un asesor financiero y ser proactivo en la gestión de tus finanzas, puedes disfrutar de tranquilidad y confianza en tu estilo de vida de jubilación.</p>
+        <p>La jubilación ofrece el regalo del tiempo, permitiéndote enfocarte en actividades y pasatiempos que te traigan alegría y realización. Ya sea viajando por el mundo, haciendo voluntariado en tu comunidad o explorando nuevos pasatiempos, la jubilación brinda la oportunidad de priorizar el cuidado personal y el crecimiento personal.</p>
+        <h2>Navegando el Próximo Capítulo de la Vida</h2>
+        <p>Mantener conexiones sociales y nutrir relaciones es crucial para el bienestar emocional en la jubilación. Mantenerse conectado con la familia y los amigos, unirse a grupos sociales o clubes, y participar en eventos comunitarios puede ayudar a combatir sentimientos de aislamiento y soledad, fomentando un sentido de pertenencia y camaradería.</p>
+        <p>Cuidar tu salud física es esencial para disfrutar de un estilo de vida de jubilación vibrante y activo. Participar en ejercicio regular, comer una dieta balanceada y priorizar la atención médica preventiva puede ayudarte a mantenerte saludable e independiente a medida que envejeces, permitiéndote abrazar plenamente todo lo que la jubilación tiene para ofrecer.</p>
+        <p>Al hacer la transición a la jubilación, también es esencial redefinir tu sentido de propósito e identidad fuera del trabajo. Explora nuevos intereses, establece metas significativas y abraza oportunidades para el crecimiento personal y el autodescubrimiento. La jubilación es un momento para reinventarte y perseguir pasiones que pueden haber quedado en segundo plano durante tus años laborales.</p>
+        <p>La planificación de la jubilación no se trata solo de preparación financiera; también se trata de prepararse para los aspectos emocionales y psicológicos de esta transición de vida. Reconoce que la jubilación es un viaje, y es normal experimentar una gama de emociones, desde emoción y anticipación hasta incertidumbre y ajuste. Date gracia y permítete tiempo para adaptarte a tu nuevo estilo de vida.</p>
+        <p>En última instancia, vivir en la jubilación se trata de abrazar la libertad de vivir la vida en tus propios términos, perseguir tus pasiones y atesorar los momentos que más importan. Al abordar la jubilación con intencionalidad, resiliencia y un espíritu de aventura, puedes aprovechar al máximo este próximo capítulo y crear una experiencia de jubilación plena y gratificante.</p>
+        <h2>Diseñando Tu Estilo de Vida Ideal</h2>
+        <p>La jubilación no es solo un destino; es un viaje, y cómo elijas navegar este viaje puede moldear tu experiencia de jubilación de maneras profundas. Al hacer la transición a la jubilación, es esencial tomar un enfoque proactivo para diseñar tu estilo de vida ideal y aprovechar al máximo este nuevo capítulo.</p>
+        <p>Un aspecto clave de vivir en la jubilación es encontrar equilibrio. Lograr un equilibrio entre el ocio y la productividad, la relajación y el compromiso, y la soledad y la socialización es esencial para crear una experiencia de jubilación plena y bien equilibrada. Abraza la libertad de estructurar tus días de una manera que se alinee con tus preferencias y prioridades.</p>
+        <p>La jubilación ofrece la oportunidad de explorar nuevas pasiones e intereses, perseguir sueños de toda la vida y disfrutar de actividades que te traigan alegría y realización. Ya sea aprendiendo un nuevo idioma, adoptando un pasatiempo creativo o embarcándote en una aventura de lista de deseos, la jubilación proporciona el tiempo y la libertad para priorizar el autodescubrimiento y el crecimiento personal.</p>
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "75962464-c1fa-4377-ac0d-eb9147859049"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260515T155015Z
 - Language: "fr-CA"
   Versions:
   - Version: 1

@@ -22,6 +22,39 @@ Languages:
     - ID: "ef205dfd-6af2-4514-b694-77efa748f951"
       Hint: Answer
       Value: "Protecting your financial information is a top priority for us. We employ state-of-the-art security measures to safeguard your data and prevent unauthorized access. Additionally, we offer tips and guidance on how to recognize and avoid common scams and phishing attempts. Our online banking platform is equipped with encryption technology to ensure that your transactions are secure at all times."
+- Language: "es-CR"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260515T154934Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: 
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "2224fae7-8696-4dc4-81bd-731270ffe5bf"
+    - ID: "93ba0221-aa2a-4a04-b8f6-39c2ab65c694"
+      Hint: Question
+      Value: "¿Cómo puedo protegerme del robo de identidad y el fraude en línea?"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260515T154934Z
+    - ID: "ef205dfd-6af2-4514-b694-77efa748f951"
+      Hint: Answer
+      Value: Proteger su información financiera es una de nuestras principales prioridades. Empleamos medidas de seguridad de última generación para salvaguardar sus datos y prevenir accesos no autorizados. Además, ofrecemos consejos y orientación sobre cómo reconocer y evitar estafas comunes y intentos de phishing. Nuestra plataforma de banca en línea está equipada con tecnología de encriptación para garantizar que sus transacciones sean seguras en todo momento.
 - Language: "fr-CA"
   Versions:
   - Version: 1

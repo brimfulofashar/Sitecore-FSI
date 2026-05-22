@@ -21,7 +21,10 @@ SharedFields:
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail
   Value: |
-    <image mediaid="{5BC4C6C2-8DFC-4F08-8280-189BF006A88A}" />
+    <image mediaid="{5B568A5F-C85F-461A-9FB8-EDA7CB0548DD}" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "4407e5fa-24c9-4034-93e4-3a22368afb8c"
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Value: |
@@ -102,6 +105,72 @@ Languages:
     - ID: "e81c4912-a4d2-4466-842c-02f0b2c9dc42"
       Hint: Title
       Value: "Empowering young adults: Control of your financial future"
+- Language: "es-CR"
+  Fields:
+  - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
+    Hint: __Unversioned revision
+    Value: "7465113e-3418-4c06-a2f4-f7fb609416c8"
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Financiamiento comunitario 2026
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "03117268-f84f-4fd8-ad9e-5990b3a21fe6"
+      Hint: Content
+      Value: |
+        <p>En un mundo donde la independencia financiera es crucial para el éxito, los jóvenes adultos a menudo se encuentran navegando un complejo laberinto de decisiones financieras sin la orientación y el apoyo necesarios. Reconociendo este desafío, PLAY! Finance se enorgullece de presentar una iniciativa transformadora destinada a empoderar a los jóvenes adultos para que tomen el control de sus finanzas y construyan una base sólida para su futuro.&nbsp;</p>
+        <p>
+        <strong>Talleres Educativos Interactivos</strong></p>
+        <p>Nuestro programa incluye una serie de talleres y seminarios interactivos que cubren temas financieros esenciales como presupuestación, ahorro, inversión y manejo de deudas. Dirigidas por expertos de la industria, estas sesiones están diseñadas para ser atractivas, informativas y prácticas, equipando a los participantes con habilidades prácticas que pueden aplicar en su vida cotidiana.</p>
+        <p><strong>Recursos de Aprendizaje Digital</strong></p>
+        <p>Además de los talleres presenciales, los participantes tienen acceso a una gran cantidad de recursos de aprendizaje digital disponibles en nuestra plataforma. Desde artículos y videos hasta módulos interactivos y cuestionarios, nuestros recursos en línea cubren una amplia gama de temas de educación financiera, permitiendo a los jóvenes adultos aprender a su propio ritmo y en su propio horario.</p>
+        <p><strong>Mentoría y Coaching</strong></p>
+        <p>Creemos que la mentoría es una herramienta poderosa para el crecimiento personal y profesional. Por eso ofrecemos oportunidades de mentoría y coaching, emparejando a los jóvenes adultos con mentores experimentados que pueden proporcionar orientación, apoyo y consejos personalizados adaptados a sus objetivos y circunstancias financieras individuales.</p>
+        <p><strong>Compromiso Comunitario</strong></p>
+        <p>Construir una comunidad solidaria es esencial para el éxito. Nuestro programa fomenta conexiones entre jóvenes adultos, proporcionando una plataforma donde puedan conectarse con sus pares, compartir experiencias y aprender de los éxitos y desafíos de los demás. A través de la colaboración y el apoyo mutuo, creemos que los jóvenes adultos pueden lograr un mayor empoderamiento financiero juntos.
+        </p>
+        <p>
+        <strong>Conclusión</strong></p>
+        <p>En PLAY! Finance, estamos comprometidos a empoderar a los jóvenes adultos para que tomen el control de su futuro financiero. Al proporcionarles el conocimiento, las herramientas y el apoyo que necesitan para tomar decisiones informadas, creemos que podemos ayudarlos a alcanzar sus metas y aspiraciones, poniéndolos en el camino hacia el éxito y la prosperidad a largo plazo.
+        </p>
+        <p>
+        <em><strong>¿Estás listo para tomar el control de tu futuro financiero? ¡Únete a nosotros en PLAY! Finance y emprende hoy un viaje hacia el empoderamiento financiero!</strong></em></p>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260510T225207Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{13D6CCE7-A6C3-4EE1-A1D9-8A8E34225ED7}"
+    - ID: "3e700dce-26eb-4bf0-990f-9d9fe555990d"
+      Hint: Excerpt
+      Value: La educación financiera es clave para desbloquear oportunidades y alcanzar metas a largo plazo. Hemos desarrollado un programa integral diseñado específicamente para jóvenes adultos, proporcionándoles las herramientas, recursos y conocimientos que necesitan para tener éxito.
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Empoderando a los jóvenes adultos
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: 
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "c1cbb57d-e56c-4fe1-b86b-97af0cc61083"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260515T154739Z
+    - ID: "e81c4912-a4d2-4466-842c-02f0b2c9dc42"
+      Hint: Title
+      Value: "Empoderando a los jóvenes adultos: Controla tu futuro financiero"
 - Language: "fr-CA"
   Fields:
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"

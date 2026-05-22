@@ -52,3 +52,54 @@ Languages:
     - ID: "e6b0ba09-6151-44df-bdf5-3d110178bdfb"
       Hint: RightTitle
       Value: Texas Strong.
+- Language: "es-CR"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "03e7841d-552e-45f9-b28a-63478ec61ba6"
+      Hint: LeftDescription
+      Value: En Texas Mutual, el seguro de compensación para trabajadores es nuestro enfoque, y lo hacemos más grande y mejor que nadie.
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260510T210331Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "6ce6adf8-87ad-45d7-b7fb-951ada13bbad"
+      Hint: RightDescription
+      Value: Al cuidar a los trabajadores esforzados de Texas, ayudamos a nuestros asegurados a construir negocios fuertes y prósperos.
+    - ID: "719b7607-c9a5-4e9c-903f-8dc57b7ac447"
+      Hint: LeftTitle
+      Value: Texas Seguro.
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "daeb4978-b38a-4bd2-a39a-fbf7b034df9e"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "ab64dadd-0f06-4e08-a2ce-33ccf80a137a"
+      Hint: RightImage
+      Value: |
+        <Image src="https://jzi-texasmutual.sitecoresandbox.cloud/api/public/content/0367b5279019437da143762e08d771c4?v=b40c587b" dam-id="aTKi0Bh8Q8WZHB_87nw-XQ" width="320" height="249" alt="imgi_26_bg-small-hero-strong.jpg" dam-content-type="Image" thumbnailsrc="https://jzi-texasmutual.sitecoresandbox.cloud/api/gateway/82729/thumbnail" />
+    - ID: "b32f67c7-ef64-49b3-baad-38e6f41a8781"
+      Hint: LeftImage
+      Value: |
+        <Image src="https://jzi-texasmutual.sitecoresandbox.cloud/api/public/content/13724a7694104a608147fcacacdd70bf?v=adbf9948" dam-id="Ou4JfjXbS_GY444VWlDFgw" width="320" height="249" alt="imgi_25_bg-small-hero-safe.jpg" dam-content-type="Image" thumbnailsrc="https://jzi-texasmutual.sitecoresandbox.cloud/api/gateway/82728/thumbnail" />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260515T154911Z
+    - ID: "e6b0ba09-6151-44df-bdf5-3d110178bdfb"
+      Hint: RightTitle
+      Value: Texas Fuerte.

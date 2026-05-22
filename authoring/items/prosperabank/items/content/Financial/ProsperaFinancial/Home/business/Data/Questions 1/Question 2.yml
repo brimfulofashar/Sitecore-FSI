@@ -22,6 +22,39 @@ Languages:
     - ID: "ef205dfd-6af2-4514-b694-77efa748f951"
       Hint: Answer
       Value: Unlike other banks that charge high fees for business accounts, you will enjoy no monthly fees, no minimum balance, and unlimited transactions. You will also have access to our tools and services tailored to small businesses.
+- Language: "es-CR"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260515T154947Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: 
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "d96d1699-5b3e-4552-8e18-3b7efd09d6ad"
+    - ID: "93ba0221-aa2a-4a04-b8f6-39c2ab65c694"
+      Hint: Question
+      Value: "¿Cuáles son los beneficios de abrir una cuenta comercial?"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260515T154947Z
+    - ID: "ef205dfd-6af2-4514-b694-77efa748f951"
+      Hint: Answer
+      Value: A diferencia de otros bancos que cobran altas tarifas por cuentas comerciales, usted disfrutará de cero tarifas mensuales, sin saldo mínimo y transacciones ilimitadas. También tendrá acceso a nuestras herramientas y servicios diseñados para pequeñas empresas.
 - Language: "fr-CA"
   Versions:
   - Version: 1

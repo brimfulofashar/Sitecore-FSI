@@ -18,6 +18,40 @@ Languages:
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
       Value: "5891c3f8-d583-4401-9256-f79fb7704f83"
+- Language: "es-CR"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260515T154911Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: 
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "729034fc-24f3-40b7-8fa4-fb49d7de20dd"
+      Hint: Text
+      Value: |
+        <div class="ck-content"><h2>Contáctenos</h2><p><strong>Soporte Telefónico - </strong>Llámenos al 1-800-123-4567. Nuestros representantes de atención al cliente están disponibles de lunes a viernes, de 8 AM a 8 PM hora local.</p><p><strong>Soporte por Correo Electrónico - </strong>Envíenos un correo a support@financewebsite.com, y le responderemos dentro de las 24 horas.</p><p><strong>Centro de Ayuda - </strong>Visite nuestro Centro de Ayuda para una lista completa de artículos y guías que cubren una amplia gama de temas. Use la barra de búsqueda para encontrar rápidamente la información que necesita.</p><p><strong>Redes Sociales - </strong>Conéctese con nosotros en nuestras redes sociales para actualizaciones, consejos y soporte directo. Síganos en Twitter, Facebook y LinkedIn.</p><h2>Asistencia de Cuenta</h2><p><strong>P: ¿Cómo puedo restablecer mi contraseña?</strong><br /><strong>R:</strong> Para restablecer su contraseña, haga clic en el enlace "¿Olvidó su contraseña?" en la página de inicio de sesión. Siga las instrucciones para recibir un enlace de restablecimiento de contraseña por correo electrónico. Si encuentra algún problema, comuníquese con nuestro equipo de soporte para obtener más ayuda.</p><p><strong>P: ¿Cómo puedo actualizar mi información personal?</strong><br /><strong>R:</strong> Inicie sesión en su cuenta y navegue a la sección "Configuración de la Cuenta". Aquí puede actualizar su información personal, incluyendo su dirección de correo electrónico, número de teléfono y dirección postal. Si necesita ayuda adicional, nuestro equipo de soporte está aquí para asistirle.</p><h2>Soporte Técnico</h2><p><strong>P: ¿Qué debo hacer si experimento problemas técnicos con el sitio web?</strong><br /><strong>R:</strong> Si encuentra problemas técnicos, por favor borre la caché y las cookies de su navegador, e intente acceder al sitio nuevamente. Si el problema persiste, contacte a nuestro equipo de soporte técnico con detalles del problema y cualquier mensaje de error que haya recibido.</p><p><strong>P: ¿Cómo puedo optimizar mi experiencia en el sitio web?</strong><br /><strong>R:</strong> Para la mejor experiencia, asegúrese de estar utilizando la versión más reciente de su navegador web. Nuestro sitio web está optimizado para su uso con navegadores modernos como Chrome, Firefox, Safari y Edge. Si continúa experimentando problemas, por favor comuníquese con nuestro equipo de soporte.</p><h2>Seguridad y Fraude</h2><p><strong>P: ¿Cómo aseguran la seguridad de mi cuenta?</strong><br /><strong>R:</strong> Empleamos medidas de seguridad avanzadas, incluyendo encriptación, autenticación multifactorial y monitoreo continuo para proteger su cuenta. Para más detalles, visite nuestra sección de "Seguridad".</p><p><strong>P: ¿Qué pasos debo seguir si sospecho de fraude?</strong><br /><strong>R:</strong> Comuníquese de inmediato con nuestro equipo de soporte contra fraudes si sospecha de cualquier actividad fraudulenta en su cuenta. Trabajaremos con usted para asegurar su cuenta e investigar el incidente.</p><p>Estamos comprometidos a brindarle el mejor soporte posible. No dude en contactarnos: estamos aquí para ayudarle a navegar su camino financiero con confianza.</p></div>
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "56557ac2-b6e5-480f-b3b7-1bd483c9e73c"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260515T154911Z
 - Language: "fr-CA"
   Versions:
   - Version: 1

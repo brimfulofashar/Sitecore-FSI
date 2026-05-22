@@ -21,7 +21,10 @@ SharedFields:
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail
   Value: |
-    <image mediaid="{F7A09BF6-C710-4F18-9693-D72EB7DCE7A4}" />
+    <image mediaid="{F7C050A2-A114-459B-9F95-CBF5217E2A6B}" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "e3761835-b52e-490e-9d6d-ba3185cf4aa9"
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Value: |
@@ -105,6 +108,72 @@ Languages:
     - ID: "e81c4912-a4d2-4466-842c-02f0b2c9dc42"
       Hint: Title
       Value: Bridging the wealth divide
+- Language: "es-CR"
+  Fields:
+  - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
+    Hint: __Unversioned revision
+    Value: "c11b85f2-3e13-4d76-a0df-566e74387768"
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Alerta de Seguridad Abril 2026
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "03117268-f84f-4fd8-ad9e-5990b3a21fe6"
+      Hint: Content
+      Value: |
+        <p>Cerrar la brecha de riqueza se ha convertido en una preocupación primordial para lograr justicia económica y prosperidad para todos. Exploremos las complejidades de la brecha de riqueza, sus implicaciones de largo alcance y los pasos accionables que las personas y las comunidades pueden tomar para trabajar hacia una distribución más equitativa de la riqueza.</p>
+        <p><strong>Entendiendo la Brecha de Riqueza</strong></p>
+        <p>
+        La brecha de riqueza se refiere a la disparidad en la distribución de activos y riqueza entre diferentes grupos socioeconómicos dentro de una sociedad. Esta división a menudo está influenciada por factores como la desigualdad de ingresos, barreras sistémicas, prácticas discriminatorias e injusticias históricas, lo que resulta en un acceso desigual a oportunidades y recursos.
+        </p>
+        <p><strong>Implicaciones de la Brecha de Riqueza</strong></p>
+        <p>
+        Las consecuencias de la brecha de riqueza van más allá de las disparidades financieras, afectando varios aspectos de la vida de las personas, incluyendo el acceso a la educación, la atención médica, la vivienda y la movilidad económica. La desigualdad perpetúa ciclos de pobreza y marginación, obstaculizando la movilidad social y sofocando el crecimiento económico y la innovación.</p>
+        <p><strong>Abordando la Brecha de Riqueza</strong></p>
+        <p>Cerrar la brecha de riqueza requiere un enfoque multifacético que aborde tanto los factores sistémicos como individuales que contribuyen a la desigualdad. Las políticas gubernamentales, como la tributación progresiva, la redistribución de la riqueza y la inversión en programas sociales, juegan un papel crucial en nivelar el campo de juego y crear oportunidades para las comunidades marginadas.</p>
+        <p><strong>Empoderando a las Personas y Comunidades</strong></p>
+        <p>Además de las intervenciones políticas, empoderar a las personas y comunidades con acceso a la educación, la alfabetización financiera, oportunidades de emprendimiento y recursos para la construcción de riqueza es esencial para cerrar la brecha de riqueza. Invertir en educación y capacitación en habilidades equipa a las personas con las herramientas y el conocimiento para asegurar empleos mejor remunerados y construir riqueza generacional.</p>
+        <p><strong>Promoviendo la Diversidad y la Inclusión</strong></p>
+        <p>Promover la diversidad y la inclusión en todos los sectores de la sociedad, incluyendo negocios, academia y gobierno, es esencial para crear un entorno donde todos tengan una oportunidad equitativa de éxito. Abrazar la diversidad fomenta la innovación, la creatividad y la colaboración, impulsando el crecimiento económico y la prosperidad para todos.</p>
+        <p><strong>Hacia un Futuro Más Equitativo</strong></p>
+        <p>Cerrar la brecha de riqueza no solo es un imperativo moral, sino también una necesidad económica para construir una sociedad más justa y sostenible. Al abordar las desigualdades sistémicas, empoderar a las personas y comunidades, y promover la diversidad y la inclusión, podemos trabajar juntos para crear un futuro donde todos tengan la oportunidad de prosperar, independientemente de su origen o circunstancias.</p>
+        <p><em>Únase a nosotros en nuestro compromiso de cerrar la brecha de riqueza y construir un mundo más equitativo para las generaciones venideras.</em></p>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260510T225220Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{13D6CCE7-A6C3-4EE1-A1D9-8A8E34225ED7}"
+    - ID: "3e700dce-26eb-4bf0-990f-9d9fe555990d"
+      Hint: Excerpt
+      Value: Explore las complejidades de la brecha de riqueza y descubra pasos accionables hacia un futuro más equitativo. Únase a nosotros en el compromiso de cerrar la brecha y construir un mundo donde todos tengan la oportunidad de prosperar.
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Cerrando la brecha de riqueza
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: 
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "4ecb4c00-db38-4c80-a566-1592ba2cd94b"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260515T154800Z
+    - ID: "e81c4912-a4d2-4466-842c-02f0b2c9dc42"
+      Hint: Title
+      Value: Cerrando la brecha de riqueza
 - Language: "fr-CA"
   Fields:
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"

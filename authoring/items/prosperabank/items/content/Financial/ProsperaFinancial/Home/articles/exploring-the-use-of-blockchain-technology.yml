@@ -18,7 +18,10 @@ SharedFields:
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail
   Value: |
-    <image mediaid="{90752279-EFD3-4260-940E-F1D7DDFF85AE}" />
+    <image mediaid="{7DD9C159-6F84-49F5-B229-6797619C4528}" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "4ea09ec9-8175-4db8-89b7-56805b28a5c4"
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Value: |
@@ -110,6 +113,80 @@ Languages:
     - ID: "e81c4912-a4d2-4466-842c-02f0b2c9dc42"
       Hint: Title
       Value: Exploring blockchain technology in banking
+- Language: "es-CR"
+  Fields:
+  - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
+    Hint: __Unversioned revision
+    Value: "8a6a7db7-8cbf-4eb5-b2b6-b5db1434cec7"
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Campaña United Way 2026
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "03117268-f84f-4fd8-ad9e-5990b3a21fe6"
+      Hint: Content
+      Value: |
+        <p>La tecnología blockchain ha surgido como un cambio de juego en el mundo de las finanzas, ofreciendo oportunidades sin precedentes para la innovación, la eficiencia y la seguridad. En esta publicación de blog, profundizaremos en el potencial transformador de blockchain en la banca, explorando sus aplicaciones, beneficios e implicaciones para el futuro de los servicios financieros.</p>
+        <p><strong>Entendiendo la tecnología Blockchain</strong></p>
+        <p>Blockchain es una tecnología de libro mayor descentralizado y distribuido que permite el registro seguro y transparente de transacciones a través de una red de computadoras. Cada bloque en la cadena de bloques contiene un hash criptográfico del bloque anterior, creando una cadena de bloques que es inmutable, a prueba de manipulaciones y verificable por todos los participantes.</p>
+        <p><strong>Aplicaciones de Blockchain en la Banca</strong></p>
+        <p>La tecnología blockchain ofrece una amplia gama de aplicaciones para la banca y los servicios financieros, incluyendo:</p>
+        <ul>
+            <li><strong>Pagos y Remesas</strong>: Blockchain permite pagos y remesas transfronterizos más rápidos, económicos y seguros al eliminar intermediarios y reducir los tiempos de liquidación.</li>
+            <li><strong>Contratos Inteligentes</strong>: Los contratos inteligentes son contratos autoejecutables con los términos del acuerdo escritos directamente en código. Los contratos inteligentes basados en blockchain automatizan y hacen cumplir los términos de los acuerdos, reduciendo la necesidad de intermediarios y agilizando procesos como la originación de préstamos, la financiación comercial y la gestión de la cadena de suministro.</li>
+            <li><strong>Verificación de Identidad</strong>: Las soluciones de verificación de identidad basadas en blockchain proporcionan métodos seguros y descentralizados para verificar y gestionar identidades digitales, mejorando la seguridad y reduciendo el riesgo de robo de identidad y fraude.</li>
+            <li><strong>Tokenización de Activos</strong>: La tokenización de activos implica convertir activos del mundo real, como bienes raíces, acciones y materias primas, en tokens digitales en una blockchain. Esto permite la propiedad fraccionada, una mayor liquidez y un comercio más eficiente de activos.</li>
+        </ul>
+        <p><strong>Beneficios de Blockchain en la Banca</strong></p>
+        <p>La adopción de la tecnología blockchain en la banca ofrece varios beneficios, incluyendo:</p>
+        <ul>
+            <li><strong>Aumento de la Eficiencia</strong>: Blockchain simplifica los procesos, reduce costos y elimina intermediarios, lo que lleva a una liquidación de transacciones más rápida y una mayor eficiencia operativa.</li>
+            <li><strong>Mayor Seguridad</strong>: Las características criptográficas de la tecnología blockchain garantizan un registro seguro y a prueba de manipulaciones, protegiendo contra el fraude, la manipulación y el acceso no autorizado.</li>
+            <li><strong>Mejora de la Transparencia</strong>: Blockchain proporciona un registro transparente e inmutable de las transacciones, mejorando la confianza y la responsabilidad entre los participantes.</li>
+        </ul>
+        <p><strong>Desafíos y Consideraciones</strong></p>
+        <p>A pesar de sus beneficios potenciales, la adopción de blockchain en la banca también presenta desafíos y consideraciones, incluyendo el cumplimiento normativo, la interoperabilidad, la escalabilidad y las preocupaciones de privacidad. Los bancos deben navegar estos desafíos de manera efectiva para aprovechar al máximo el potencial de la tecnología blockchain mientras mitigan los riesgos asociados.</p>
+        <p><strong>Mirando hacia el futuro: El futuro de Blockchain en la Banca</strong></p>
+        <p>A medida que la tecnología blockchain continúa evolucionando y madurando, los bancos están explorando cada vez más formas de integrarla en sus sistemas y procesos existentes. Al adoptar la innovación, colaborar con las partes interesadas de la industria y priorizar la seguridad y el cumplimiento, los bancos pueden aprovechar el poder transformador de blockchain para impulsar la innovación, mejorar la eficiencia y ofrecer valor a los clientes.</p>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260510T225156Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{1B3D21A1-3E75-49D0-AF21-C4B2DE228760}"
+    - ID: "3e700dce-26eb-4bf0-990f-9d9fe555990d"
+      Hint: Excerpt
+      Value: Sumérjase en el potencial transformador de la tecnología blockchain en la banca, explorando sus aplicaciones y beneficios en la revolución de los servicios financieros. Únase a nuestro viaje para abrazar la innovación y generar un cambio positivo en el panorama financiero.
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Explorando el uso de la tecnología blockchain en la banca
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: 
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "f4d54075-dc06-45af-a738-77a14977bd5e"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20240614T135535Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260515T154739Z
+    - ID: "e81c4912-a4d2-4466-842c-02f0b2c9dc42"
+      Hint: Title
+      Value: Explorando la tecnología blockchain en la banca
 - Language: "fr-CA"
   Fields:
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"

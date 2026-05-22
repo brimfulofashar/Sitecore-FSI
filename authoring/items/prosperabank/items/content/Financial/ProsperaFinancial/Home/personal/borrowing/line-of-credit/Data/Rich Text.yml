@@ -25,6 +25,43 @@ Languages:
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
       Value: "61b261d7-c1c2-4c3e-a181-82492e4f5f76"
+- Language: "es-CR"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260515T155036Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: 
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "729034fc-24f3-40b7-8fa4-fb49d7de20dd"
+      Hint: Text
+      Value: |
+        <h2>Tu línea de vida financiera flexible</h2>
+        <p>Una línea de crédito es una herramienta financiera versátil que te brinda acceso a fondos según los necesites, ofreciendo flexibilidad y conveniencia para gestionar tus finanzas. A diferencia de un préstamo tradicional, que proporciona una suma de dinero en un solo pago, una línea de crédito te permite pedir prestado hasta un límite de crédito preestablecido y reembolsarlo con el tiempo, con intereses solo sobre el monto utilizado.</p>
+        <p>Una de las principales ventajas de una línea de crédito es su flexibilidad. Ya sea que enfrentes gastos inesperados, financies renovaciones en el hogar o cubras fluctuaciones estacionales de flujo de efectivo en tu negocio, una línea de crédito puede proporcionarte el colchón financiero que necesitas para navegar los altibajos de la vida sin tener que volver a solicitar un nuevo préstamo cada vez.</p>
+        <p>Otro beneficio de una línea de crédito es su naturaleza renovable. A medida que reembolsas el monto prestado, el crédito disponible se repone, brindándote acceso continuo a fondos siempre que los necesites. Esta característica renovable hace que una línea de crédito sea una excelente opción para gastos continuos o impredecibles, ofreciendo tranquilidad y estabilidad financiera.</p>
+        <h2>Entendiendo la línea de crédito</h2>
+        <p>Al considerar una línea de crédito, es esencial comprender los términos y condiciones asociados con el acuerdo de crédito, incluyendo la tasa de interés, los términos de reembolso y cualquier tarifa o cargo. Al revisar cuidadosamente estos detalles y evaluar tus necesidades financieras, puedes determinar si una línea de crédito es la solución adecuada para ti y tus circunstancias únicas.</p>
+        <p>Ya sea que busques cubrir gastos a corto plazo, aprovechar oportunidades de inversión o gestionar el flujo de efectivo en tu negocio, una línea de crédito puede ser una herramienta financiera valiosa para tener en tu arsenal. Con su flexibilidad, conveniencia y acceso continuo a fondos, una línea de crédito ofrece la libertad y tranquilidad que necesitas para enfrentar los desafíos financieros de la vida con confianza.</p>
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "f7550f1b-57ef-436b-a4af-1fb13f4a66f7"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260515T155036Z
 - Language: "fr-CA"
   Versions:
   - Version: 1

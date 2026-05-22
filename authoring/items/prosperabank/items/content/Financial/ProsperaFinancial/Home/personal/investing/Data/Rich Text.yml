@@ -25,6 +25,43 @@ Languages:
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
       Value: "c2a2a557-e225-4688-b149-1939191b04b4"
+- Language: "es-CR"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260515T154939Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: 
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "729034fc-24f3-40b7-8fa4-fb49d7de20dd"
+      Hint: Text
+      Value: |
+        <h2>Un punto de vista claro</h2>
+        <p>La gestión de patrimonios es más que solo asesoramiento de inversión, ya que puede abarcar todas las partes de la vida financiera de una persona. La idea es que, en lugar de intentar integrar piezas de asesoramiento y varios productos de una serie de profesionales, las personas con un alto patrimonio neto se beneficien de un enfoque holístico en el que un solo gestor coordine todos los servicios necesarios para administrar su dinero y planificar las necesidades actuales y futuras propias o de su familia.</p>
+        <p>Si bien el uso de un gestor de patrimonios se basa en la teoría de que él o ella puede proporcionar servicios en cualquier aspecto del ámbito financiero, algunos eligen especializarse en áreas particulares. Esto puede basarse en la experiencia del gestor de patrimonios en cuestión o en el enfoque principal del negocio dentro del cual opera el gestor de patrimonios.</p>
+        <h2>Navegando las aguas del patrimonio</h2>
+        <p>En un panorama financiero en constante evolución, el arte de invertir puede parecer desalentador. Sin embargo, con el conocimiento y la orientación adecuados, puede convertirse en una herramienta poderosa para construir patrimonio y asegurar tu futuro financiero. Entendemos la importancia de tomar decisiones de inversión informadas adaptadas a tus objetivos únicos y tolerancia al riesgo.</p>
+        <p>Nuestra plataforma de inversión ofrece una amplia gama de opciones, desde acciones y bonos tradicionales hasta inversiones alternativas y cuentas de jubilación. Ya sea que estés buscando hacer crecer tu patrimonio a largo plazo, generar ingresos pasivos o ahorrar para la jubilación, nuestros asesores experimentados están aquí para ayudarte a navegar las complejidades del mercado y desarrollar una estrategia de inversión personalizada que se alinee con tus objetivos.</p>
+        <p>Con un enfoque en la transparencia, la educación y el servicio personalizado, nos esforzamos por empoderar a nuestros clientes para que tomen decisiones de inversión con confianza. Ya sea que seas un inversionista experimentado o estés comenzando, estamos comprometidos a proporcionar los recursos y el apoyo que necesitas para tener éxito en tu viaje financiero. Da el primer paso hacia un futuro más brillante y comienza tu viaje de inversión hoy.</p>
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "022e6d56-de45-45e4-b305-29808b6578a0"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260515T154939Z
 - Language: "fr-CA"
   Versions:
   - Version: 1

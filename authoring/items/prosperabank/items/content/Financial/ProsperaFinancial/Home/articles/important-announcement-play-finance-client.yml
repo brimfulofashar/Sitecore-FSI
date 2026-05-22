@@ -21,7 +21,10 @@ SharedFields:
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail
   Value: |
-    <image mediaid="{D5BD1CA6-525D-4BFD-ABB6-B4D70E795883}" />
+    <image mediaid="{5707C501-BEA0-4FE4-8367-A7228AD1C77A}" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "41414bf5-361b-4ec7-a2ce-9cfaf9492e13"
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Value: |
@@ -104,6 +107,71 @@ Languages:
     - ID: "e81c4912-a4d2-4466-842c-02f0b2c9dc42"
       Hint: Title
       Value: An important announcement for our clients
+- Language: "es-CR"
+  Fields:
+  - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
+    Hint: __Unversioned revision
+    Value: "8fa60b11-be67-447e-845b-16971fda34fc"
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Alerta de Seguridad Marzo 2026
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "03117268-f84f-4fd8-ad9e-5990b3a21fe6"
+      Hint: Content
+      Value: |
+        <p>PLAY! Finance, un proveedor líder de servicios financieros de vanguardia, se complace en compartir una emocionante actualización con sus valiosos clientes.
+        <br />
+        <br />
+        Arthur Spannos, CEO de PLAY! Finance, expresó: "<strong><em>Estamos encantados de anunciar un hito significativo en nuestro compromiso continuo de empoderar a nuestros clientes para lograr el bienestar financiero.</em></strong>"
+        Los aspectos más destacados del anuncio incluyen:</p>
+        <ul>
+            <li>
+            <strong>Experiencia de Usuario Mejorada:</strong> Introducción de nuevas funciones y mejoras para optimizar la experiencia del usuario y hacer que la gestión financiera sea aún más intuitiva y conveniente.</li>
+            <li><strong>Ampliación de la Oferta de Productos:</strong> Presentación de nuevos productos y servicios financieros para abordar las necesidades cambiantes de nuestros clientes y proporcionarles aún más formas de alcanzar sus metas financieras.</li>
+            <li><strong>Enfoque Continuo en la Seguridad:</strong> Mantener los más altos estándares de seguridad y privacidad para garantizar que nuestros clientes puedan confiar en nosotros con su información financiera sensible.</li>
+            <li><strong>Compromiso con la Satisfacción del Cliente:</strong> Redoblar nuestros esfuerzos para brindar un servicio y soporte al cliente excepcionales, asegurando que nuestros clientes reciban la asistencia que necesitan, cuando la necesitan.</li>
+        </ul>
+        <p>"<strong><em>Estamos dedicados al éxito de nuestros clientes, y este anuncio representa nuestro compromiso continuo de ofrecer soluciones innovadoras que los empoderen para tomar el control de su futuro financiero</em></strong>.", agregó Arthur Spannos.</p>
+        <p>Para obtener más información sobre estas emocionantes actualizaciones y cómo beneficiarán a los clientes de PLAY! Finance, visite el sitio web de PLAY! Finance o su sucursal local.</p>
+        <p><strong>Acerca de PLAY! Finance</strong><br />
+        PLAY! Finance es un proveedor líder de soluciones financieras innovadoras, dedicado a empoderar a las personas para lograr el bienestar financiero. A través de tecnología avanzada y herramientas personalizadas, PLAY! Finance está redefiniendo la forma en que los consumidores interactúan con sus finanzas, haciendo que la gestión financiera sea accesible, atractiva y gratificante para todos.</p>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260510T225238Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{13D6CCE7-A6C3-4EE1-A1D9-8A8E34225ED7}"
+    - ID: "3e700dce-26eb-4bf0-990f-9d9fe555990d"
+      Hint: Excerpt
+      Value: "PLAY! Finance anuncia una serie de mejoras y expansiones destinadas a optimizar la experiencia del cliente y promover el empoderamiento financiero."
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Un anuncio importante para nuestros clientes
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: 
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "248d8bfc-bc54-424b-9077-ed5543381f9d"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260515T154800Z
+    - ID: "e81c4912-a4d2-4466-842c-02f0b2c9dc42"
+      Hint: Title
+      Value: Un anuncio importante para nuestros clientes
 - Language: "fr-CA"
   Fields:
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"

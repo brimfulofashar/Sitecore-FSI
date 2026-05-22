@@ -18,7 +18,10 @@ SharedFields:
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail
   Value: |
-    <image mediaid="{AD2479B3-110D-4CE7-93B7-D2BA883F6AA8}" />
+    <image mediaid="{76583EAE-8007-4CBB-8DA1-1098BACA1FA3}" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "f5175da3-60ab-4e40-87e5-b7bf7312d55c"
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Value: |
@@ -118,6 +121,80 @@ Languages:
     - ID: "e81c4912-a4d2-4466-842c-02f0b2c9dc42"
       Hint: Title
       Value: "Protect yourself: Beware of financial online scams"
+- Language: "es-CR"
+  Fields:
+  - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
+    Hint: __Unversioned revision
+    Value: "31448a16-a80f-4110-a307-b5d9940d9734"
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: El Pulso de Seguridad Abril 2026
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "03117268-f84f-4fd8-ad9e-5990b3a21fe6"
+      Hint: Content
+      Value: |
+        <p>En un mundo cada vez más digital, la conveniencia de las transacciones financieras en línea viene acompañada de un riesgo: la amenaza de estafas y fraudes. A medida que la tecnología avanza, también lo hacen las tácticas de los ciberdelincuentes, lo que hace esencial que las personas se mantengan alerta e informadas para proteger su dinero ganado con esfuerzo. Aquí hay algunas estafas financieras comunes en línea de las que debe estar consciente y consejos sobre cómo evitar ser víctima de ellas.</p>
+        <p><strong>Estafas de Phishing</strong></p>
+        <p>Las estafas de phishing implican intentos fraudulentos de obtener información sensible, como nombres de usuario, contraseñas y detalles de tarjetas de crédito, haciéndose pasar por entidades confiables. Estas estafas suelen presentarse en forma de correos electrónicos, mensajes de texto o sitios web engañosos que parecen legítimos pero están diseñados para engañar a las personas para que revelen su información personal.
+        </p>
+        <p style="margin-left: 40px;"><strong>Consejo</strong>: Sea cauteloso con correos electrónicos o mensajes no solicitados que soliciten información personal o financiera. Verifique la legitimidad del remitente contactando directamente a la organización a través de canales oficiales, como su sitio web o línea de atención al cliente.
+        </p>
+        <p><strong>Estafas de Inversión</strong></p>
+        <p>Las estafas de inversión prometen altos rendimientos con poco o ningún riesgo, a menudo dirigidas a personas desprevenidas que buscan hacer crecer su riqueza rápidamente. Estas estafas pueden involucrar esquemas fraudulentos como esquemas Ponzi, esquemas piramidales u oportunidades de inversión falsas que prometen rendimientos poco realistas o ganancias garantizadas.
+        </p>
+        <p style="margin-left: 40px;"><strong>Consejo</strong>: Tenga cuidado cuando se le presenten oportunidades de inversión que suenen demasiado buenas para ser verdad. Realice una investigación exhaustiva y busque asesoramiento de profesionales financieros de buena reputación antes de tomar decisiones de inversión.
+        </p>
+        <p><strong>Estafas de Compras en Línea</strong></p>
+        <p>Las estafas de compras en línea implican sitios web o vendedores fraudulentos que ofrecen productos falsificados o inexistentes a precios atractivos para atraer a compradores desprevenidos. Estas estafas pueden resultar en que las personas paguen por bienes que nunca reciben o reciban productos de calidad inferior en comparación con lo que se anunciaba.
+        </p>
+        <p style="margin-left: 40px;"><strong>Consejo</strong>: Compre solo en sitios web confiables y de buena reputación, y tenga cuidado con ofertas que parezcan demasiado buenas para ser verdad. Busque opciones de pago seguras y lea reseñas de otros clientes antes de realizar una compra.
+        </p>
+        <p><strong>Estafas de Romance</strong></p>
+        <p>Las estafas de romance implican que individuos se hagan pasar por posibles parejas románticas para establecer confianza y manipular a las víctimas para que les envíen dinero o información personal. Estas estafas suelen ocurrir en plataformas de redes sociales, sitios web de citas o foros en línea donde los ciberdelincuentes se dirigen a personas vulnerables que buscan compañía.
+        </p>
+        <p style="margin-left: 40px;"><strong>Consejo</strong>: Sea cauteloso al comunicarse con personas en línea, especialmente si solicitan asistencia financiera o revelan información personal al inicio de la relación. Evite compartir información sensible con desconocidos y considere verificar su identidad por otros medios antes de continuar.
+        </p>
+        <p><strong>Conclusión</strong></p>
+        <p>Protegerse de las estafas financieras en línea requiere conciencia, escepticismo y medidas proactivas para salvaguardar su información personal y financiera. Al mantenerse informado y actuar con precaución al realizar transacciones en línea, puede reducir el riesgo de ser víctima de estafas y disfrutar de una experiencia en línea más segura.
+        </p>
+        <p>Recuerde, si algo parece sospechoso o demasiado bueno para ser verdad, probablemente lo sea. Manténgase alerta, confíe en sus instintos y siempre priorice su seguridad financiera.</p>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260510T225143Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{13D6CCE7-A6C3-4EE1-A1D9-8A8E34225ED7}"
+    - ID: "3e700dce-26eb-4bf0-990f-9d9fe555990d"
+      Hint: Excerpt
+      Value: Las estafas financieras en línea representan una amenaza significativa para la seguridad financiera de las personas, lo que requiere mayor conciencia y precaución. Manténgase alerta ante intentos de phishing, esquemas de inversión y fraudes de compras en línea para protegerse en el entorno digital.
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Cuídese de las estafas financieras en línea
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: 
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "68923891-bdad-44c8-89ad-d8972754e28b"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260515T154739Z
+    - ID: "e81c4912-a4d2-4466-842c-02f0b2c9dc42"
+      Hint: Title
+      Value: "Protéjase: Cuídese de las estafas financieras en línea"
 - Language: "fr-CA"
   Fields:
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"

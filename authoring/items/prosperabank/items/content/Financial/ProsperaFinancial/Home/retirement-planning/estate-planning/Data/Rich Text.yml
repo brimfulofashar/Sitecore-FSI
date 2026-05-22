@@ -22,6 +22,44 @@ Languages:
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
       Value: "92e64dcb-25bb-4883-ba73-f10ae9d169d7"
+- Language: "es-CR"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260515T155020Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: 
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "729034fc-24f3-40b7-8fa4-fb49d7de20dd"
+      Hint: Text
+      Value: |
+        <h2>Asegurando su legado para las generaciones futuras</h2>
+        <p>La planificación patrimonial es un componente vital de la planificación financiera que implica organizar la transferencia de sus activos y riqueza a sus herederos y beneficiarios tras su fallecimiento.</p>
+        <p>Uno de los objetivos principales de la planificación patrimonial es garantizar que sus activos se distribuyan según sus deseos y que sus seres queridos estén protegidos después de su partida. La planificación patrimonial le permite designar beneficiarios para sus activos, como cuentas bancarias, cuentas de jubilación, pólizas de seguro de vida y propiedades inmobiliarias.</p>
+        <h2>Planificar para planificar</h2>
+        <p>La planificación patrimonial le permite minimizar los impuestos sobre el patrimonio y los costos de sucesión, permitiendo que más de sus activos pasen a sus beneficiarios en lugar de ser consumidos por impuestos y honorarios legales.</p>
+        <p>La planificación patrimonial brinda la oportunidad de establecer fideicomisos para gestionar y distribuir activos según instrucciones y cronogramas específicos, como proveer para hijos menores o organizaciones benéficas. La planificación patrimonial le permite nombrar tutores para hijos menores y designar apoderados médicos y financieros para tomar decisiones médicas y financieras en su nombre si queda incapacitado.</p>
+        <p>Estar organizado y mantener su plan patrimonial actualizado es esencial para garantizar que refleje con precisión sus deseos y circunstancias actuales.</p>
+        <p>En última instancia, la planificación patrimonial no se trata solo de distribuir sus activos; se trata de crear un legado duradero y brindar tranquilidad para usted y sus seres queridos.</p>
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "c0dd4aec-9657-4f91-b694-d8ad9ca1f713"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260515T155020Z
 - Language: "fr-CA"
   Versions:
   - Version: 1

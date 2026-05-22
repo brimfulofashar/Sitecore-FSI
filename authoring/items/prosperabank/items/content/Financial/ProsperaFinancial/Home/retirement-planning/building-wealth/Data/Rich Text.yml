@@ -25,6 +25,47 @@ Languages:
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
       Value: "5b49b16b-d0ff-4c83-a63b-8c01439a2a6c"
+- Language: "es-CR"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260515T155015Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: 
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "729034fc-24f3-40b7-8fa4-fb49d7de20dd"
+      Hint: Text
+      Value: |
+        <h2>Construyendo riqueza en la jubilación</h2>
+        <p>La jubilación marca un hito significativo en la vida, ofreciendo la oportunidad de disfrutar los frutos de tu trabajo y construir riqueza para un futuro seguro y próspero.</p>
+        <p>Una estrategia clave para construir riqueza en la jubilación es priorizar el ahorro y las inversiones. Al reservar una parte de tus ingresos e invertirla sabiamente, puedes hacer crecer tu riqueza con el tiempo y crear un colchón financiero para los años venideros.</p>
+        <p>Diversificar tu portafolio de inversiones es esencial para mitigar riesgos y maximizar rendimientos. Considera asignar tus activos en una variedad de vehículos de inversión, como acciones, bonos, bienes raíces y cuentas de jubilación, para lograr un portafolio equilibrado y resiliente.</p>
+        <h2>Estrategias para la seguridad financiera</h2>
+        <p>Aprovechar las cuentas de jubilación con ventajas fiscales, como los 401(k), IRA y Roth IRA, puede ayudarte a ahorrar de manera más eficiente y reducir tu carga fiscal en la jubilación. Maximiza tus contribuciones a estas cuentas y aprovecha las contribuciones equivalentes de tu empleador siempre que sea posible.</p>
+        <p>Minimizar la deuda y vivir dentro de tus posibilidades es crucial para construir riqueza en la jubilación. Liquida rápidamente las deudas con altos intereses, como los saldos de tarjetas de crédito y préstamos personales, y evita adquirir nuevas deudas a menos que sea absolutamente necesario.</p>
+        <h2>Creando un estilo de vida pleno y con propósito</h2>
+        <p>Considera explorar fuentes alternativas de ingresos y oportunidades emprendedoras para complementar tus ahorros de jubilación y generar ingresos adicionales. Ya sea iniciando un pequeño negocio, trabajando como freelance o invirtiendo en propiedades de alquiler, diversificar tus fuentes de ingresos puede proporcionar mayor seguridad financiera y flexibilidad en la jubilación.</p>
+        <p>Mantenerse informado sobre los cambios en los mercados financieros, las tendencias económicas y las estrategias de planificación de jubilación es esencial para tomar decisiones de inversión informadas y adaptarse a las circunstancias cambiantes. Mantente conectado con asesores financieros de confianza y recursos para estar al tanto de los desarrollos y oportunidades en el mundo financiero.</p>
+        <p>Construir riqueza en la jubilación requiere disciplina, paciencia y una perspectiva a largo plazo. Al adoptar hábitos financieros sólidos, diversificar tus inversiones y mantenerte proactivo en la gestión de tus finanzas, puedes crear una base sólida para la seguridad financiera y la prosperidad en la jubilación.</p>
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "facf128a-f665-4ae8-b12d-751bd4ee90f3"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260515T155015Z
 - Language: "fr-CA"
   Versions:
   - Version: 1

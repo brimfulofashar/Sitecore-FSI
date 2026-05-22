@@ -17,6 +17,39 @@ Languages:
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
       Value: "132070ec-162f-4f66-aadf-86b15de26e3e"
+- Language: "es-CR"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260515T154857Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: 
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "729034fc-24f3-40b7-8fa4-fb49d7de20dd"
+      Hint: Text
+      Value: "<h2>Términos y Condiciones del Calculador de Préstamos</h2><p><strong>Descargo de Responsabilidad sobre la Precisión:</strong> El calculador de préstamos proporcionado en esta plataforma es solo para fines informativos y no pretende servir como asesoramiento financiero. Si bien nos esforzamos por proporcionar cálculos precisos, los resultados generados por el calculador pueden variar según las circunstancias individuales y otros factores. Se recomienda a los usuarios consultar con un asesor financiero calificado o prestamista para obtener asesoramiento y asistencia personalizados.</p><p><strong>Solo Estimaciones:</strong> Las cifras generadas por el calculador de préstamos son estimaciones basadas en la información proporcionada por el usuario. Los términos reales del préstamo, las tasas de interés y los pagos mensuales pueden variar según factores como la solvencia crediticia, el monto del préstamo, el plazo del préstamo y las condiciones del mercado prevalecientes. Los usuarios deben obtener cotizaciones oficiales de préstamos de los prestamistas para obtener información precisa y actualizada.</p><p><strong>Uso de la Información:</strong> Al utilizar el calculador de préstamos, usted acepta que cualquier información proporcionada, incluidos los montos de los préstamos, las tasas de interés y los términos de pago, puede ser utilizada por nosotros para análisis estadísticos, investigaciones y fines de marketing. Sin embargo, su información personal no será compartida con terceros sin su consentimiento.</p><p><strong>Sin Garantías:</strong> Los resultados generados por el calculador de préstamos no son vinculantes y no constituyen una oferta o aprobación para un préstamo. La aprobación final del préstamo está sujeta a la revisión de su solicitud, historial crediticio y otros factores relevantes por parte del prestamista. No ofrecemos garantías con respecto a la aprobación del préstamo, las tasas de interés o los términos.</p><p><strong>Modificación o Terminación:</strong> Nos reservamos el derecho de modificar, suspender o terminar el servicio del calculador de préstamos en cualquier momento sin previo aviso. También podemos actualizar estos términos y condiciones de vez en cuando sin previo aviso. Los usuarios son responsables de revisar los términos periódicamente para conocer cualquier cambio.</p><p>Al utilizar el calculador de préstamos, usted reconoce que ha leído, entendido y aceptado estos términos y condiciones en su totalidad. Si no está de acuerdo con alguna parte de estos términos, debe abstenerse de utilizar el calculador de préstamos.</p><p><br /></p>"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "de4dafa6-92fe-4e06-ac6d-07c293e90945"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260515T154857Z
 - Language: "fr-CA"
   Versions:
   - Version: 1

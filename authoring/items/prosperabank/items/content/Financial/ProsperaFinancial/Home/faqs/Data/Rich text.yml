@@ -43,6 +43,65 @@ Languages:
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
       Value: "1fb807e7-2598-471d-a8f0-d11610c21c06"
+- Language: "es-CR"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260515T154910Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: 
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "729034fc-24f3-40b7-8fa4-fb49d7de20dd"
+      Hint: Text
+      Value: |
+        <h2>Preguntas Generales</h2>
+        <p><strong>P: ¿Qué servicios ofrece su sitio web financiero?</strong><br />
+        <strong>R:</strong> Ofrecemos una amplia gama de servicios financieros, incluyendo asesoramiento en inversiones, planificación para el retiro, herramientas de presupuesto y recursos educativos financieros. Nuestro objetivo es ayudarle a lograr estabilidad y crecimiento financiero.</p>
+        <p><strong>P: ¿Cómo puedo crear una cuenta?</strong><br />
+        <strong>R:</strong> Crear una cuenta es sencillo. Haga clic en el botón "Registrarse" en la esquina superior derecha de la página, complete sus datos personales y siga las instrucciones para finalizar el proceso de registro.</p>
+        <h2>Inversiones</h2>
+        <p><strong>P: ¿Qué tipos de cuentas de inversión ofrecen?</strong><br />
+        <strong>R:</strong> Ofrecemos varios tipos de cuentas de inversión, incluyendo cuentas de corretaje individuales, cuentas de retiro (IRAs y 401(k)s) y cuentas de ahorro para la educación. Cada tipo de cuenta está diseñado para cumplir con objetivos y necesidades financieras específicas.</p>
+        <p><strong>P: ¿Cómo empiezo a invertir?</strong><br />
+        <strong>R:</strong> Para comenzar a invertir, primero cree una cuenta en nuestra plataforma. Una vez que su cuenta esté configurada, puede financiarla y elegir entre una variedad de opciones de inversión como acciones, bonos, fondos mutuos y ETFs. Nuestras herramientas y recursos fáciles de usar le guiarán durante el proceso.</p>
+        <h2>Planificación para el Retiro</h2>
+        <p><strong>P: ¿Qué servicios de planificación para el retiro ofrecen?</strong><br />
+        <strong>R:</strong> Nuestros servicios de planificación para el retiro incluyen planes personalizados, estrategias de inversión para cuentas de retiro y herramientas para ayudarle a estimar sus necesidades futuras de retiro. También ofrecemos consultas con asesores financieros para diseñar un plan específicamente para usted.</p>
+        <p><strong>P: ¿Cómo sé si estoy ahorrando lo suficiente para el retiro?</strong><br />
+        <strong>R:</strong> Use nuestra calculadora de retiro para estimar cuánto necesita ahorrar según sus ingresos actuales, gastos esperados y la edad deseada de retiro. Nuestros asesores financieros también pueden proporcionarle consejos personalizados para asegurarse de que está en el camino correcto.</p>
+        <h2>Presupuesto y Ahorro</h2>
+        <p><strong>P: ¿Qué herramientas de presupuesto están disponibles en su sitio web?</strong><br />
+        <strong>R:</strong> Ofrecemos una variedad de herramientas de presupuesto, incluyendo rastreadores de gastos, planificadores de presupuesto y calculadoras de metas de ahorro. Estas herramientas están diseñadas para ayudarle a gestionar sus finanzas de manera efectiva y alcanzar sus metas de ahorro.</p>
+        <p><strong>P: ¿Cómo puedo mejorar mis hábitos de ahorro?</strong><br />
+        <strong>R:</strong> Mejorar los hábitos de ahorro comienza con establecer metas claras y crear un presupuesto realista. Use nuestro planificador de ahorros para establecer metas alcanzables y realizar un seguimiento de su progreso. Además, considere automatizar sus ahorros para garantizar consistencia.</p>
+        <h2>Seguridad</h2>
+        <p><strong>P: ¿Cómo protegen mi información financiera?</strong><br />
+        <strong>R:</strong> Priorizamos la seguridad de su información financiera utilizando tecnologías avanzadas de encriptación, procesos de inicio de sesión seguros y auditorías de seguridad regulares. Sus datos siempre están protegidos con nosotros.</p>
+        <p><strong>P: ¿Qué debo hacer si sospecho actividad fraudulenta en mi cuenta?</strong><br />
+        <strong>R:</strong> Si sospecha de alguna actividad fraudulenta, contacte a nuestro equipo de soporte al cliente de inmediato. Le guiaremos a través de los pasos necesarios para asegurar su cuenta e investigar el problema.</p>
+        <p>Para obtener información más detallada sobre cualquiera de estos temas, por favor visite las secciones correspondientes de nuestro sitio web o contacte a nuestro equipo de soporte al cliente. Estamos aquí para ayudarle a navegar su camino financiero con confianza.</p>
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "fd258e16-4a2c-4e77-aa0d-31392417815f"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260515T154910Z
 - Language: "fr-CA"
   Versions:
   - Version: 1

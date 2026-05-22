@@ -22,6 +22,39 @@ Languages:
     - ID: "ef205dfd-6af2-4514-b694-77efa748f951"
       Hint: Answer
       Value: Our website provides access to credit monitoring tools and educational resources to help you understand and improve your credit score. You can track changes to your score over time, receive alerts about potential fraud or identity theft, and access personalized tips for boosting your creditworthiness. Whether you're working to build credit from scratch or aiming to raise your score, we're here to support you every step of the way.
+- Language: "es-CR"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260515T154934Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: 
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "49fe77e7-6a8a-4183-81d1-78767404f6a8"
+    - ID: "93ba0221-aa2a-4a04-b8f6-39c2ab65c694"
+      Hint: Question
+      Value: "¿Qué herramientas y recursos proporcionan para ayudarme a rastrear y mejorar mi puntaje de crédito?"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260515T154934Z
+    - ID: "ef205dfd-6af2-4514-b694-77efa748f951"
+      Hint: Answer
+      Value: Nuestro sitio web proporciona acceso a herramientas de monitoreo de crédito y recursos educativos para ayudarte a entender y mejorar tu puntaje de crédito. Puedes rastrear los cambios en tu puntaje a lo largo del tiempo, recibir alertas sobre posibles fraudes o robo de identidad, y acceder a consejos personalizados para aumentar tu solvencia crediticia. Ya sea que estés trabajando para construir crédito desde cero o buscando aumentar tu puntaje, estamos aquí para apoyarte en cada paso del camino.
 - Language: "fr-CA"
   Versions:
   - Version: 1

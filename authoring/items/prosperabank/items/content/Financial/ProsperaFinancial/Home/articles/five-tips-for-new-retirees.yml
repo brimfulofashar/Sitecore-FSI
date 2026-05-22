@@ -21,7 +21,10 @@ SharedFields:
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail
   Value: |
-    <image mediaid="{507F60CB-057B-4812-9949-A0BF3BD0997D}" />
+    <image mediaid="{ECBE8C4B-428C-4A85-A41A-681E09EC4B98}" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "a5ef02a0-aa0d-4b4f-87ac-4b33782c5c09"
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Value: |
@@ -110,6 +113,77 @@ Languages:
     - ID: "e81c4912-a4d2-4466-842c-02f0b2c9dc42"
       Hint: Title
       Value: "Starting your retirement journey: 5 tips for new retirees"
+- Language: "es-CR"
+  Fields:
+  - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
+    Hint: __Unversioned revision
+    Value: "4d334a77-e445-4b5c-8a1d-79d7b77c1dad"
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Resumen Regulatorio Marzo 2026
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "03117268-f84f-4fd8-ad9e-5990b3a21fe6"
+      Hint: Content
+      Value: |
+        <p>La jubilación marca el comienzo de un nuevo capítulo en la vida&mdash;uno lleno de libertad, oportunidades y nuevas aventuras. Al embarcarte en este emocionante viaje, es importante estar preparado y contar con el conocimiento y los recursos necesarios para aprovechar al máximo tus años de jubilación.
+        </p>
+        <p><strong>1. Planificación Financiera</strong>
+        </p>
+        <p>Uno de los primeros pasos para prepararse para la jubilación es crear un plan financiero integral. Evalúa tus ahorros para la jubilación, inversiones y fuentes de ingresos, y determina un presupuesto que se alinee con tu estilo de vida y metas. Considera consultar con un asesor financiero para asegurarte de que tu plan de jubilación sea sólido y sostenible a largo plazo.</p>
+        <p>
+        <strong>2. Cobertura de Atención Médica</strong>
+        </p>
+        <p>Los costos de atención médica pueden ser un gasto significativo en la jubilación, por lo que es esencial comprender tus opciones de cobertura médica. Si eres elegible para Medicare, familiarízate con las diferentes partes y opciones de cobertura disponibles para ti. Considera planes de seguro complementarios para cubrir cualquier brecha en la cobertura y protegerte contra gastos médicos inesperados.</p>
+        <p><strong>3. Beneficios del Seguro Social</strong></p>
+        <p>Asegúrate de entender cómo funcionan los beneficios del Seguro Social y cuál es el mejor momento para comenzar a reclamarlos. Aunque puedes comenzar a recibir beneficios a partir de los 62 años, retrasar la jubilación puede aumentar el monto de tu beneficio mensual. Considera cuidadosamente tu situación financiera y tus metas de jubilación antes de tomar una decisión sobre cuándo comenzar a reclamar el Seguro Social.</p>
+        <p>
+        <strong>4. Ajustes de Estilo de Vida</strong></p>
+        <p>La jubilación a menudo implica cambios significativos en el estilo de vida, tanto en términos de cómo pasas tu tiempo como de cómo manejas tus finanzas. Tómate el tiempo para evaluar tus prioridades, intereses y metas para la jubilación, y ajusta tu estilo de vida en consecuencia. Explora nuevos pasatiempos, oportunidades de viaje y formas de mantenerte activo e involucrado en tu comunidad.</p>
+        <p>
+        <strong>5. Planificación Patrimonial</strong></p>
+        <p>La planificación patrimonial es un aspecto esencial de la planificación de la jubilación que muchas personas pasan por alto. Revisa tu plan patrimonial, incluyendo tu testamento, fideicomisos y poderes notariales, para asegurarte de que tus deseos estén documentados y tus activos protegidos. Considera actualizar a tus beneficiarios y designar a alguien para tomar decisiones financieras y médicas en tu nombre si es necesario.</p>
+        <p>
+        <strong>Conclusión</strong></p>
+        <p>La jubilación es un hito emocionante que ofrece la oportunidad de abrazar nuevas experiencias y disfrutar los frutos de tu trabajo. Al tomarte el tiempo para planificar y prepararte para la jubilación, puedes garantizar una transición sin problemas y prepararte para un futuro pleno y financieramente seguro. Recuerda mantenerte informado, comprometido y aprovechar al máximo cada momento mientras comienzas este nuevo capítulo de tu vida.
+        </p>
+        <p><strong><em>¿Estás listo para comenzar tu viaje de jubilación? Contáctanos hoy para obtener más información sobre cómo podemos ayudarte a planificar una jubilación exitosa.</em></strong></p>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260510T225229Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{13D6CCE7-A6C3-4EE1-A1D9-8A8E34225ED7}"
+    - ID: "3e700dce-26eb-4bf0-990f-9d9fe555990d"
+      Hint: Excerpt
+      Value: Ya sea que estés comenzando a planificar tu jubilación o te hayas jubilado recientemente, aquí tienes algunos consejos esenciales para ayudarte a navegar esta transición con confianza y tranquilidad.
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: 5 consejos para nuevos jubilados
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: 
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "760fce24-46d1-402b-9c7a-8d7ff598bb0b"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260515T154800Z
+    - ID: "e81c4912-a4d2-4466-842c-02f0b2c9dc42"
+      Hint: Title
+      Value: "Comenzando tu viaje de jubilación: 5 consejos para nuevos jubilados"
 - Language: "fr-CA"
   Fields:
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"

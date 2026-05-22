@@ -14,6 +14,36 @@ Languages:
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
       Value: "2fefba2c-819e-4ad0-af30-83a867fee82d"
+- Language: "es-CR"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260515T155041Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: 
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "729034fc-24f3-40b7-8fa4-fb49d7de20dd"
+      Hint: Text
+      Value: "<p>En PLAY! Finance, creemos que gestionar tus finanzas debería ser tan placentero como esencial. No somos solo un banco; somos tu socio financiero, comprometido a hacer que la banca sea una experiencia fluida y gratificante.</p><h2>Nuestra Misión</h2><p>Nuestra misión es empoderar a nuestros clientes para que alcancen sus metas y sueños financieros proporcionando soluciones bancarias innovadoras y un servicio personalizado. Nos esforzamos por crear una experiencia bancaria que sea simple, conveniente y agradable, permitiéndote enfocarte en lo que más importa: vivir tu mejor vida.</p><h2>Quiénes Somos</h2><p>PLAY! Finance es una institución financiera dinámica y visionaria dedicada a reinventar la banca para el mundo moderno. Combinamos tecnología de punta con un toque humano para ofrecer soluciones financieras personalizadas que satisfagan las necesidades únicas de nuestra diversa base de clientes.</p><h2>Qué Nos Hace Diferentes</h2><p>En PLAY! Finance, entendemos que una sola solución no se adapta a todos cuando se trata de banca. Por eso ofrecemos una amplia gama de productos y servicios diseñados para atender a individuos, familias y empresas de todos los tamaños. Ya sea que estés ahorrando para unas vacaciones soñadas, comprando tu primera casa o haciendo crecer tu negocio, tenemos las herramientas y la experiencia para ayudarte a tener éxito.</p><h2>Nuestro Compromiso Contigo</h2><p>En el corazón de PLAY! Finance está el compromiso de poner a nuestros clientes en primer lugar. Creemos en la transparencia, la integridad y la responsabilidad en todo lo que hacemos. Nuestro equipo de profesionales bancarios experimentados está dedicado a brindar un servicio y orientación excepcionales en cada paso del camino, asegurando que tengas el apoyo necesario para tomar decisiones financieras informadas.</p>"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "28f400bf-51ac-4c4c-a2b1-5287eb3b0584"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260515T155041Z
 - Language: "fr-CA"
   Versions:
   - Version: 1

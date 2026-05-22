@@ -22,6 +22,39 @@ Languages:
     - ID: "ef205dfd-6af2-4514-b694-77efa748f951"
       Hint: Answer
       Value: "We offer a variety of accounts tailored to different financial needs, including savings accounts, checking accounts, money market accounts, and more. The best account for you depends on factors such as your short-term and long-term financial goals, your spending habits, and your preferences for accessibility and interest rates. Our team can help you find the account that aligns with your objectives."
+- Language: "es-CR"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260515T154934Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: 
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "dbfe4552-dc14-48cd-94da-8c2c51f89a88"
+    - ID: "93ba0221-aa2a-4a04-b8f6-39c2ab65c694"
+      Hint: Question
+      Value: "¿Qué tipos de cuentas ofrecen y cuál es la más adecuada para mis objetivos financieros?"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260515T154934Z
+    - ID: "ef205dfd-6af2-4514-b694-77efa748f951"
+      Hint: Answer
+      Value: Ofrecemos una variedad de cuentas adaptadas a diferentes necesidades financieras, incluidas cuentas de ahorro, cuentas corrientes, cuentas del mercado monetario y más. La mejor cuenta para usted depende de factores como sus objetivos financieros a corto y largo plazo, sus hábitos de gasto y sus preferencias por accesibilidad y tasas de interés. Nuestro equipo puede ayudarle a encontrar la cuenta que se alinee con sus objetivos.
 - Language: "fr-CA"
   Versions:
   - Version: 1

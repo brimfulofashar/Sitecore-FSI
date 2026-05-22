@@ -25,6 +25,43 @@ Languages:
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
       Value: "2aa1ee0b-7491-4cec-ab1c-f7eeae9f73f7"
+- Language: "es-CR"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260515T155036Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: 
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "729034fc-24f3-40b7-8fa4-fb49d7de20dd"
+      Hint: Text
+      Value: |
+        <h2>Entendiendo qué tarjeta de crédito es adecuada para usted</h2>
+        <p>Cuando se trata de gestionar sus finanzas, tener una tarjeta de crédito puede ser una herramienta valiosa para la conveniencia, la seguridad y la construcción de crédito. Comprender cómo funcionan las tarjetas de crédito y las diversas características que ofrecen es esencial para tomar decisiones informadas sobre su bienestar financiero.</p>
+        <p>En esencia, una tarjeta de crédito es una línea de crédito rotativa que le permite pedir dinero prestado a una institución financiera para realizar compras, con la promesa de devolver el monto prestado en una fecha posterior. A diferencia de las tarjetas de débito, que extraen fondos directamente de su cuenta bancaria, las tarjetas de crédito le proporcionan un préstamo temporal que debe ser reembolsado según los términos de su acuerdo con el emisor de la tarjeta.</p>
+        <p>Uno de los beneficios clave de usar una tarjeta de crédito es la capacidad de construir y mejorar su puntaje de crédito. Al realizar pagos puntuales y mantener baja su utilización de crédito, puede demostrar un comportamiento de préstamo responsable a las agencias de informes crediticios, lo que puede impactar positivamente su solvencia con el tiempo. Un puntaje de crédito más alto puede llevar a mejores términos de préstamo, tasas de interés más bajas y acceso a productos financieros más favorables en el futuro.</p>
+        <h2>Hábitos responsables con las tarjetas de crédito</h2>
+        <p>Es importante usar las tarjetas de crédito de manera responsable y evitar caer en deudas. Llevar un saldo de un mes a otro puede resultar en altos cargos por intereses, lo que potencialmente anula cualquier recompensa o beneficio que pueda recibir al usar la tarjeta. Crear un presupuesto, pagar su saldo en su totalidad cada mes y solo cargar lo que puede permitirse son pasos cruciales para mantener hábitos financieros saludables y maximizar los beneficios de su tarjeta de crédito.</p>
+        <p>Con una amplia variedad de tarjetas de crédito disponibles en el mercado, es esencial comparar sus opciones cuidadosamente y elegir una tarjeta que se alinee con sus hábitos de gasto, metas financieras y preferencias de estilo de vida. Ya sea que esté interesado en ganar recompensas en efectivo, beneficios de viaje o construir crédito, hay una tarjeta de crédito que se adapta a sus necesidades. Tómese el tiempo para investigar y explorar sus opciones, y recuerde leer la letra pequeña para comprender completamente los términos y condiciones asociados con cada tarjeta.</p>
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "ce3cfad9-b559-4122-9f1c-f48e1073d13b"
+    - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
+      Hint: __Version Name
+      Value: AI translated
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260515T155036Z
 - Language: "fr-CA"
   Versions:
   - Version: 1
