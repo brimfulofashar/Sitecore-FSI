@@ -1,0 +1,45 @@
+@import 'src/assets/sass/abstracts/vars';
+
+.eyebrow {
+  color: var(--text-muted);
+  background-color: var(--bg-body);
+  width: 100%;
+  transition: 0.4s;
+  font-size: 0.8125rem;
+  border-bottom: 1px solid var(--border-color);
+  padding: 0.5rem 0;
+
+  @include respond-to(mobile-large) {
+    padding: 0.5rem $size-padding;
+  }
+
+  a {
+    color: var(--text-body);
+    text-decoration: none;
+    font-size: 0.8125rem;
+    transition: color 0.2s ease;
+
+    &:hover {
+      color: var(--text-accent);
+    }
+  }
+
+  .col-placeholder {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 1.5rem;
+
+    @include respond-to(mobile-large) {
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 0.75rem 1.25rem;
+    }
+  }
+}
+
+.site-financial .eyebrow .container,
+.site-services .eyebrow .container,
+.site-valvoline .eyebrow .container {
+  border-bottom: none;
+}

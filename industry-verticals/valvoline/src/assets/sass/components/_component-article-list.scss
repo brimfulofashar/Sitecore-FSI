@@ -1,0 +1,116 @@
+@import 'src/assets/sass/abstracts/vars';
+
+.article-list {
+  @include respond-to(mobile-large) {
+    padding: 0 $size-padding;
+  }
+
+  .title {
+    font-weight: 900;
+    margin-bottom: 0.5em;
+    text-transform: uppercase;
+    color: var(--text-colored);
+    letter-spacing: 0.02em;
+  }
+
+  .article-excerpt {
+    color: var(--text-muted);
+    line-height: 1.6;
+  }
+
+  .learn-more {
+    font-size: 0.875rem;
+    font-weight: 700;
+    color: var(--text-colored);
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+
+    i {
+      padding-left: 0.5rem;
+      vertical-align: top;
+    }
+  }
+
+  hr {
+    width: 100%;
+    border-top: 1px solid var(--hr-color);
+    border-radius: 0;
+    opacity: 1;
+    margin: 2rem 0;
+  }
+
+  .background {
+    background-color: transparent;
+    border-radius: 0;
+  }
+
+  img {
+    border-radius: 0;
+    width: 100%;
+    height: 12rem;
+    object-fit: cover;
+  }
+
+  .newsroom-tag {
+    display: inline-block;
+    font-size: 0.6875rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--text-colored);
+    margin-bottom: 0.5rem;
+  }
+
+  .article-meta {
+    font-size: 0.8125rem;
+    color: var(--text-muted);
+    margin-top: 0.5rem;
+    margin-bottom: 0.75rem;
+  }
+
+  &-grid {
+    display: grid;
+    gap: 1.25rem;
+    grid-template-columns: repeat(5, 1fr);
+
+    @include respond-to(tablet) {
+      grid-template-columns: repeat(3, 1fr);
+    }
+
+    @include respond-to(mobile-large) {
+      grid-template-columns: repeat(1, 1fr);
+    }
+
+    .article-grid-item {
+      img {
+        aspect-ratio: 16/10;
+        width: 100%;
+        height: auto;
+      }
+
+      h3 {
+        font-size: 1rem !important;
+        font-weight: 700;
+        color: var(--text-colored);
+        line-height: 1.35;
+        margin-top: 0.75rem;
+      }
+
+      .article-excerpt {
+        font-size: 0.875rem;
+        margin-top: 0.5rem;
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+      }
+    }
+  }
+
+  &.no-background {
+    .background {
+      background: none !important;
+      padding: 0 !important;
+    }
+  }
+}

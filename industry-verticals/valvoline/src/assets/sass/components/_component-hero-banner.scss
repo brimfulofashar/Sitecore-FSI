@@ -1,0 +1,151 @@
+@import 'src/assets/sass/abstracts/vars';
+
+.hero-banner {
+  margin-top: 0;
+  margin-bottom: 0;
+  background-color: var(--bg-accent);
+  color: var(--text-body-inverted);
+  padding: 3rem 0;
+
+  @include respond-to(mobile-large) {
+    padding: 2rem $size-padding;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    color: var(--text-body-inverted);
+  }
+
+  .eyebrow-accent {
+    color: rgb(255 255 255 / 85%);
+  }
+
+  .rich-content {
+    color: rgb(255 255 255 / 90%);
+    opacity: 1 !important;
+  }
+
+  .button-main {
+    background-color: var(--bg-saturated);
+    color: var(--text-body-inverted);
+
+    &:hover {
+      background-color: #001a3d;
+    }
+  }
+
+  .button-simple {
+    color: var(--text-body-inverted);
+
+    &:hover {
+      color: rgb(255 255 255 / 75%);
+    }
+  }
+
+  &.with-dotted-accents {
+    margin-top: 0;
+    margin-bottom: 0;
+
+    .img-column {
+      flex-basis: 45%;
+
+      img {
+        max-height: 480px;
+      }
+    }
+
+    .dotted-accent {
+      display: none;
+    }
+  }
+
+  &:not(.with-dotted-accents) {
+    .dotted-accent {
+      display: none;
+    }
+  }
+
+  &:not(.with-icon-accent) {
+    .icon-accent {
+      display: none;
+    }
+  }
+
+  &.bordered {
+    .img-column img {
+      border-radius: 0;
+      border: none;
+    }
+  }
+
+  .hero-row {
+    display: flex;
+    align-items: center;
+
+    @include respond-to(mobile-large) {
+      flex-direction: column;
+    }
+  }
+
+  .content-column {
+    position: relative;
+    flex-basis: 50%;
+    max-width: 600px;
+
+    @include respond-to(mobile-large) {
+      flex-basis: 100%;
+      max-width: 100%;
+      margin-right: 0;
+      margin-bottom: 2rem;
+    }
+
+    h1 {
+      text-transform: uppercase;
+      font-weight: 900;
+      letter-spacing: -0.01em;
+    }
+
+    .rich-content {
+      opacity: 1;
+    }
+  }
+
+  .img-column {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-left: auto;
+    flex-basis: 45%;
+    padding-left: $size-padding;
+
+    @include respond-to(mobile-large) {
+      margin-right: auto;
+      padding-left: 0;
+      justify-content: center;
+    }
+
+    .img-wrapper {
+      position: relative;
+      width: 100%;
+    }
+
+    img {
+      width: 100%;
+      max-height: 420px;
+      object-fit: contain;
+      border-radius: 0;
+    }
+  }
+
+  .icon-accent {
+    display: none;
+  }
+
+  .dotted-accent {
+    display: none;
+  }
+}

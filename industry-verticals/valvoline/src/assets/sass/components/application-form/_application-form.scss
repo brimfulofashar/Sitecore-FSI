@@ -1,0 +1,68 @@
+.application-form {
+  &-inner {
+    background-color: var(--bg-main);
+    border-radius: var(--roundness);
+    padding: 2rem 2.5rem;
+    border: 1px solid var(--border-color);
+  }
+
+  .title {
+    color: var(--text-colored);
+    font-weight: 700;
+    font-size: 1.75rem;
+    margin-bottom: 0.75rem;
+    text-transform: uppercase;
+  }
+
+  .subtitle {
+    color: var(--text-muted);
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .input-field {
+    background-color: #fff;
+    line-height: 2.75rem;
+    width: 100%;
+    border-radius: var(--roundness);
+    border: 1px solid var(--border-color);
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    transition: border-color 0.2s ease;
+
+    &:focus {
+      outline: none;
+      border-color: var(--text-colored);
+    }
+  }
+
+  .input-field::placeholder {
+    color: var(--text-muted);
+    font-style: normal;
+  }
+
+  .footnote {
+    color: var(--text-muted);
+    font-size: 0.875rem;
+    margin-bottom: 1rem;
+
+    a {
+      color: var(--text-colored);
+      font-weight: 700;
+      text-decoration: none;
+
+      &:hover {
+        color: var(--text-accent);
+      }
+    }
+  }
+
+  .submit-button {
+    display: block;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

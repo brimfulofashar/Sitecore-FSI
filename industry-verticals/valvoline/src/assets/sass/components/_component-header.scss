@@ -1,0 +1,39 @@
+@import 'src/assets/sass/abstracts/vars';
+
+.header {
+  width: 100%;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background-color: var(--bg-body);
+
+  @include respond-to(mobile-large) {
+    padding: 1rem $size-padding;
+  }
+
+  .rich-text,
+  .navigation {
+    padding: 0 !important;
+  }
+}
+
+.site-financial .header,
+.site-services .header,
+.site-valvoline .header {
+  h1 {
+    font-size: 1.5rem !important;
+    line-height: 1 !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    display: flex;
+    align-items: center;
+    text-align: left;
+    color: var(--text-colored);
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
+
+    @include respond-to(mobile-large) {
+      font-size: 1.25rem !important;
+    }
+  }
+}
