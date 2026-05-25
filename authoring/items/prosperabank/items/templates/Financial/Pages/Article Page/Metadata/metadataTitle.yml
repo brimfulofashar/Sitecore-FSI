@@ -1,18 +1,18 @@
 ﻿---
-ID: "ad26114f-29dd-4ef9-b5bf-1d64d558872d"
-Parent: "42ae5c1e-252d-4150-a210-2a0728cfa50e"
+ID: "04d320e7-76c0-4032-925c-3bfb64b677ab"
+Parent: "7f09f9b5-85fa-4c2f-809a-af3a059e7fba"
 Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
-Path: /sitecore/templates/Project/Financial/Pages/Article Page/Content/BackgroundImage
+Path: /sitecore/templates/Project/Financial/Pages/Article Page/Metadata/metadataTitle
 SharedFields:
 - ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
   Hint: Type
-  Value: Image
+  Value: "Single-Line Text"
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
-  Value: 500
-- ID: "be351a73-fcb0-4213-93fa-c302d8ab4f51"
-  Hint: Shared
-  Value: 1
+  Value: 100
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "ccbabdda-ffa5-4b3b-99ee-0b0ab40972d9"
 Languages:
 - Language: en
   Versions:
@@ -21,13 +21,17 @@ Languages:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20260525T165531Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |
         sitecore\johannes.zijlstra@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "1883abfc-4c23-4cb0-8ad6-9a9443fcbe08"
+      Value: "397737ca-8c6c-43fd-8c50-6212e18b9534"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |

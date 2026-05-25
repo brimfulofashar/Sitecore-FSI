@@ -1,0 +1,66 @@
+﻿---
+ID: "0f1722d1-e396-4046-8689-5b827b4f226e"
+Parent: "5109a19b-e647-4ef6-9b82-c6d8645fed58"
+Template: "1b694ef9-154d-429a-9c3f-d7774cd4a852"
+Path: /sitecore/content/Financial/ProsperaFinancial/Home/Data/Four Column CTA 1
+SharedFields:
+- ID: "23f621dd-d403-49df-93f6-391a1757feb3"
+  Hint: Image4
+  Value: |
+    <Image src="https://valvolineglobal.sitecoresandbox.cloud/api/public/content/f7b5d709535d4d78b56b7cdc9ffa87bb?v=36a20b40" dam-id="-Kr2S8V0R3K1Lu-myqeu-A" width="624" height="397" alt="ca_dtc_atf-bottles_thmb.jpg" dam-content-type="Image" thumbnailsrc="https://valvolineglobal.sitecoresandbox.cloud/api/gateway/83319/thumbnail" />
+- ID: "84c2cd69-b897-4e4a-a336-66d3222fe1b5"
+  Hint: Image1
+  Value: |
+    <Image src="https://valvolineglobal.sitecoresandbox.cloud/api/public/content/8e703cdd4f3a48a0afae0140c1cb7b47?v=9e1d9955" dam-id="CxinnPXARcmRLezZHvZ9QA" width="622" height="396" alt="motor_oil-thmb.png" dam-content-type="Image" thumbnailsrc="https://valvolineglobal.sitecoresandbox.cloud/api/gateway/83339/thumbnail" />
+- ID: "954a7e15-cdad-4e9c-8949-ab0ee63200c6"
+  Hint: Image3
+  Value: |
+    <Image src="https://valvolineglobal.sitecoresandbox.cloud/api/public/content/6fda184c50994aca99094281447eb818?v=218d01f0" dam-id="565BNwP1QbO0X7G9rFXwvg" width="842" height="536" alt="ca_dtc_zerex_g05_multi-vehicle_dexcool_thmb.jpg" dam-content-type="Image" thumbnailsrc="https://valvolineglobal.sitecoresandbox.cloud/api/gateway/83324/thumbnail" />
+- ID: "a98fc4bc-b088-4296-aa32-fba35f964ebd"
+  Hint: Image2
+  Value: |
+    <Image src="https://valvolineglobal.sitecoresandbox.cloud/api/public/content/8c8111d601cd4b8f9546ff66077c791d?v=7dcc6d51" dam-id="AciVgJNHQfyqoSV1KI8mZw" width="622" height="396" alt="ca_lifestyle_premium_blue_wide_thmb.png" dam-content-type="Image" thumbnailsrc="https://valvolineglobal.sitecoresandbox.cloud/api/gateway/83329/thumbnail" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "229a6c79-403a-4b4b-9ad1-010fb7a35444"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260525T134850Z
+    - ID: "34f50b54-e781-493a-85c0-8e9af1969d64"
+      Hint: Title3
+      Value: Antifreeze & Coolant
+    - ID: "4e62adbe-4082-45fe-9e77-66ef0945fb18"
+      Hint: Title4
+      Value: Transmission Fluid
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "b8f28586-01c9-44f3-bb22-b9d4f14460ab"
+    - ID: "94e8b735-889e-44f3-a980-c7c8143bae19"
+      Hint: Title2
+      Value: Heavy Duty Engine Oil
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\johannes.zijlstra@sitecore.com
+    - ID: "be5597c5-a55d-4a6a-bf53-7fe1a7bf4bdc"
+      Hint: Title1
+      Value: Motor Oil
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260525T135902Z

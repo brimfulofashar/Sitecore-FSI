@@ -304,11 +304,24 @@ Languages:
                 name="ds" />
             </r>
             <r
-              uid="{D49A8931-F041-4988-9CC3-F2400E6422D0}"
+              uid="{63D4798E-60C8-4498-A989-582D24E6C787}"
               p:after="r[@uid='{124106DE-FB02-4B43-A521-A309FC75A5BC}']"
-              s:ds="local:/Data/Promo CTA 1"
-              s:id="{1A375FAC-6CC1-4A5A-A159-9BC6DBC66B80}"
-              s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7BE7077939-8F32-4C4F-AAAD-A7C53F623CE0%7D&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=30"
+              s:ds="local:/Data/Text 1"
+              s:id="{9C6D53E3-FE57-4638-AF7B-6D68304C7A94}"
+              s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames=%7B28195CAE-07A4-40F2-98DA-609BDCD53B01%7D&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=33"
+              s:ph="headless-main" />
+            <r
+              uid="{B882746C-C313-4283-8F58-B9402BCF9C6A}"
+              p:after="r[@uid='{63D4798E-60C8-4498-A989-582D24E6C787}']"
+              s:ds="local:/Data/Four Column CTA 1"
+              s:id="{35075000-760E-4FF3-BD1C-F2EEBA251DCB}"
+              s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=31" />
+            <r
+              uid="{4D0714F2-FB16-42AB-A81D-C4AA730B05FD}"
+              p:after="r[@uid='{B882746C-C313-4283-8F58-B9402BCF9C6A}']"
+              s:ds="local:/Data/Four Column CTA 2"
+              s:id="{35075000-760E-4FF3-BD1C-F2EEBA251DCB}"
+              s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=32"
               s:ph="headless-main" />
           </d>
         </r>
@@ -327,7 +340,7 @@ Languages:
         sitecore\kaitlyn.folsom@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "123b0017-ad98-4caf-84f0-43940bf4de6b"
+      Value: "76935760-d53a-4ab0-a381-856f4c0298db"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
@@ -337,7 +350,7 @@ Languages:
       Value: "PLAY! Financial"
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251030T165635Z
+      Value: 20260525T153045Z
 - Language: "fr-CA"
   Versions:
   - Version: 1
