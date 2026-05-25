@@ -1,0 +1,62 @@
+@import 'src/assets/sass/abstracts/vars';
+@import 'src/assets/sass/abstracts/mixins';
+
+.content,
+.rich-text {
+  border: $rich-content-border;
+  overflow: hidden;
+  font-size: var(--rich-text-base-size, 1rem);
+
+  * {
+    max-width: 100%;
+  }
+
+  p {
+    opacity: var(--rich-text-p-opacity);
+    color: var(--text-muted);
+  }
+
+  p,
+  li {
+    line-height: 1.75;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: var(--font-family-heading);
+    margin-top: 1em !important;
+    margin-bottom: 0.5em !important;
+
+    &:first-child {
+      margin-top: 0 !important;
+    }
+  }
+
+  a {
+    color: var(--text-colored);
+
+    &:hover {
+      color: var(--bg-saturated);
+    }
+  }
+
+  ul li {
+    &::marker {
+      color: var(--text-accent);
+    }
+  }
+
+  @import 'src/assets/sass/base/richtext';
+}
+
+.rich-text {
+  @import 'src/assets/sass/variants/rich-text';
+}
+
+.content {
+  @import 'src/assets/sass/variants/page-content';
+}

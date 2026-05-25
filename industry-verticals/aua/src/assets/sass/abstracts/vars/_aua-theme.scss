@@ -1,0 +1,67 @@
+// American Urological Association design tokens
+@mixin aua-theme-vars {
+  --text-body: #333;
+  --text-body-inverted: #fff;
+  --text-colored: #0077b5;
+  --text-footer: #fff;
+  --text-accent: #0077b5;
+  --text-muted: #5a6770;
+  --bg-body: #fff;
+  --bg-footer: #003d5b;
+  --bg-footer-bar: #002a40;
+  --bg-main: #f0f5f9;
+  --bg-main-alt: #f4f4f4;
+  --bg-color: #0077b5;
+  --bg-saturated: #003d5b;
+  --bg-accent: #006879;
+  --bg-teal: #006879;
+  --bg-light-blue: #e8f2f8;
+  --border-color: #d2d2d2;
+  --hr-color: rgb(255 255 255 / 35%);
+  --roundness: 0;
+  --shadow-card: 0 2px 8px rgb(0 61 91 / 8%);
+  --section-spacing: 4.5rem;
+  --font-family-heading: 'Playfair Display', Georgia, 'Times New Roman', serif;
+  --promo-cta-img-ratio: 3/2;
+  --promo-cta-text-opacity: 1;
+  --promo-cta-text-size: 1rem;
+  --rich-text-p-opacity: 1;
+  --heading-cta-opacity: 1;
+  --author-widget-opacity: 1;
+  --five-col-cta-logo-opacity: 1;
+  --rich-text-base-size: 1rem;
+  --heading-cta-text-opacity: 1;
+  --author-position-opacity: 1;
+
+  .dark & {
+    --text-body: #fff;
+    --text-body-inverted: #333;
+    --text-colored: #7ec8e8;
+    --text-footer: #fff;
+    --text-accent: #7ec8e8;
+    --text-muted: #b8c5ce;
+    --bg-body: #002a40;
+    --bg-footer: #001f30;
+    --bg-footer-bar: #001520;
+    --bg-main: #003d5b;
+    --bg-main-alt: #002a40;
+    --bg-color: #0077b5;
+    --bg-saturated: #003d5b;
+    --bg-accent: #006879;
+    --border-color: #1a5a7a;
+    --hr-color: rgb(255 255 255 / 25%);
+  }
+}
+
+@mixin aua-button-vars {
+  --button-main-color: #fff;
+  --button-main-bg-color: var(--bg-saturated);
+  --button-secondary-color: var(--text-colored);
+  --button-simple-color: var(--text-colored);
+  --button-padding: 0.75rem 1.75rem;
+  --button-roundness: 0;
+  --button-font-weight: 600;
+  --button-font-size: 0.875rem;
+  --button-text-transform: uppercase;
+  --button-letter-spacing: 0.04em;
+}

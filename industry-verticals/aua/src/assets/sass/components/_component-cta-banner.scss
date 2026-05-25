@@ -1,0 +1,117 @@
+.cta-banner {
+  @include respond-to(mobile-large) {
+    padding-left: $size-padding;
+    padding-right: $size-padding;
+  }
+
+  h2,
+  h3 {
+    font-family: var(--font-family-heading);
+  }
+
+  .container-widest-fluid {
+    background-color: var(--bg-saturated);
+    border-radius: var(--roundness);
+    margin-top: var(--section-spacing);
+    margin-bottom: var(--section-spacing);
+    color: var(--text-footer);
+
+    @include respond-to(mobile-large) {
+      margin-top: 0 !important;
+      padding-left: 1rem;
+      padding-right: 1rem;
+    }
+
+    .eyebrow-accent {
+      color: var(--text-footer);
+    }
+
+    .button-main {
+      background-color: var(--text-footer);
+      color: var(--bg-saturated);
+
+      &:hover {
+        background-color: var(--bg-main);
+      }
+    }
+  }
+
+  .image-wrapper {
+    margin-top: calc(-1 * var(--section-spacing));
+    margin-bottom: calc(-1 * var(--section-spacing));
+
+    @include respond-to(mobile-large) {
+      margin-top: 0 !important;
+    }
+
+    img {
+      border-radius: var(--roundness);
+      width: 100%;
+      aspect-ratio: 1/1;
+      object-fit: cover;
+    }
+  }
+
+  .content-wrapper {
+    margin: 3rem 0;
+
+    @include respond-to(mobile-large) {
+      margin: 2rem 0 0;
+    }
+  }
+
+  .text-content {
+    opacity: 0.9;
+    line-height: 1.7;
+  }
+
+  &.reverse {
+    .main-content {
+      flex-direction: row-reverse;
+    }
+  }
+
+  &.bordered {
+    .image-wrapper img {
+      border-radius: 0;
+      border: 1px solid var(--border-color);
+    }
+  }
+
+  .dotted-accent {
+    display: none;
+  }
+
+  &.with-icon-accent {
+    .icon-accent {
+      display: none;
+    }
+  }
+
+  &.with-large-image {
+    .container-widest-fluid {
+      margin-top: 5rem;
+      margin-bottom: 5rem;
+    }
+
+    .image-wrapper {
+      margin-top: -5rem;
+      margin-bottom: -5rem;
+    }
+
+    .content-column {
+      @media (width>= 992px) {
+        padding-left: calc((100vw - 960px - 1.5rem) / 2);
+      }
+
+      @media (width>= 1200px) {
+        padding-left: calc((100vw - 1140px - 1.5rem) / 2);
+        padding-right: 4rem;
+      }
+
+      @media (width>= 1400px) {
+        padding-left: calc((min(1650px, 100vw) - 1250px) / 2);
+      }
+    }
+  }
+}

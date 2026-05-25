@@ -1,0 +1,121 @@
+@import 'src/assets/sass/abstracts/vars';
+
+// AUA global typography, spacing, and editorial patterns
+.body {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  .display-1,
+  .display-2,
+  .display-3,
+  .display-4,
+  .display-5,
+  .display-6 {
+    font-family: var(--font-family-heading);
+    font-weight: 700;
+    color: var(--text-body);
+    line-height: 1.2;
+  }
+
+  h1,
+  .display-4 {
+    font-size: clamp(1.75rem, 3vw, 2.5rem);
+  }
+
+  h2,
+  .display-5 {
+    font-size: clamp(1.5rem, 2.5vw, 2rem);
+  }
+
+  h3 {
+    font-size: clamp(1.25rem, 2vw, 1.5rem);
+  }
+
+  a:not([class]) {
+    color: var(--text-colored);
+    text-decoration: none;
+
+    &:hover {
+      color: var(--bg-saturated);
+      text-decoration: underline;
+    }
+  }
+
+  .component-spaced {
+    margin-top: var(--section-spacing);
+    margin-bottom: var(--section-spacing);
+
+    @include respond-to(mobile-large) {
+      margin-top: 2.5rem;
+      margin-bottom: 2.5rem;
+    }
+  }
+
+  .eyebrow-accent {
+    color: var(--text-colored);
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    font-size: 0.8125rem;
+    font-weight: 700;
+    font-family: var(--font-family);
+  }
+}
+
+// Census / stats data section pattern
+.stats-counter.census-style,
+.page-background.census-style {
+  .container > .row,
+  .background-content {
+    background: linear-gradient(135deg, #003d5b 0%, #0077b5 100%);
+    color: var(--text-footer);
+    border: none;
+    box-shadow: var(--shadow-card);
+  }
+
+  h2,
+  h3,
+  .stat-value {
+    color: var(--text-footer);
+    font-family: var(--font-family-heading);
+  }
+
+  .stat-value {
+    font-size: clamp(2rem, 4vw, 3rem);
+    color: var(--text-footer);
+  }
+}
+
+// Editorial card grid
+.four-column-cta,
+.three-column-cta {
+  .content-wrapper,
+  .text-wrapper {
+    box-shadow: var(--shadow-card);
+  }
+
+  h2,
+  h3 {
+    font-family: var(--font-family-heading);
+  }
+
+  .category-label,
+  .eyebrow-accent {
+    color: var(--text-colored);
+    font-size: 0.8125rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+  }
+}
+
+// Light section backgrounds
+.bg-light-section {
+  background-color: var(--bg-main);
+}
+
+.bg-alt-section {
+  background-color: var(--bg-main-alt);
+}

@@ -1,0 +1,40 @@
+@import 'src/assets/sass/abstracts/vars';
+
+.header {
+  width: 100%;
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+  background-color: var(--bg-body);
+  border-bottom: 1px solid var(--border-color);
+
+  @include respond-to(mobile-large) {
+    padding: 1rem $size-padding;
+  }
+
+  .rich-text,
+  .navigation {
+    padding: 0 !important;
+  }
+
+  img {
+    max-height: 56px;
+    width: auto;
+    object-fit: contain;
+  }
+}
+
+.site-aua,
+.site-financial,
+.site-services {
+  .header {
+    h1 {
+      font-family: var(--font-family-heading);
+      font-size: 1.25rem !important;
+      line-height: 1.2 !important;
+      padding: 0 !important;
+      margin: 0 !important;
+      font-weight: 400;
+      color: var(--text-body);
+    }
+  }
+}

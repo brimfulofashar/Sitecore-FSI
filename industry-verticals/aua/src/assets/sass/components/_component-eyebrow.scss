@@ -1,0 +1,39 @@
+@import 'src/assets/sass/abstracts/vars';
+
+.eyebrow {
+  color: var(--text-footer);
+  background-color: var(--bg-footer);
+  width: 100%;
+  transition: 0.4s;
+  font-size: 0.8125rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  @include respond-to(mobile-large) {
+    padding: 0 $size-padding;
+  }
+
+  .col-placeholder {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 1.5rem;
+    min-height: 2.5rem;
+  }
+
+  a {
+    color: var(--text-footer);
+    text-decoration: none;
+
+    &:hover {
+      color: var(--text-footer);
+      opacity: 0.85;
+      text-decoration: underline;
+    }
+  }
+
+  .container {
+    border-bottom: 1px solid rgb(255 255 255 / 15%);
+  }
+}

@@ -1,0 +1,70 @@
+.eyebrow-accent {
+  color: var(--text-colored);
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  font-size: 0.8125rem;
+  font-weight: 700;
+  font-family: var(--font-family);
+}
+
+.styled-list {
+  ul,
+  ol {
+    margin-left: 0;
+    padding-left: 0;
+
+    li {
+      margin-top: 1rem;
+      margin-left: 0;
+      list-style: none;
+    }
+  }
+
+  ul li::before {
+    content: '';
+    display: inline-block;
+    background-color: var(--bg-saturated);
+    background-image: url('data:image/svg+xml,<%3Fxml version="1.0" encoding="UTF-8"%3F><svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 38.51 31.02"><defs><style> .cls-1 { fill: %23ffffff; } </style></defs><g id="Layer_1-2" data-name="Layer 1"><path class="cls-1" d="M14.31,30.06L38.1,2.65c1.29-1.49-.74-3.53-2.24-2.25L14.21,18.92c-1.31,1.12-3.23,1.16-4.58,.09L3.01,13.79c-1.67-1.32-3.88,.77-2.65,2.51l9.54,13.53c1.05,1.49,3.22,1.6,4.41,.22Z"/></g></svg>');
+    background-size: 14px 11px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 0;
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-right: 0.75rem;
+    margin-top: -1px;
+    vertical-align: middle;
+  }
+
+  ol {
+    counter-reset: custom-counter;
+    font-weight: 600;
+    font-size: 1rem;
+
+    li {
+      counter-increment: custom-counter;
+      display: flex;
+      gap: 1rem;
+      align-items: center;
+
+      &::before {
+        content: counter(custom-counter);
+        font-family: var(--font-family-heading);
+        font-weight: 700;
+        font-size: 2.5rem;
+        line-height: 1;
+        min-width: 1em;
+        color: var(--text-colored);
+      }
+    }
+  }
+}
+
+.button-clear-appearance {
+  appearance: none;
+  border: none;
+  background-color: unset;
+  padding: 0;
+  text-align: left;
+  color: inherit;
+}

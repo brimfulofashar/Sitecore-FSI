@@ -1,0 +1,56 @@
+@import 'src/assets/sass/abstracts/vars/colors';
+@import 'src/assets/sass/abstracts/mixins';
+@import 'variables';
+
+.prod-mode {
+  #header {
+    display: flex;
+    flex-direction: column;
+
+    @include respond-to(mobile-large) {
+      padding-bottom: 0;
+    }
+  }
+}
+
+header {
+  #header {
+    .bs-title {
+      a {
+        text-decoration: none;
+      }
+
+      h1 {
+        font-family: var(--font-family-heading);
+        font-size: $text-size-24;
+        font-weight: 700;
+        line-height: 1.2;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        margin: 0;
+      }
+    }
+
+    @include respond-to(mobile-large) {
+      padding-bottom: 0;
+
+      .bs-title {
+        padding-top: 0.5rem;
+        padding-left: 0;
+        text-align: left;
+        margin-top: 0;
+
+        h1 {
+          font-weight: 700;
+          line-height: 1.2;
+          padding-top: 0;
+          margin-bottom: 0.5rem;
+        }
+      }
+    }
+
+    .header a {
+      text-decoration: none;
+    }
+  }
+}
