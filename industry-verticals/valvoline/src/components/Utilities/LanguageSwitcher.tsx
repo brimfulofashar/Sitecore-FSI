@@ -12,9 +12,10 @@ export const Default = (): JSX.Element => {
 
   const availableLanguages = useMemo(
     () => [
-      { code: 'en', label: 'English' },
-      { code: 'fr-CA', label: 'Français' },
-      { code: 'ja-JP', label: '日本語' },
+      { code: 'en', label: 'CA: English' },
+      { code: 'en-CA', label: 'CA: English' },
+      { code: 'fr-CA', label: 'CA: Français' },
+      { code: 'ja-JP', label: 'JP: 日本語' },
     ],
     []
   );
@@ -40,7 +41,7 @@ export const Default = (): JSX.Element => {
 
   return (
     <div
-      className={`language-switcher ${showLanguageDropdown ? 'expanded' : ''}`}
+      className={`language-switcher header-top-links__content header-top-links__content--region ${showLanguageDropdown ? 'expanded' : ''}`}
       onClick={() => setShowLanguageDropdown(!showLanguageDropdown)}
     >
       <span className="selected-language">
