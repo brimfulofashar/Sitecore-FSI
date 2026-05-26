@@ -1,0 +1,29 @@
+@import 'src/assets/sass/abstracts/vars';
+
+.container-gray-background {
+  background: var(--bg-main) !important;
+}
+
+.container-clean-background {
+  background: $bg-basic-color !important;
+}
+
+.container-dark-background {
+  background: var(--louder-navy) !important;
+  color: var(--text-body-inverted);
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p,
+  a {
+    color: var(--text-body-inverted);
+  }
+}
+
+.container-color-background {
+  @include louderai-gradient-bg;
+}

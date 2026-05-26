@@ -1,0 +1,161 @@
+.cta-banner {
+  @include respond-to(mobile-large) {
+    padding-left: $size-padding;
+    padding-right: $size-padding;
+  }
+
+  .container-widest-fluid {
+    @include louderai-gradient-bg;
+
+    border-radius: var(--roundness);
+    margin-top: var(--section-padding-y);
+    margin-bottom: var(--section-padding-y);
+    padding: 3rem 2rem;
+
+    @include respond-to(mobile-large) {
+      margin-top: var(--section-padding-y-mobile) !important;
+      margin-bottom: var(--section-padding-y-mobile) !important;
+      padding: 2.5rem 1.5rem;
+    }
+
+    .eyebrow-accent {
+      color: rgb(255 255 255 / 90%);
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      color: var(--text-body-inverted);
+    }
+
+    .button-main {
+      background-color: var(--bg-body);
+      color: var(--louder-primary);
+
+      &:hover {
+        background-color: var(--louder-navy);
+        color: var(--text-body-inverted);
+        filter: none;
+      }
+    }
+  }
+
+  .image-wrapper {
+    margin-top: -4rem;
+    margin-bottom: -4rem;
+
+    @include respond-to(mobile-large) {
+      margin-top: 1.5rem !important;
+      margin-bottom: 0 !important;
+    }
+
+    img {
+      border-radius: var(--roundness);
+      width: 100%;
+      aspect-ratio: 1/1;
+      object-fit: cover;
+    }
+  }
+
+  .content-wrapper {
+    margin: 2rem 0;
+
+    @include respond-to(mobile-large) {
+      margin: 0;
+      text-align: center;
+    }
+  }
+
+  .text-content {
+    opacity: 0.95;
+    color: var(--text-body-inverted);
+  }
+
+  &.reverse {
+    .main-content {
+      flex-direction: row-reverse;
+    }
+  }
+
+  &.bordered {
+    .image-wrapper img {
+      border-radius: var(--roundness);
+      border: 2px solid rgb(255 255 255 / 30%);
+    }
+  }
+
+  &.with-dotted-accents {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+
+    @include respond-to(mobile-large) {
+      padding-top: 0;
+    }
+
+    .image-wrapper {
+      position: relative;
+      color: var(--text-body-inverted);
+
+      .dotted-accent {
+        display: none;
+      }
+    }
+  }
+
+  &:not(.with-dotted-accents) {
+    .dotted-accent {
+      display: none;
+    }
+  }
+
+  &.with-icon-accent {
+    .icon-accent {
+      margin-top: -2rem;
+    }
+
+    @include respond-to(mobile-large) {
+      margin-top: 2rem;
+    }
+  }
+
+  &:not(.with-icon-accent) {
+    .icon-accent {
+      display: none;
+    }
+  }
+
+  &.with-large-image {
+    .container-widest-fluid {
+      margin-top: 6rem;
+      margin-bottom: 6rem;
+    }
+
+    .image-wrapper {
+      margin-top: -6rem;
+      margin-bottom: -6rem;
+
+      @include respond-to(mobile-large) {
+        margin-top: 1.5rem !important;
+        margin-bottom: 0 !important;
+      }
+    }
+
+    .content-column {
+      @media (width>= 992px) {
+        padding-left: calc((100vw - 960px - 1.5rem) / 2);
+      }
+
+      @media (width>= 1200px) {
+        padding-left: calc((100vw - 1140px - 1.5rem) / 2);
+        padding-right: 4rem;
+      }
+
+      @media (width>= 1400px) {
+        padding-left: calc((min(1650px, 100vw) - 1250px) / 2);
+      }
+    }
+  }
+}

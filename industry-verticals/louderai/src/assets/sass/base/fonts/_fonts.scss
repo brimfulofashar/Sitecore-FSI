@@ -1,0 +1,9 @@
+/* stylelint-disable value-keyword-case */
+@import 'https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,400..800;1,14..32,400..800&display=swap';
+
+.site-louderai,
+.site-financial,
+.site-services,
+.site-basic {
+  --font-family: 'Inter', Helvetica, Arial, sans-serif;
+}

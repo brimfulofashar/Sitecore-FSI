@@ -1,0 +1,129 @@
+.promo-cta {
+  background-color: var(--bg-main-alt);
+  padding-top: var(--section-padding-y);
+  padding-bottom: var(--section-padding-y);
+
+  @include respond-to(mobile-large) {
+    padding-left: $size-padding;
+    padding-right: $size-padding;
+    padding-top: var(--section-padding-y-mobile);
+    padding-bottom: var(--section-padding-y-mobile);
+  }
+
+  h2 {
+    color: var(--louder-navy);
+    font-weight: 700;
+  }
+
+  &.with-dotted-accents {
+    .image-wrapper {
+      margin: 2rem;
+
+      .dotted-accent {
+        display: none;
+      }
+    }
+
+    &.reverse {
+      .dotted-accent {
+        display: none;
+      }
+    }
+  }
+
+  &:not(.with-dotted-accents) {
+    .dotted-accent {
+      display: none;
+    }
+  }
+
+  &.bordered {
+    .image-wrapper img {
+      border-radius: var(--roundness);
+      border: none;
+      box-shadow: 0 4px 24px rgb(0 0 0 / 8%);
+    }
+  }
+
+  .main-content {
+    --bs-gutter-x: 4rem;
+    --bs-gutter-y: 2rem;
+    align-items: center;
+  }
+
+  .text-content {
+    opacity: var(--promo-cta-text-opacity);
+    color: var(--louder-muted);
+  }
+
+  .promo-cta-text {
+    font-size: var(--promo-cta-text-size);
+  }
+
+  .image-wrapper {
+    position: relative;
+
+    img {
+      aspect-ratio: var(--promo-cta-img-ratio);
+      width: 100%;
+      object-fit: cover;
+      border-radius: var(--roundness);
+      overflow: hidden;
+    }
+  }
+
+  &.no-background,
+  .page-background .background-content & {
+    background-color: $bg-transparent !important;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-top: var(--section-padding-y-mobile);
+    margin-bottom: var(--section-padding-y-mobile);
+  }
+
+  &.with-background-image {
+    display: flex;
+    align-items: center;
+    background-color: $bg-transparent !important;
+    min-height: 60vh;
+
+    .container {
+      position: relative;
+      z-index: 2;
+    }
+
+    .parallax-background-image,
+    .background-image {
+      position: absolute !important;
+      inset: 0;
+      z-index: 1;
+      mask-image: linear-gradient(
+        180deg,
+        rgb(255 255 255 / 15%) 0%,
+        rgb(255 255 255 / 85%) 100%
+      );
+    }
+  }
+
+  &.with-placeholder-column {
+    .image-wrapper {
+      margin: 0;
+    }
+
+    .promo-cta-placeholder {
+      margin-right: -42%;
+      z-index: 3;
+
+      &-inner {
+        border: 1px solid var(--border-color);
+        background-color: var(--bg-body);
+        padding: 2rem 3rem;
+        border-radius: var(--roundness);
+      }
+
+      .styled-list ol {
+        margin-bottom: 0;
+      }
+    }
+  }
+}

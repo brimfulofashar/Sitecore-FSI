@@ -1,0 +1,68 @@
+@import 'src/assets/sass/abstracts/vars';
+
+.hero {
+  padding: 0;
+  min-height: 520px;
+  color: var(--louder-navy);
+  width: 100%;
+
+  a {
+    @extend .button-main;
+  }
+
+  &.dark {
+    color: var(--text-body-inverted);
+
+    h1,
+    h2,
+    p {
+      color: var(--text-body-inverted);
+    }
+
+    a {
+      @extend .button-main;
+    }
+  }
+
+  img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  &.rounded-corners {
+    img {
+      border-radius: var(--roundness);
+    }
+  }
+
+  .content-container {
+    height: 100%;
+    justify-content: center;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+
+    .title {
+      font-size: clamp(2rem, 4vw, 3rem);
+      line-height: 1.15;
+      font-weight: 800;
+      letter-spacing: -0.03em;
+      color: var(--louder-navy);
+    }
+
+    .subtitle {
+      font-size: clamp(1.125rem, 2vw, 1.375rem);
+      line-height: 1.5;
+      color: var(--louder-muted);
+      max-width: 36rem;
+    }
+  }
+}

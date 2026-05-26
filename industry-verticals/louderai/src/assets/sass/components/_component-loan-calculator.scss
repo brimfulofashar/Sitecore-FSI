@@ -1,0 +1,18 @@
+.loan-calculator {
+  --range-slider-color-active: var(--louder-primary);
+  --range-slider-color-inactive: #cbd5e1;
+
+  .dark & {
+    --range-slider-color-active: var(--louder-teal);
+    --range-slider-color-inactive: #64748b;
+  }
+
+  input[type='range'] {
+    accent-color: var(--louder-primary);
+  }
+
+  .button-main {
+    width: 100%;
+    text-align: center;
+  }
+}

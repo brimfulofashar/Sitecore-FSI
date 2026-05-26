@@ -1,0 +1,160 @@
+@import 'abstracts/vars';
+@import 'abstracts/mixins';
+
+// LouderAI global typography, layout, and utility patterns
+.site-louderai,
+.site-financial,
+.site-services,
+.site-basic {
+  font-family: var(--font-family);
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    color: var(--louder-navy);
+    font-weight: 700;
+    letter-spacing: -0.02em;
+  }
+
+  h1,
+  .display-1,
+  .display-2 {
+    line-height: 1.1;
+  }
+
+  h2 {
+    font-size: clamp(1.75rem, 3vw, 2.5rem);
+    line-height: 1.2;
+  }
+
+  h3 {
+    font-size: clamp(1.25rem, 2vw, 1.5rem);
+  }
+
+  p {
+    color: var(--text-body);
+    line-height: 1.7;
+  }
+
+  a:not(.button):not(.wrapper-link) {
+    color: var(--louder-primary);
+
+    &:hover {
+      color: var(--louder-teal);
+    }
+  }
+}
+
+.prod-mode {
+  header {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background-color: var(--bg-body);
+    box-shadow: 0 1px 0 var(--border-color);
+  }
+}
+
+.component-spaced {
+  margin-top: var(--section-padding-y);
+  margin-bottom: var(--section-padding-y);
+
+  @include respond-to(mobile-large) {
+    margin-top: var(--section-padding-y-mobile);
+    margin-bottom: var(--section-padding-y-mobile);
+  }
+}
+
+// Full-width gradient band (matches louderai.com promo sections)
+.bg-louder-gradient,
+.container-color-background {
+  background: var(--louder-gradient) !important;
+  color: var(--text-body-inverted);
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p,
+  a {
+    color: var(--text-body-inverted);
+  }
+
+  .eyebrow-accent {
+    color: rgb(255 255 255 / 85%);
+  }
+}
+
+.container-gray-background {
+  background: var(--bg-main) !important;
+}
+
+.container-dark-background {
+  background: var(--louder-navy) !important;
+  color: var(--text-body-inverted);
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p {
+    color: var(--text-body-inverted);
+  }
+}
+
+// Navigation CTA in header
+.navigation.navigation-horizontal {
+  .button-nav-item a,
+  .level0.button-nav-item > .navigation-title > a {
+    display: inline-block;
+    padding: 10px 24px !important;
+    border-width: 0 !important;
+    border-radius: var(--button-roundness) !important;
+    font-weight: 600 !important;
+    font-size: 0.9375rem !important;
+    background-color: var(--louder-primary) !important;
+    color: #fff !important;
+    text-decoration: none !important;
+    transition: background-color 0.2s ease;
+
+    &:hover {
+      background-color: var(--louder-teal) !important;
+      color: #fff !important;
+    }
+  }
+
+  .component-content > nav ul {
+    gap: 1.75rem;
+
+    @include respond-to(desktop) {
+      gap: 2.25rem;
+    }
+  }
+
+  .level0 > .navigation-title > a {
+    font-weight: 500;
+    font-size: 0.9375rem;
+    color: var(--louder-navy);
+    border-width: 0 !important;
+    padding: 0.5rem 0;
+
+    &:hover {
+      color: var(--louder-primary);
+      border-color: transparent !important;
+    }
+  }
+}
+
+.btn-array {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  align-items: center;
+}

@@ -1,0 +1,36 @@
+@import 'src/assets/sass/abstracts/vars';
+
+.eyebrow {
+  color: var(--louder-muted);
+  background-color: var(--bg-body);
+  border-bottom: 1px solid var(--border-color);
+  width: 100%;
+  transition: 0.3s;
+  font-size: 0.875rem;
+
+  @include respond-to(mobile-large) {
+    padding: 0 $size-padding;
+  }
+
+  .col-placeholder {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 2rem;
+  }
+
+  a {
+    color: var(--louder-navy);
+
+    &:hover {
+      color: var(--louder-primary);
+    }
+  }
+}
+
+.site-louderai .eyebrow .container,
+.site-financial .eyebrow .container,
+.site-services .eyebrow .container,
+.site-basic .eyebrow .container {
+  border-bottom: none;
+}

@@ -1,0 +1,53 @@
+// LouderAI brand tokens — https://louderai.com/
+$louder-primary: #0066cc;
+$louder-teal: #00d1d1;
+$louder-navy: #1a2b4c;
+$louder-charcoal: #333333;
+$louder-muted: #5a6a7a;
+$louder-gray-bg: #f8f9fa;
+$louder-border: #e2e8f0;
+$louder-white: #ffffff;
+
+@mixin louderai-site-tokens {
+  --louder-primary: #{$louder-primary};
+  --louder-teal: #{$louder-teal};
+  --louder-navy: #{$louder-navy};
+  --louder-gradient: linear-gradient(90deg, #{$louder-primary} 0%, #{$louder-teal} 100%);
+  --text-body: #{$louder-charcoal};
+  --text-body-inverted: #{$louder-white};
+  --text-colored: #{$louder-primary};
+  --text-footer: #{$louder-charcoal};
+  --text-accent: #{$louder-teal};
+  --bg-body: #{$louder-white};
+  --bg-footer: #{$louder-white};
+  --bg-main: #{$louder-gray-bg};
+  --bg-main-alt: #{$louder-gray-bg};
+  --bg-color: #{$louder-teal};
+  --bg-saturated: #{$louder-primary};
+  --bg-accent: #{$louder-teal};
+  --border-color: #{$louder-border};
+  --hr-color: #{$louder-border};
+  --roundness: 6px;
+  --section-padding-y: 5rem;
+  --section-padding-y-mobile: 3rem;
+  --font-family: 'Inter', Helvetica, Arial, sans-serif;
+  --rich-text-base-size: 1.0625rem;
+  --rich-text-p-opacity: 1;
+  --heading-cta-text-opacity: 0.85;
+  --promo-cta-text-opacity: 0.85;
+  --promo-cta-img-ratio: 16/10;
+  --promo-cta-text-size: 1.0625rem;
+  --author-position-opacity: 0.75;
+
+  .dark & {
+    --text-body: #{$louder-white};
+    --text-body-inverted: #{$louder-charcoal};
+    --text-colored: #{$louder-teal};
+    --text-footer: #{$louder-white};
+    --bg-body: #{$louder-navy};
+    --bg-footer: #{$louder-navy};
+    --bg-main: #0f1f33;
+    --bg-main-alt: #152a45;
+    --border-color: #2a4060;
+  }
+}

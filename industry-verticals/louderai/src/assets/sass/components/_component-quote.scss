@@ -1,0 +1,54 @@
+.quote {
+  position: relative;
+  text-align: center;
+  max-width: 48rem;
+  margin-left: auto;
+  margin-right: auto;
+
+  .quote-icon {
+    display: none;
+  }
+
+  blockquote {
+    font-size: 1.25rem;
+    line-height: 1.7;
+    color: var(--louder-navy);
+    font-weight: 400;
+    border: none;
+    padding: 0;
+  }
+
+  &:not(.simple) {
+    blockquote {
+      padding-top: 0;
+      line-height: 1.7;
+    }
+
+    .author-position {
+      font-size: 0.875rem;
+      opacity: 0.75;
+      color: var(--louder-muted);
+    }
+  }
+
+  &.simple {
+    blockquote {
+      opacity: 1;
+      font-style: italic;
+    }
+  }
+
+  .author-image {
+    width: 3.5rem;
+    height: 3.5rem;
+    object-fit: cover;
+    border-radius: 100%;
+    margin-top: 1.5rem;
+  }
+
+  .author-name {
+    font-weight: 700;
+    color: var(--louder-navy);
+    margin-top: 0.75rem;
+  }
+}

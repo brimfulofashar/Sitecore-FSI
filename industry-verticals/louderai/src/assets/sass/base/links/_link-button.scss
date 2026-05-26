@@ -1,0 +1,163 @@
+@import 'src/assets/sass/abstracts/vars/colors';
+@import 'src/assets/sass/abstracts/mixins';
+
+.site-louderai,
+.site-financial,
+.site-services,
+.site-basic {
+  --button-main-color: #fff;
+  --button-main-bg-color: var(--louder-primary);
+  --button-secondary-color: var(--louder-primary);
+  --button-simple-color: var(--louder-primary);
+  --button-padding: 12px 32px;
+  --button-roundness: 6px;
+  --button-font-weight: 600;
+  --button-font-size: 1rem;
+  --button-text-transform: none;
+}
+
+.button {
+  display: inline-block;
+  text-decoration: none;
+  font-weight: var(--button-font-weight);
+  font-size: var(--button-font-size);
+  font-family: var(--font-family);
+  border-radius: var(--button-roundness);
+  padding: var(--button-padding);
+  transition: all 0.2s ease-in-out;
+  letter-spacing: 0.01em;
+}
+
+.button-main {
+  background-color: var(--button-main-bg-color);
+  color: var(--button-main-color);
+  text-transform: var(--button-text-transform);
+  border: none;
+  box-shadow: none;
+
+  a {
+    color: var(--button-main-color);
+    text-decoration: none;
+  }
+
+  &:hover {
+    color: var(--button-main-color);
+    background-color: var(--louder-teal);
+    filter: none;
+  }
+}
+
+.button-secondary {
+  border: 2px solid var(--button-secondary-color);
+  color: var(--button-secondary-color);
+  background-color: transparent;
+  text-transform: var(--button-text-transform);
+
+  a {
+    color: var(--button-secondary-color);
+    text-decoration: none;
+  }
+
+  &:hover {
+    color: var(--button-main-color);
+    background-color: var(--button-secondary-color);
+    border-color: var(--button-secondary-color);
+    filter: none;
+  }
+}
+
+.button-accent,
+.button-teal {
+  background-color: var(--louder-teal);
+  color: var(--button-main-color);
+  border: none;
+
+  a {
+    color: var(--button-main-color);
+    text-decoration: none;
+  }
+
+  &:hover {
+    color: var(--button-main-color);
+    background-color: var(--louder-primary);
+    filter: none;
+  }
+}
+
+.button-gradient {
+  background: var(--louder-gradient);
+  color: var(--button-main-color);
+  border: none;
+
+  a {
+    color: var(--button-main-color);
+    text-decoration: none;
+  }
+
+  &:hover {
+    color: var(--button-main-color);
+    opacity: 0.92;
+    filter: none;
+  }
+}
+
+.button-simple {
+  padding: 0;
+  border-radius: 0;
+  border: none;
+  background-color: unset;
+  text-decoration: none;
+  color: var(--button-simple-color);
+  font-weight: var(--button-font-weight);
+
+  &:hover {
+    color: var(--louder-teal);
+  }
+}
+
+.wrapper-link {
+  color: inherit;
+  text-decoration: none;
+
+  &:hover {
+    color: inherit;
+    text-decoration: none;
+  }
+}
+
+.button-default,
+.default {
+  @include default-link-button;
+
+  background: var(--bg-main);
+  color: $text-basic;
+  border-radius: var(--button-roundness);
+}
+
+.button-success,
+.success {
+  @include default-link-button;
+
+  background: var(--louder-teal);
+  color: $text-white;
+  border-radius: var(--button-roundness);
+
+  &:hover {
+    color: $text-white;
+    background: var(--louder-primary);
+  }
+}
+
+.button-warning,
+.warning {
+  @include default-link-button;
+
+  background: var(--louder-primary);
+  color: $text-white;
+  border-radius: var(--button-roundness);
+
+  &:hover {
+    color: $text-white;
+    background: var(--louder-teal);
+  }
+}

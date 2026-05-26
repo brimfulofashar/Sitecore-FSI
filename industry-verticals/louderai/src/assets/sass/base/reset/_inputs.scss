@@ -1,0 +1,76 @@
+@import 'src/assets/sass/abstracts/mixins';
+@import 'src/assets/sass/abstracts/vars';
+
+label {
+  background: transparent;
+  color: $text-basic;
+  font-weight: 500;
+  font-size: 0.9375rem;
+}
+
+input,
+button {
+  display: inline-block;
+  box-sizing: border-box;
+  background: $bg-basic-color !important;
+  border: 1px solid var(--border-color);
+  border-radius: var(--roundness) !important;
+  color: $text-basic;
+  font-weight: normal;
+  padding: 10px 14px;
+  clear: both;
+  height: auto;
+  font-size: $font-normal;
+  font-family: var(--font-family);
+}
+
+input:focus {
+  border-color: var(--louder-primary);
+  outline: 2px solid rgb(0 102 204 / 15%);
+}
+
+input[type='submit'],
+input[type='reset'],
+input[type='button'],
+button {
+  border: none;
+  background: var(--louder-primary) !important;
+  color: #fff !important;
+  font-weight: 600;
+  padding: 12px 28px;
+  cursor: pointer;
+
+  &:hover {
+    background: var(--louder-teal) !important;
+  }
+}
+
+input::-moz-focus-inner,
+button::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+input[type='text'] {
+  font-size: 1rem;
+}
+
+input[type='text'],
+input[type='email'],
+input[type='password'],
+textarea,
+select {
+  box-shadow: none;
+  color: $text-basic;
+  width: 100%;
+  background: var(--bg-body) !important;
+  border: 1px solid var(--border-color);
+}
+
+select {
+  vertical-align: middle;
+  box-sizing: border-box;
+  outline: none;
+  cursor: pointer;
+  padding: 10px 14px;
+}
