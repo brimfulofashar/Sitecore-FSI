@@ -40,6 +40,7 @@
     "react-scroll-parallax": "^3.4.5",
     "react-share": "^5.1.0",
     "next-intl": "^4.3.5",
+    "sass": "^1.52.3",
     "swiper": "^11.1.4"
   },
   "devDependencies": {
