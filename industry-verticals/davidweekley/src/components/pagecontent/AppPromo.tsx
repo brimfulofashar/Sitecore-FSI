@@ -10,7 +10,6 @@ import {
   useSitecore,
   NextImage,
 } from '@sitecore-content-sdk/nextjs';
-import { useParallax } from 'react-scroll-parallax';
 
 interface Fields {
   Title: Field<string>;
@@ -27,9 +26,6 @@ export const Default = (props: AppPromoProps): JSX.Element => {
   const id = props.params.RenderingIdentifier;
   const { page } = useSitecore();
   const isPageEditing = page.mode.isEditing;
-  const parallaxImg = useParallax<HTMLImageElement>({
-    scale: [0.8, 1.2],
-  });
   const sxaStyles = `${props.params?.styles || ''}`;
 
   return (
@@ -54,7 +50,6 @@ export const Default = (props: AppPromoProps): JSX.Element => {
             <img
               src={props.fields.Image.value?.src}
               alt={props.fields.Image.value?.alt as string}
-              ref={parallaxImg.ref}
               loading="lazy"
               className={`${isPageEditing ? 'd-none' : 'd-block'} mx-lg-auto img-fluid`}
               style={{ transformOrigin: 'bottom' }}

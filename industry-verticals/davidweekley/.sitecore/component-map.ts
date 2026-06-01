@@ -13,6 +13,7 @@ import * as TwoColumnCta from 'src/components/pagecontent/TwoColumnCta';
 import * as ThreeColumnCta from 'src/components/pagecontent/ThreeColumnCta';
 import * as Testimonials from 'src/components/pagecontent/Testimonials';
 import * as StatsCounter from 'src/components/pagecontent/StatsCounter';
+import * as RichText from 'src/components/pagecontent/RichText';
 import * as Quote from 'src/components/pagecontent/Quote';
 import * as Questions from 'src/components/pagecontent/Questions';
 import * as PromoCta from 'src/components/pagecontent/PromoCta';
@@ -43,6 +44,7 @@ import * as ParallaxBackgroundImage from 'src/components/non-sitecore/ParallaxBa
 import * as IconAccent from 'src/components/non-sitecore/IconAccent';
 import * as DottedAccent from 'src/components/non-sitecore/DottedAccent';
 import * as CountUp from 'src/components/non-sitecore/CountUp';
+import * as Navigation from 'src/components/navigation/Navigation';
 import * as Header from 'src/components/navigation/Header';
 import * as Footer from 'src/components/navigation/Footer';
 import * as Eyebrow from 'src/components/navigation/Eyebrow';
@@ -60,6 +62,7 @@ export const componentMap = new Map<string, NextjsContentSdkComponent>([
   ['ThreeColumnCta', { ...ThreeColumnCta, componentType: 'client' }],
   ['Testimonials', { ...Testimonials, componentType: 'client' }],
   ['StatsCounter', { ...StatsCounter, componentType: 'client' }],
+  ['RichText', { ...RichText, componentType: 'client' }],
   ['Quote', { ...Quote, componentType: 'client' }],
   ['Questions', { ...Questions, componentType: 'client' }],
   ['PromoCta', { ...PromoCta, componentType: 'client' }],
@@ -90,6 +93,7 @@ export const componentMap = new Map<string, NextjsContentSdkComponent>([
   ['IconAccent', { ...IconAccent, componentType: 'client' }],
   ['DottedAccent', { ...DottedAccent, componentType: 'client' }],
   ['CountUp', { ...CountUp, componentType: 'client' }],
+  ['Navigation', { ...Navigation, componentType: 'client' }],
   ['Header', { ...Header, componentType: 'client' }],
   ['Footer', { ...Footer, componentType: 'client' }],
   ['Eyebrow', { ...Eyebrow, componentType: 'client' }],

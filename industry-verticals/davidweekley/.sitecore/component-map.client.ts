@@ -12,6 +12,7 @@ import * as TwoColumnCta from 'src/components/pagecontent/TwoColumnCta';
 import * as ThreeColumnCta from 'src/components/pagecontent/ThreeColumnCta';
 import * as Testimonials from 'src/components/pagecontent/Testimonials';
 import * as StatsCounter from 'src/components/pagecontent/StatsCounter';
+import * as RichText from 'src/components/pagecontent/RichText';
 import * as Quote from 'src/components/pagecontent/Quote';
 import * as Questions from 'src/components/pagecontent/Questions';
 import * as PromoCta from 'src/components/pagecontent/PromoCta';
@@ -41,6 +42,7 @@ import * as ParallaxBackgroundImage from 'src/components/non-sitecore/ParallaxBa
 import * as IconAccent from 'src/components/non-sitecore/IconAccent';
 import * as DottedAccent from 'src/components/non-sitecore/DottedAccent';
 import * as CountUp from 'src/components/non-sitecore/CountUp';
+import * as Navigation from 'src/components/navigation/Navigation';
 import * as Header from 'src/components/navigation/Header';
 import * as Footer from 'src/components/navigation/Footer';
 import * as Eyebrow from 'src/components/navigation/Eyebrow';
@@ -58,6 +60,7 @@ export const componentMap = new Map<string, NextjsContentSdkComponent>([
   ['ThreeColumnCta', { ...ThreeColumnCta }],
   ['Testimonials', { ...Testimonials }],
   ['StatsCounter', { ...StatsCounter }],
+  ['RichText', { ...RichText }],
   ['Quote', { ...Quote }],
   ['Questions', { ...Questions }],
   ['PromoCta', { ...PromoCta }],
@@ -87,6 +90,7 @@ export const componentMap = new Map<string, NextjsContentSdkComponent>([
   ['IconAccent', { ...IconAccent }],
   ['DottedAccent', { ...DottedAccent }],
   ['CountUp', { ...CountUp }],
+  ['Navigation', { ...Navigation }],
   ['Header', { ...Header }],
   ['Footer', { ...Footer }],
   ['Eyebrow', { ...Eyebrow }],

@@ -18,11 +18,11 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay, EffectCoverflow, Pagination, Navigation } from 'swiper/modules';
 import { CountUp } from 'components/non-sitecore/CountUp';
 import { DottedAccent } from 'components/non-sitecore/DottedAccent';
-import { ParallaxBackgroundImage } from 'components/non-sitecore/ParallaxBackgroundImage';
 import Link_a258c208ba01265ca0aa9c7abae745cc7141aa63 from 'next/link';
 import { FacebookIcon, FacebookShareButton, LinkedinIcon, LinkedinShareButton, TwitterIcon, TwitterShareButton } from 'react-share';
 import Head from 'next/head';
 import { ParallaxBanner, useParallax, Parallax } from 'react-scroll-parallax';
+import { ParallaxBackgroundImage } from 'components/non-sitecore/ParallaxBackgroundImage';
 import { IconAccent } from 'components/non-sitecore/IconAccent';
 import client from 'src/lib/sitecore-client';
 import { pageView } from '@sitecore-content-sdk/events';
@@ -107,12 +107,6 @@ const importMap = [
     ]
   },
   {
-    module: 'components/non-sitecore/ParallaxBackgroundImage',
-    exports: [
-      { name: 'ParallaxBackgroundImage', value: ParallaxBackgroundImage },
-    ]
-  },
-  {
     module: 'next/link',
     exports: [
       { name: 'default', value: Link_a258c208ba01265ca0aa9c7abae745cc7141aa63 },
@@ -141,6 +135,12 @@ const importMap = [
       { name: 'ParallaxBanner', value: ParallaxBanner },
       { name: 'useParallax', value: useParallax },
       { name: 'Parallax', value: Parallax },
+    ]
+  },
+  {
+    module: 'components/non-sitecore/ParallaxBackgroundImage',
+    exports: [
+      { name: 'ParallaxBackgroundImage', value: ParallaxBackgroundImage },
     ]
   },
   {

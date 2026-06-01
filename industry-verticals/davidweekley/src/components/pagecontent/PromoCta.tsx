@@ -13,7 +13,6 @@ import {
   Placeholder,
   NextImage,
 } from '@sitecore-content-sdk/nextjs';
-import { ParallaxBackgroundImage } from 'components/non-sitecore/ParallaxBackgroundImage';
 import useVisibility from 'src/hooks/useVisibility';
 import { ComponentProps } from 'lib/component-props';
 import { DottedAccent } from 'components/non-sitecore/DottedAccent';
@@ -166,10 +165,12 @@ export const WithBackgroundImage = (props: PromoCtaProps): JSX.Element => {
 
   return (
     <div
-      className={`component promo-cta with-background-image ${sxaStyles}`}
+      className={`component promo-cta with-background-image ${sxaStyles}]`}
       id={id ? id : undefined}
+      style={{
+        backgroundImage: `url("${props.fields.Image.value?.src}")`,
+      }}
     >
-      <ParallaxBackgroundImage BackgroundImage={props.fields.Image} />
       <div className="container">
         <div className="row justify-content-center main-content">
           <div className="col-12 mx-auto">
