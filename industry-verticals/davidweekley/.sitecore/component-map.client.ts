@@ -3,6 +3,11 @@
 import { BYOCClientWrapper, NextjsContentSdkComponent, FEaaSClientWrapper } from '@sitecore-content-sdk/nextjs';
 import { Form } from '@sitecore-content-sdk/nextjs';
 
+import * as ThemeSwitcher from 'src/components/utilities/ThemeSwitcher';
+import * as LoanCalculator from 'src/components/utilities/LoanCalculator';
+import * as LanguageSwitcher from 'src/components/utilities/LanguageSwitcher';
+import * as ContactForm from 'src/components/utilities/ContactForm';
+import * as ApplicationForm from 'src/components/utilities/ApplicationForm';
 import * as TwoColumnCta from 'src/components/pagecontent/TwoColumnCta';
 import * as ThreeColumnCta from 'src/components/pagecontent/ThreeColumnCta';
 import * as Testimonials from 'src/components/pagecontent/Testimonials';
@@ -44,6 +49,11 @@ export const componentMap = new Map<string, NextjsContentSdkComponent>([
   ['BYOCWrapper', BYOCClientWrapper],
   ['FEaaSWrapper', FEaaSClientWrapper],
   ['Form', Form],
+  ['ThemeSwitcher', { ...ThemeSwitcher }],
+  ['LoanCalculator', { ...LoanCalculator }],
+  ['LanguageSwitcher', { ...LanguageSwitcher }],
+  ['ContactForm', { ...ContactForm }],
+  ['ApplicationForm', { ...ApplicationForm }],
   ['TwoColumnCta', { ...TwoColumnCta }],
   ['ThreeColumnCta', { ...ThreeColumnCta }],
   ['Testimonials', { ...Testimonials }],

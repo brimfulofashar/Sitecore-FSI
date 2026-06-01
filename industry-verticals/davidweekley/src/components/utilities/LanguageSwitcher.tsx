@@ -1,53 +1,46 @@
 'use client';
 
 import { useSitecore } from '@sitecore-content-sdk/nextjs';
-import { useRouter } from 'next/router';
-import { useCallback, useMemo, useState, JSX } from 'react';
+import { useParams, useRouter, useSearchParams } from 'next/navigation';
+import { Suspense, useCallback, useMemo, useState, JSX } from 'react';
 
-export const Default = (): JSX.Element => {
-  const { page } = useSitecore();
+const AVAILABLE_LANGUAGES = [
+  { code: 'en', label: 'English' },
+  { code: 'fr-CA', label: 'Français' },
+  { code: 'ja-JP', label: '日本語' },
+] as const;
 
-  const router = useRouter();
-  const { pathname, asPath, query } = router;
+function getPathSuffix(path: string | string[] | undefined): string {
+  if (path === undefined) {
+    return '';
+  }
 
-  const [showLanguageDropdown, setShowLanguageDropdown] = useState(false);
+  if (Array.isArray(path)) {
+    return path.length > 0 ? `/${path.join('/')}` : '';
+  }
 
-  const availableLanguages = useMemo(
-    () => [
-      { code: 'en', label: 'English' },
-      { code: 'fr-CA', label: 'Français' },
-      { code: 'ja-JP', label: '日本語' },
-    ],
-    []
-  );
+  return path ? `/${path}` : '';
+}
 
-  const changeLanguage = useCallback(
-    (langCode: string) => {
-      if (pathname && asPath && query) {
-        router.push(
-          {
-            pathname,
-            query,
-          },
-          asPath,
-          {
-            locale: langCode,
-            shallow: false,
-          }
-        );
-      }
-    },
-    [asPath, pathname, query, router]
-  );
+type LanguageSwitcherViewProps = {
+  selectedLabel: string | undefined;
+  showLanguageDropdown: boolean;
+  onToggleDropdown: () => void;
+  onSelectLanguage: (langCode: string) => void;
+};
 
+function LanguageSwitcherView({
+  selectedLabel,
+  showLanguageDropdown,
+  onToggleDropdown,
+  onSelectLanguage,
+}: LanguageSwitcherViewProps): JSX.Element {
   return (
     <div
       className={`language-switcher ${showLanguageDropdown ? 'expanded' : ''}`}
-      onClick={() => setShowLanguageDropdown(!showLanguageDropdown)}
+      onClick={onToggleDropdown}
     >
-      <span className="selected-language">
-        {availableLanguages.find((lang) => lang.code === page.locale)?.label}
-      </span>
+      <span className="selected-language">{selectedLabel}</span>
       <svg
         xmlns="http://www.w3.org/2000/svg"
         className="chevron-icon"
@@ -59,8 +52,14 @@ export const Default = (): JSX.Element => {
       </svg>
       {showLanguageDropdown && (
         <div className="language-dropdown">
-          {availableLanguages.map((lang) => (
-            <span key={lang.code} onClick={() => changeLanguage(lang.code)}>
+          {AVAILABLE_LANGUAGES.map((lang) => (
+            <span
+              key={lang.code}
+              onClick={(event) => {
+                event.stopPropagation();
+                onSelectLanguage(lang.code);
+              }}
+            >
               {lang.label}
             </span>
           ))}
@@ -68,4 +67,67 @@ export const Default = (): JSX.Element => {
       )}
     </div>
   );
-};
+}
+
+function LanguageSwitcherFallback(): JSX.Element {
+  const { page } = useSitecore();
+  const selectedLabel = AVAILABLE_LANGUAGES.find((lang) => lang.code === page.locale)?.label;
+
+  return (
+    <LanguageSwitcherView
+      selectedLabel={selectedLabel}
+      showLanguageDropdown={false}
+      onToggleDropdown={() => {}}
+      onSelectLanguage={() => {}}
+    />
+  );
+}
+
+function LanguageSwitcherInner(): JSX.Element {
+  const { page } = useSitecore();
+  const router = useRouter();
+  const params = useParams();
+  const searchParams = useSearchParams();
+
+  const [showLanguageDropdown, setShowLanguageDropdown] = useState(false);
+
+  const selectedLabel = useMemo(
+    () => AVAILABLE_LANGUAGES.find((lang) => lang.code === page.locale)?.label,
+    [page.locale]
+  );
+
+  const changeLanguage = useCallback(
+    (langCode: string) => {
+      const site =
+        (typeof params.site === 'string' ? params.site : undefined) ?? page.siteName;
+
+      if (!site) {
+        return;
+      }
+
+      const pathSuffix = getPathSuffix(params.path);
+      const query = searchParams.toString();
+      const href = `/${site}/${langCode}${pathSuffix}`;
+      const url = query ? `${href}?${query}` : href;
+
+      router.push(url);
+      setShowLanguageDropdown(false);
+    },
+    [params.path, params.site, page.siteName, router, searchParams]
+  );
+
+  return (
+    <LanguageSwitcherView
+      selectedLabel={selectedLabel}
+      showLanguageDropdown={showLanguageDropdown}
+      onToggleDropdown={() => setShowLanguageDropdown(!showLanguageDropdown)}
+      onSelectLanguage={changeLanguage}
+    />
+  );
+}
+
+export const Default = (): JSX.Element => (
+  <Suspense fallback={<LanguageSwitcherFallback />}>
+    <LanguageSwitcherInner />
+  </Suspense>
+);

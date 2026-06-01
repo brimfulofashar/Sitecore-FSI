@@ -9,14 +9,15 @@ import {
 // end of built-in imports
 
 import { jsx, jsxs, Fragment } from 'react/jsx-runtime';
-import { Text, Link, useSitecore, Placeholder, NextImage, RichText, withDatasourceCheck, Image, AppPlaceholder, CdpHelper } from '@sitecore-content-sdk/nextjs';
+import { useEffect, useState, Suspense, useCallback, useMemo, useRef } from 'react';
+import React from 'react';
+import { Text, useSitecore, NextImage, Link, RichText, Placeholder, withDatasourceCheck, Image, AppPlaceholder, CdpHelper } from '@sitecore-content-sdk/nextjs';
+import { useParams, useRouter, useSearchParams } from 'next/navigation';
 import useVisibility from 'src/hooks/useVisibility';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay, EffectCoverflow, Pagination, Navigation } from 'swiper/modules';
 import { CountUp } from 'components/non-sitecore/CountUp';
 import { DottedAccent } from 'components/non-sitecore/DottedAccent';
-import { useState, useEffect, useCallback, useRef } from 'react';
-import React from 'react';
 import { ParallaxBackgroundImage } from 'components/non-sitecore/ParallaxBackgroundImage';
 import Link_a258c208ba01265ca0aa9c7abae745cc7141aa63 from 'next/link';
 import { FacebookIcon, FacebookShareButton, LinkedinIcon, LinkedinShareButton, TwitterIcon, TwitterShareButton } from 'react-share';
@@ -37,18 +38,38 @@ const importMap = [
     ]
   },
   {
+    module: 'react',
+    exports: [
+      { name: 'useEffect', value: useEffect },
+      { name: 'useState', value: useState },
+      { name: 'Suspense', value: Suspense },
+      { name: 'useCallback', value: useCallback },
+      { name: 'useMemo', value: useMemo },
+      { name: 'useRef', value: useRef },
+      { name: 'default', value: React },
+    ]
+  },
+  {
     module: '@sitecore-content-sdk/nextjs',
     exports: [
       { name: 'Text', value: Text },
-      { name: 'Link', value: Link },
       { name: 'useSitecore', value: useSitecore },
-      { name: 'Placeholder', value: Placeholder },
       { name: 'NextImage', value: NextImage },
+      { name: 'Link', value: Link },
       { name: 'RichText', value: RichText },
+      { name: 'Placeholder', value: Placeholder },
       { name: 'withDatasourceCheck', value: withDatasourceCheck },
       { name: 'Image', value: Image },
       { name: 'AppPlaceholder', value: AppPlaceholder },
       { name: 'CdpHelper', value: CdpHelper },
+    ]
+  },
+  {
+    module: 'next/navigation',
+    exports: [
+      { name: 'useParams', value: useParams },
+      { name: 'useRouter', value: useRouter },
+      { name: 'useSearchParams', value: useSearchParams },
     ]
   },
   {
@@ -83,16 +104,6 @@ const importMap = [
     module: 'components/non-sitecore/DottedAccent',
     exports: [
       { name: 'DottedAccent', value: DottedAccent },
-    ]
-  },
-  {
-    module: 'react',
-    exports: [
-      { name: 'useState', value: useState },
-      { name: 'useEffect', value: useEffect },
-      { name: 'useCallback', value: useCallback },
-      { name: 'useRef', value: useRef },
-      { name: 'default', value: React },
     ]
   },
   {

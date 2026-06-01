@@ -7,10 +7,29 @@ import {
 } from '@sitecore-content-sdk/nextjs/codegen';
 // end of built-in imports
 
-
+import { jsx } from 'react/jsx-runtime';
+import componentMap from '.sitecore/component-map';
+import { AppPlaceholder } from '@sitecore-content-sdk/nextjs';
 
 const importMap = [
-
+  {
+    module: 'react/jsx-runtime',
+    exports: [
+      { name: 'jsx', value: jsx },
+    ]
+  },
+  {
+    module: '.sitecore/component-map',
+    exports: [
+      { name: 'default', value: componentMap },
+    ]
+  },
+  {
+    module: '@sitecore-content-sdk/nextjs',
+    exports: [
+      { name: 'AppPlaceholder', value: AppPlaceholder },
+    ]
+  }
 ] as ImportEntry[];
 
 export default combineImportEntries(defaultServerImportEntries, importMap);
