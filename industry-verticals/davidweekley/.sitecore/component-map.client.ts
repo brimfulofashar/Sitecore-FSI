@@ -8,6 +8,7 @@ import * as LoanCalculator from 'src/components/utilities/LoanCalculator';
 import * as LanguageSwitcher from 'src/components/utilities/LanguageSwitcher';
 import * as ContactForm from 'src/components/utilities/ContactForm';
 import * as ApplicationForm from 'src/components/utilities/ApplicationForm';
+import * as ColumnSplitter from 'src/components/pagestructure/ColumnSplitter';
 import * as TwoColumnCta from 'src/components/pagecontent/TwoColumnCta';
 import * as ThreeColumnCta from 'src/components/pagecontent/ThreeColumnCta';
 import * as Testimonials from 'src/components/pagecontent/Testimonials';
@@ -46,6 +47,7 @@ import * as Navigation from 'src/components/navigation/Navigation';
 import * as Header from 'src/components/navigation/Header';
 import * as Footer from 'src/components/navigation/Footer';
 import * as Eyebrow from 'src/components/navigation/Eyebrow';
+import * as Breadcrumb from 'src/components/navigation/Breadcrumb';
 
 export const componentMap = new Map<string, NextjsContentSdkComponent>([
   ['BYOCWrapper', BYOCClientWrapper],
@@ -56,6 +58,7 @@ export const componentMap = new Map<string, NextjsContentSdkComponent>([
   ['LanguageSwitcher', { ...LanguageSwitcher }],
   ['ContactForm', { ...ContactForm }],
   ['ApplicationForm', { ...ApplicationForm }],
+  ['ColumnSplitter', { ...ColumnSplitter }],
   ['TwoColumnCta', { ...TwoColumnCta }],
   ['ThreeColumnCta', { ...ThreeColumnCta }],
   ['Testimonials', { ...Testimonials }],
@@ -94,6 +97,7 @@ export const componentMap = new Map<string, NextjsContentSdkComponent>([
   ['Header', { ...Header }],
   ['Footer', { ...Footer }],
   ['Eyebrow', { ...Eyebrow }],
+  ['Breadcrumb', { ...Breadcrumb }],
 ]);
 
 export default componentMap;

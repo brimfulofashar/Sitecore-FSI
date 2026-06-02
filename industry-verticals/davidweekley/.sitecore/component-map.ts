@@ -60,7 +60,7 @@ export const componentMap = new Map<string, NextjsContentSdkComponent>([
   ['LanguageSwitcher', { ...LanguageSwitcher, componentType: 'client' }],
   ['ContactForm', { ...ContactForm, componentType: 'client' }],
   ['ApplicationForm', { ...ApplicationForm, componentType: 'client' }],
-  ['ColumnSplitter', { ...ColumnSplitter }],
+  ['ColumnSplitter', { ...ColumnSplitter, componentType: 'client' }],
   ['TwoColumnCta', { ...TwoColumnCta, componentType: 'client' }],
   ['ThreeColumnCta', { ...ThreeColumnCta, componentType: 'client' }],
   ['Testimonials', { ...Testimonials, componentType: 'client' }],
@@ -100,7 +100,7 @@ export const componentMap = new Map<string, NextjsContentSdkComponent>([
   ['Header', { ...Header, componentType: 'client' }],
   ['Footer', { ...Footer, componentType: 'client' }],
   ['Eyebrow', { ...Eyebrow, componentType: 'client' }],
-  ['Breadcrumb', { ...Breadcrumb }],
+  ['Breadcrumb', { ...Breadcrumb, componentType: 'client' }],
 ]);
 
 export default componentMap;
