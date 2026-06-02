@@ -151,9 +151,7 @@ export const Default = (props: CarouselComponentProps): JSX.Element => {
                     <Text field={item.fields.Title}></Text>
                   </h1>
                   <RichText field={item.fields.Text}></RichText>
-                  {!isPageEditing && item.fields?.Link?.value?.href && (
-                    <Link field={item.fields.Link} className="button button-accent"></Link>
-                  )}
+                  <Link field={item.fields.Link} className="button button-accent"></Link>
                 </div>
               </div>
             </div>

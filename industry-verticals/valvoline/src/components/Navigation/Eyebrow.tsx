@@ -2,6 +2,7 @@ import { Placeholder, useSitecore } from '@sitecore-content-sdk/nextjs';
 import { ComponentProps } from 'lib/component-props';
 import Link from 'next/link';
 import React, { JSX } from 'react';
+import { DemoUserSwitcher } from '../NonSitecore/DemoUserSwitcher';
 
 const ICON_COLOR = '#00316D';
 
@@ -94,6 +95,7 @@ export const Default = (props: ComponentProps): JSX.Element => {
         <div className="header-top-links__inner">
           <nav className="header-top-links__wrapper" role="list" aria-label="Utility navigation">
             <Placeholder name="eyebrow-left" rendering={props.rendering} />
+            <DemoUserSwitcher />
             <EyebrowSearch />
             <EyebrowLink href="/locations" label="Locations" icon={<LocationsIcon />} />
             <EyebrowLink href="/promotions" label="Promotions" icon={<PromotionsIcon />} />

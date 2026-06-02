@@ -4,6 +4,7 @@ import { SitecorePageProps } from '@sitecore-content-sdk/nextjs';
 import Bootstrap from 'src/Bootstrap';
 import { JSX } from 'react';
 import scConfig from 'sitecore.config';
+import '../globals.css';
 import 'assets/main.scss';
 
 // DEMO TEAM CUSTOMIZATION - Search SDK integration
